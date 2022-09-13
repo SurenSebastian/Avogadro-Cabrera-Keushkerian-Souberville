@@ -7,7 +7,7 @@ Ingenieria de Software Agil 1
   - Daniel Cabrera :  Experiencia en el uso metodolgias agiles. 
   
 **Product Owner:**
-  - Suren Keushkerian : Experiencia en relacionamiento con clientes para evauluar y poner en produccion proyectos de infra.
+  - Suren Keushkerian : Experiencia en relacionamiento con clientes para evaluar y poner en produccion proyectos de infra.
   
 **Developers:**
   - Denise Souberville
