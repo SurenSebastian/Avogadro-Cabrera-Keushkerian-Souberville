@@ -27,5 +27,16 @@ Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una
 ### Sprint Review ###
 Esta ceremonia va a suceder el último día del sprint (viernes) y todo el feedback recibido va a ser convertido en product backlog items que luego deben ser priorizados con el PO e ingresados en futuros sprints. No va a durar más de 30 minutos y el objetivo es mostrar el incremento generado durante el sprint al PO para su validación.
 
+### Backlog Refinement ###
+Se va a realizar un refinamiento del backlog cada jueves a excepción de la última semana de cada sprint, en este caso el equipo va a estar enfocado en la planning y estimación del siguiente sprint.
+
 ### Capacity ###
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
+
+## **Gestión Agile**##
+### Sprint 1 ###
+**Planning**
+Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
+Se realizó la planning para el sprint, documentando a continuación la evidencia.
+
+![Planning](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/feature/scrum/planning1.png?raw=true)
