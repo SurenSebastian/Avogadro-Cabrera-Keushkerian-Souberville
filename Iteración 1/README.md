@@ -39,4 +39,8 @@ Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
 Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
 Se realizó la planning para el sprint, documentando a continuación la evidencia.
 
-![Planning](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/feature/scrum/planning1.png?raw=true)
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/planning1.png)
+
+![Estimacion Marco de Gestion](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion1.png)
+
+![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
