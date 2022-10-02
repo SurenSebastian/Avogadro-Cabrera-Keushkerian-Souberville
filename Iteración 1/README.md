@@ -33,9 +33,20 @@ Se va a realizar un refinamiento del backlog cada jueves a excepción de la últ
 ### Capacity ###
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
 
+### Definition of Ready ###
+Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones
+
+- Es clara: El equipo tiene bien definido el incremento a entregar y no existen dudas respecto a lo que hay que hacer.
+- Es realizable: todas las actividades relacionadas con la User Story son realizables dentro de un sprint y no hay impedimentos mayores.
+- Es testeable: se puede probar los incrementos dentro del sprint sin problemas.
+- Acceptance criteria está definido y es claro para el equipo.
+- Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
+- Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
+
 ## **Gestión Agile**##
 ### Sprint 1 ###
 **Planning**
+
 Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
 Se realizó la planning para el sprint, documentando a continuación la evidencia.
 
