@@ -52,7 +52,22 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 
 ### Estrategias de Barnching ###
  - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
+ 
+ 
+## Roles:
 
+**Scrum Master:**
+  - Daniel Cabrera 
+  
+**Product Owner:**
+  - Suren Keushkerian
+  
+**Developers:**
+  - Denise Souberville
+  - Leandro Avogadro
+  - Daniel Cabrera
+  - Suren Keushkerian
+  
 ## **Gestión Agile**##
 ### Sprint 1 ###
 **Planning**
