@@ -43,6 +43,16 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
+### Definition of Done ###
+- La Definición de Listo (DoD) sirve para establecer los criterios de calidad para la entrega del incremento del producto.
+- Se utiliza para evaluar que el trabajo realizado es suficiente.
+- Se aplica a todas las historias de usuario en las que se está trabajando como equipo. 
+- En contraste, los criterios de aceptación se definen específicamente por historia de Usuario según lo requiere la Definición de Listo (DoR).
+- Para el obligatorio, nuestro DOD del sprint se va a ver reflejado en lo que este subido a la rama main al final de cada iteración.
+
+### Estrategias de Barnching ###
+ - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
+
 ## **Gestión Agile**##
 ### Sprint 1 ###
 **Planning**
@@ -65,3 +75,6 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 ![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
+
+
+
