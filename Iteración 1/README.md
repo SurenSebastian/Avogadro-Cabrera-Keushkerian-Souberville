@@ -50,7 +50,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - En contraste, los criterios de aceptación se definen específicamente por historia de Usuario según lo requiere la Definición de Listo (DoR).
 - Para el obligatorio, nuestro DOD del sprint se va a ver reflejado en lo que este subido a la rama main al final de cada iteración.
 
-### Estrategias de Barnching ###
+### Estrategias de Branching ###
  - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
  
  
@@ -90,6 +90,3 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 ![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
-
-
-
