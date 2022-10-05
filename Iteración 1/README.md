@@ -43,6 +43,17 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
+##Relevamiento de aplicaciones existentes##
+
+Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto.
+
+###Formulario de investigación###
+Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
+- Ver documento de ***Formulario Analisis Aplicaciones.docx*** en carpeta Iteracion 1
+- Ver documento de ***Formulario Analisis Aplicaciones Completo.docx*** en carpeta Iteracion 1
+
+###Procesamiento de investigación
+
 ## **Gestión Agile**##
 ### Sprint 1 ###
 **Planning**
@@ -65,3 +76,4 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 ![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
+
