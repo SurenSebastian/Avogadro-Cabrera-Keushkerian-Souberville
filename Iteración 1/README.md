@@ -43,6 +43,32 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
+
+### Definition of Done ###
+- La Definición de Listo (DoD) sirve para establecer los criterios de calidad para la entrega del incremento del producto.
+- Se utiliza para evaluar que el trabajo realizado es suficiente.
+- Se aplica a todas las historias de usuario en las que se está trabajando como equipo. 
+- En contraste, los criterios de aceptación se definen específicamente por historia de Usuario según lo requiere la Definición de Listo (DoR).
+- Para el obligatorio, nuestro DOD del sprint se va a ver reflejado en lo que este subido a la rama main al final de cada iteración.
+
+### Estrategias de Branching ###
+ - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
+ 
+ ## Roles:
+
+**Scrum Master:**
+  - Daniel Cabrera 
+  
+**Product Owner:**
+  - Suren Keushkerian
+  
+**Developers:**
+  - Denise Souberville
+  - Leandro Avogadro
+  - Daniel Cabrera
+  - Suren Keushkerian
+  
+
 ##Relevamiento de aplicaciones existentes##
 
 Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto.
@@ -58,7 +84,6 @@ Se creó un formulario para la investigación de las aplicaciones existentes, el
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
-
 
 ### 1. Lista de interesados
 #### a.	Interesados Externos
@@ -104,7 +129,6 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 
 - Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
-
 
 ## **Gestión Agile**##
 ### Sprint 1 ###
