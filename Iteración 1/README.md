@@ -1,5 +1,16 @@
 # Proyecto #
-## Marco de Gestión ##
+# Título de la materia #
+# Nombre de docentes #
+# Nombre de alumnos - Nro estudiante #
+
+# Introducción #
+Descripción del documento
+
+# Descripción de la aplicación #
+
+## Funcionalidades ##
+
+# Marco de Gestión #
 
 Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias 
 
@@ -9,10 +20,10 @@ Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias
 - Sprint Review
 - Backlog Refinement
 
-### Planning ###
+## Planning ##
 Se va a realizar el primer día de cada sprint, la duración aproximada va a ser de 2 horas, se va a estimar utilizando planning poker. La escala de Story Points va a ser Fibonacci, considerando que 13 o mayor significa que la Story es muy compleja para ser completada en un sprint y va a necesitar ser dividida en partes más pequeñas.
 
-### Daily ###
+## Daily ##
 Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a diario a revisar progreso dado que no vamos a poder generar un progreso diario. Para ello vamos a tener 3 daily por semana distribuidas de la siguiente forma
 
 - Jueves
@@ -21,19 +32,19 @@ Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a
 
 Esto se debe a que la mayor contribución del equipo se concentra en los fines de semana, entonces nos parece importante que ahí sí se respete la daily. Se va a realizar por llamada en whats app.
 
-### Sprint Retrospective ###
+## Sprint Retrospective ##
 Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una duración máxima de 30 minutos y todos los action items van a ser convertidos en product backlog items, priorizados e ingresados en el próximo sprint planning para considerar y aplicar las mejoras.
 
-### Sprint Review ###
+## Sprint Review ##
 Esta ceremonia va a suceder el último día del sprint (viernes) y todo el feedback recibido va a ser convertido en product backlog items que luego deben ser priorizados con el PO e ingresados en futuros sprints. No va a durar más de 30 minutos y el objetivo es mostrar el incremento generado durante el sprint al PO para su validación.
 
-### Backlog Refinement ###
+## Backlog Refinement ##
 Se va a realizar un refinamiento del backlog cada jueves a excepción de la última semana de cada sprint, en este caso el equipo va a estar enfocado en la planning y estimación del siguiente sprint.
 
-### Capacity ###
+## Capacity ##
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
 
-### Definition of Ready ###
+## Definition of Ready ##
 Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones
 
 - Es clara: El equipo tiene bien definido el incremento a entregar y no existen dudas respecto a lo que hay que hacer.
@@ -44,17 +55,17 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
 
-### Definition of Done ###
+## Definition of Done ##
 - La Definición de Listo (DoD) sirve para establecer los criterios de calidad para la entrega del incremento del producto.
 - Se utiliza para evaluar que el trabajo realizado es suficiente.
 - Se aplica a todas las historias de usuario en las que se está trabajando como equipo. 
 - En contraste, los criterios de aceptación se definen específicamente por historia de Usuario según lo requiere la Definición de Listo (DoR).
 - Para el obligatorio, nuestro DOD del sprint se va a ver reflejado en lo que este subido a la rama main al final de cada iteración.
 
-### Estrategias de Branching ###
+## Estrategias de Branching ##
  - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
  
- ## Roles:
+## Roles: ##
 
 **Scrum Master:**
   - Daniel Cabrera 
@@ -68,6 +79,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   - Daniel Cabrera
   - Suren Keushkerian
   
+# Análisis de Requerimientos #
 
 ##Relevamiento de aplicaciones existentes##
 
@@ -130,9 +142,9 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 - Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
 
-## **Gestión Agile**##
-### Sprint 1 ###
-**Planning**
+# Gestión Agile #
+## Sprint 1 ##
+### Planning ###
 
 Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
 Se realizó la planning para el sprint, documentando a continuación la evidencia.
@@ -143,7 +155,7 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 
 ![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
 
-**Sprint Progress**
+### Sprint Progress ###
 
 ![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint1.png)
 
@@ -153,3 +165,17 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
 
+### Retrospective ###
+
+Para el primer sprint decidimos utilizar el board de Open Box, que consiste en identificar qué cosas comenzar a hacer, qué cosas dejar de hacer y qué cosas continuar haciendo. Principalmente el objetivo es analizar procesos y dado que es nuestro primer sprint nos pareció un buen punto de partida.
+
+[Open the Box Retro Board](https://metroretro.io/templates/open-the-box-retrospective "Open the Box Retro Board")
+
+# Bibliografía #
+
+
+- [Gherkin](https://profile.es/blog/que-es-gherkin/)
+- [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
+- [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
+
+# Anexos #
