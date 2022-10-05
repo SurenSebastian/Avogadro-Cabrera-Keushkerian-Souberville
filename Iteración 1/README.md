@@ -1,11 +1,12 @@
-#Análisis de interesados#
 
+## Analisis de interesados
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
 
-## 1. Lista de interesados
-### a.	Interesados Externos
+
+### 1. Lista de interesados
+#### a.	Interesados Externos
 Usuarios del sistema de transporte público: personas que utilizan o piensan utilizar en algún momento el transporte colectivo.
 Proveedores de servicio de transporte público: empresas que proveen flota de transporte como ser CUTCSA, COECT, COPSA, etc.
 Intendencia de cada departamento: son las que regulan las normas de tránsito y transporte de cada departamento.
@@ -13,11 +14,11 @@ Otras aplicaciones de transporte público: aplicaciones que brinda servicios sim
 Ministerio de Transporte y Obras Públicas - Dirección Nacional de Transporte: es responsable de asegurar la calidad del transporte regular de pasajeros como servicio público responsabilidad del Estado, mejorar su eficiencia, su calidad y su seguridad; así como de implementar y controlar políticas de transporte de pasajeros por carretera y transporte de carga.
 Appstore y Play Store: son los Marketplace en los cuales debemos poner a disposición nuestra aplicación, los cuales nos deben revisar la app antes de publicarla.
 
-### b.	Interesados Internos
+#### b.	Interesados Internos
 Equipo de proyecto: Product Owner, Developers, Scrum Master.
 
 
-## 1. Registro de interesados
+### 2. Registro de interesados
 
 |     Nombre                                            |     Rol                   |     Requerimientos                                                                                                                                                                |     Expectativas                                                                         |     Influencia    |     Clasificación    |
 |-------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------|----------------------|
@@ -29,7 +30,7 @@ Equipo de proyecto: Product Owner, Developers, Scrum Master.
 |     Appstore y Play Store                             |     Asesor                |     Que   no contengan contenido restringido, ni propiedad intelectual robada, que siga   con las normas de seguridad y privacidad y que sus funcionalidades no estén   rotas.    |     Comprometerse   a proteger al usuario y a brindar calidad en las aplicaciones.       |     Media         |     Amigo            |
 |     Equipo de proyecto                                |     Creador               |     Aprender,   exonerar la materia.                                                                                                                                              |     Aprender   el uso de la metodología SCRUM.                                           |     Alta          |     Amigo            |
 
-## 3. Matrices de interesados
+### 3. Matrices de interesados
 Según lo analizado se procedió a clasificar a los interesados según su nivel de poder e interés. Los jugadores claves son los que tienen alto poder e interés en el proyecto, pero también hay que mantener satisfechos a los que tienen alto poder pero no tanto interés. A los que tienen bajo interés y poder se les prestará menos dedicación al momento de satisfacerlos.
 
 |              |             |     Interés                     |                                                                                                                                                                                                |
