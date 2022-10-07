@@ -14,8 +14,30 @@
 Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
 # Descripción de la aplicación #
+El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
+El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales. 
 
 ## Funcionalidades ##
+- Login de usuario.
+- Registrar nuevo usuario.
+- Editar usuario.
+- Restaurar contraseña.
+- Buscar línea de ómnibus utilizando filtros.
+- Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
+- Historias de los últimos viajes (líneas de ómnibus utilizadas).
+- Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
+- Compartir mi viaje a otro usuario.
+- Notificaciones:
+* La línea seleccionada está por llegar a la parada de ómnibus.
+* La siguiente parada es tu destino.
+* Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+* La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+* La línea seleccionada tiene un desvío.
+Algunos atributos de calidad (RNF) importantes son:
+* La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
+* Debe ser fácil de usar por las distintas franjas etarias de población.
+* Debe poder mantener la privacidad de datos sensibles de sus usuarios.
+* Debe contar con una interfaz principalmente móvil (iOS y/o Android).
 
 # Marco de Gestión #
 
