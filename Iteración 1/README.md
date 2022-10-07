@@ -56,11 +56,14 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 
 
 ## Definition of Done ##
-- La Definición de Listo (DoD) sirve para establecer los criterios de calidad para la entrega del incremento del producto.
-- Se utiliza para evaluar que el trabajo realizado es suficiente.
-- Se aplica a todas las historias de usuario en las que se está trabajando como equipo. 
-- En contraste, los criterios de aceptación se definen específicamente por historia de Usuario según lo requiere la Definición de Listo (DoR).
-- Para el obligatorio, nuestro DOD del sprint se va a ver reflejado en lo que este subido a la rama main al final de cada iteración.
+* La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
+* Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
+* En nuestro proyecto, el DoD va a ser diferente para los sprints,ya que abarcan distintas etapas del proyecto.
+* Para el sprint 1, el DoD de las user story va a contemplar:
+  * Evidencia de la tarea realizada mediante documentación.
+  * Registro de Horas que llevo la tarea.
+  
+  
 
 ## Estrategias de Branching ##
  - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
@@ -87,8 +90,8 @@ Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el
 
 ###Formulario de investigación###
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver documento de ***Formulario Analisis Aplicaciones.docx*** en carpeta Iteracion 1
-- Ver documento de ***Formulario Analisis Aplicaciones Completo.docx*** en carpeta Iteracion 1
+- Ver ***Formulario Analisis Aplicaciones.docx*** en carpeta Iteracion 1/Evidencia 
+- Ver ***Analisis Aplicaciones.docx*** en carpeta Iteracion 1
 
 ###Procesamiento de investigación
 
@@ -112,7 +115,12 @@ Equipo de proyecto: Product Owner, Developers, Scrum Master.
 
 ### 2. Registro de interesados
 
-|     Nombre                                            |     Rol                   |     Requerimientos                                                                                                                                                                |     Expectativas                                                                         |     Influencia    |     Clasificación    |
+
+| Nombre | Rol |
+|--------|-----|
+
+
+|Nombre |     Rol                   |     Requerimientos                                                                                                                                                                |     Expectativas                                                                         |     Influencia    |     Clasificación    |
 |-------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------|----------------------|
 |     Usuarios del   sistema de transporte público      |     Usuario   directo     |     Tener   información sobre las líneas de ómnibus y sus horarios.                                                                                                               |     Facilitar   y optimizar tiempos y costos a la hora de usar el transporte público     |     Alta          |     Amigo            |
 |      Proveedores de servicio de transporte público    |     Asesor                |     Informar   a los usuarios la situación de cada línea de bus.                                                                                                                  |     Mejorar   el servicio brindado a los usuarios.                                       |     Alta          |     Amigo            |
@@ -141,6 +149,15 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 
 - Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
+
+##Realizacion de Encuestas##
+
+### 1. Formulario mediante Google Forms
+
+Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta y su análisis para obtener nuevos requerimientos  se encuentra en la carpeta Evidencias
+
+-- Ver documento *** Procesamiento de Encuestas.docx
+-- Ver documento *** Encuesta de Apliaciones de Viaje.pdf
 
 # Gestión Agile #
 ## Sprint 1 ##
