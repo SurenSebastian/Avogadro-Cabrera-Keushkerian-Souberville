@@ -1,10 +1,17 @@
-# Proyecto #
-# Título de la materia #
-# Nombre de docentes #
-# Nombre de alumnos - Nro estudiante #
+# Proyecto BONDi #
+# Ingeniería de Software Ágil 1 #
+## Docentes: 
+- Fabiana Pedrini 
+- Analía Moreira
+## Alumnos: ##
+- Leandro Avogadro - 221869  
+- Daniel Cabrera - 198360 
+- Suren Keushkerian - 141534 
+- Denise Souberville - 223427 
+
 
 # Introducción #
-Descripción del documento
+Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
 # Descripción de la aplicación #
 
@@ -12,7 +19,7 @@ Descripción del documento
 
 # Marco de Gestión #
 
-Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias 
+Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias: 
 
 - Sprint Planning
 - Daily
@@ -30,7 +37,7 @@ Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a
 - Sábado
 - Domingo
 
-Esto se debe a que la mayor contribución del equipo se concentra en los fines de semana, entonces nos parece importante que ahí sí se respete la daily. Se va a realizar por llamada en whats app.
+Esto se debe a que la mayor contribución del equipo se concentra en los fines de semana, entonces nos parece importante que ahí sí se respete la daily. Se va a realizar por llamada en WhatsApp.
 
 ## Sprint Retrospective ##
 Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una duración máxima de 30 minutos y todos los action items van a ser convertidos en product backlog items, priorizados e ingresados en el próximo sprint planning para considerar y aplicar las mejoras.
@@ -45,7 +52,7 @@ Se va a realizar un refinamiento del backlog cada jueves a excepción de la últ
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
 
 ## Definition of Ready ##
-Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones
+Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones:
 
 - Es clara: El equipo tiene bien definido el incremento a entregar y no existen dudas respecto a lo que hay que hacer.
 - Es realizable: todas las actividades relacionadas con la User Story son realizables dentro de un sprint y no hay impedimentos mayores.
@@ -58,10 +65,10 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Definition of Done ##
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-* En nuestro proyecto, el DoD va a ser diferente para los sprints,ya que abarcan distintas etapas del proyecto.
+* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
 * Para el sprint 1, el DoD de las user story va a contemplar:
   * Evidencia de la tarea realizada mediante documentación.
-  * Registro de Horas que llevo la tarea.
+  * Registro de Horas que llevó la tarea.
   
   
 
@@ -83,17 +90,29 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   - Suren Keushkerian
   
 # Análisis de Requerimientos #
+## Relevamiento de aplicaciones existentes ##
 
-##Relevamiento de aplicaciones existentes##
+Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto. 
 
-Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto.
-
-###Formulario de investigación###
+### Formulario de investigación ##
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver ***Formulario Analisis Aplicaciones.docx*** en carpeta Iteracion 1/Evidencia 
-- Ver ***Analisis Aplicaciones.docx*** en carpeta Iteracion 1
+- Ver ***Formulario Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias/Formularios".
+- Ver ***Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias".
 
-###Procesamiento de investigación
+## Realización de Encuestas
+
+Procedimos también a buscar ideas y requerimientos mediante la realización de encuestas a algunos usuarios del transporte público de Montevideo.
+
+#### Formulario mediante Google Forms
+
+Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
+
+- Ver documento ***Encuesta de Apliacion de Viaje.pdf*** en carpeta "Iteracion 1/Evidencias".
+
+## Procesamiento de datos
+Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
+
+- Ver documento ***Procesamiento de Encuestas y Análisis de Aplicaciones.docx*** en carpeta "Iteracion 1".
 
 ## Analisis de interesados
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -103,22 +122,23 @@ Para realizar el análisis de los interesados se procedió a realizar un brainst
 ### 1. Lista de interesados
 #### a.	Interesados Externos
 Usuarios del sistema de transporte público: personas que utilizan o piensan utilizar en algún momento el transporte colectivo.
+
 Proveedores de servicio de transporte público: empresas que proveen flota de transporte como ser CUTCSA, COECT, COPSA, etc.
+
 Intendencia de cada departamento: son las que regulan las normas de tránsito y transporte de cada departamento.
+
 Otras aplicaciones de transporte público: aplicaciones que brinda servicios similares a nuestro producto, como ser las aplicaciones ComoIr, Moovit.
+
 Ministerio de Transporte y Obras Públicas - Dirección Nacional de Transporte: es responsable de asegurar la calidad del transporte regular de pasajeros como servicio público responsabilidad del Estado, mejorar su eficiencia, su calidad y su seguridad; así como de implementar y controlar políticas de transporte de pasajeros por carretera y transporte de carga.
+
 Appstore y Play Store: son los Marketplace en los cuales debemos poner a disposición nuestra aplicación, los cuales nos deben revisar la app antes de publicarla.
+
 
 #### b.	Interesados Internos
 Equipo de proyecto: Product Owner, Developers, Scrum Master.
 
 
 ### 2. Registro de interesados
-
-
-| Nombre | Rol |
-|--------|-----|
-
 
 |Nombre |     Rol                   |     Requerimientos                                                                                                                                                                |     Expectativas                                                                         |     Influencia    |     Clasificación    |
 |-------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------|----------------------|
@@ -150,14 +170,6 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 - Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
 
-##Realizacion de Encuestas##
-
-### 1. Formulario mediante Google Forms
-
-Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta y su análisis para obtener nuevos requerimientos  se encuentra en la carpeta Evidencias
-
--- Ver documento *** Procesamiento de Encuestas.docx
--- Ver documento *** Encuesta de Apliaciones de Viaje.pdf
 
 # Elección de Sistema Operativo #
 
@@ -234,5 +246,3 @@ Se crearon los siguientes items en el backlog como consecuencia de los action it
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
 - [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
 - [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
-
-# Anexos #
