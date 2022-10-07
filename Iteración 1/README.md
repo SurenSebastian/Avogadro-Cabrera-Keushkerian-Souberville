@@ -182,6 +182,14 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
 
+**Burndown**
+
+Como se puede observar en el burndown chart abajo, el equipo los primeros días del sprint estuvo trabajando en el Product Backlog, lo cual indica lo chato de los primeros días. Luego progresivamente se fue completando el sprint y sus tareas, lo cual se observa en el salto que hay entre 26/9 y 28/9, donde el equipo terminó de crear todas las tareas pertinentes al sprint.
+Desde el 28/9 en adelante se observa un progreso lento pero mantenido, donde por momentos nos salimos un poco del ideal trend, manejando cierto riesgo a la hora de completar el sprint.
+Se puede observar algún pendiente de tareas hacia el final del sprint que se van un poco del ideal trend, lo cual implicó un poco más de esfuerzo por parte del equipo para poder cumplir con lo comprometido y así evitar tener carry over hacia el siguiente sprint.
+
+![Sprint burn down](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint4.png)
+
 ### Retrospective ###
 
 Para el primer sprint decidimos utilizar el board de Open Box, que consiste en identificar qué cosas comenzar a hacer, qué cosas dejar de hacer y qué cosas continuar haciendo. Principalmente el objetivo es analizar procesos y dado que es nuestro primer sprint nos pareció un buen punto de partida.
