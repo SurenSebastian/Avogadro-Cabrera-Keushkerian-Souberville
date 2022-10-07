@@ -1,15 +1,13 @@
 # Proyecto BONDi #
 # Ingeniería de Software Ágil 1 #
 ## Docentes: 
-Fabiana Pedrini - Analía Moreira
+- Fabiana Pedrini 
+- Analía Moreira
 ## Alumnos: ##
-Leandro Avogadro - 221869 
-
-Daniel Cabrera - 198360 
-
-Suren Keushkerian - 141534 
-
-Denise Souberville - 223427 
+-Leandro Avogadro - 221869 
+-Daniel Cabrera - 198360 
+-Suren Keushkerian - 141534 
+-Denise Souberville - 223427 
 
 
 # Introducción #
@@ -109,12 +107,12 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
--- Ver documento *** Encuesta de Apliacion de Viaje.pdf *** en carpeta "Iteracion 1/Evidencias".
+- Ver documento ***Encuesta de Apliacion de Viaje.pdf*** en carpeta "Iteracion 1/Evidencias".
 
 ## Procesamiento de datos
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
--- Ver documento *** Procesamiento de Encuestas y Análisis de Aplicaciones.docx *** en carpeta "Iteracion 1".
+- Ver documento ***Procesamiento de Encuestas y Análisis de Aplicaciones.docx*** en carpeta "Iteracion 1".
 
 ## Analisis de interesados
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
