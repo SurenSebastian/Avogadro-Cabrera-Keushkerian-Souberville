@@ -159,6 +159,25 @@ Se realizó un formulario con 8 preguntas para lograr recabar información tal c
 -- Ver documento *** Procesamiento de Encuestas.docx
 -- Ver documento *** Encuesta de Apliaciones de Viaje.pdf
 
+# Elección de Sistema Operativo #
+
+Luego de una búsqueda que nos brindara estadísticas que a nuestro criterio puedan ser representativas del uso de cada sistema operativo dentro de la sociedad uruguaya, se encontraron los siguientes artículos:
+
+- https://www.elpais.com.uy/negocios/noticias/sistemas-operativos-android-vs-ios-gana-batalla.html
+
+- https://www.elobservador.com.uy/nota/el-uso-de-smartphones-y-tablets-se-disparo-en-uruguay-20164151080
+
+Podemos notar que estas estadísticas son del 2016 y somos conscientes que en la tecnología en 6 años las cosas pueden cambiar mucho. Igualmente, para esta tarea tomaremos estas estadísticas como aproximadas a la realidad actual.
+De las estadísticas de ambas notas se desprende que Android supera en usuarios a iOS en Uruguay y Argentina (la cual consideraremos como una realidad similar a la uruguaya en este aspecto).
+
+Además de esta búsqueda, estuvimos investigando sobre los costes y facilidad para la publicación de una app en cada Store. De esta investigación concluimos que publicar una App en la store de Android es mucho más simple y menos costoso que en iOS.
+Por ejemplo, para publicar una aplicación en la store de Android debemos efectuar un único pago de 25 dólares, este pago es único ya que no hay cargos extras por actualizar la app e incluso podríamos continuar publicando otras apps utilizando la misma cuenta.
+En iOS una cuenta para un único desarrollador tiene un precio de 99 dólares al año, mientras que para una empresa es de 299 dólares al año. También la store de iOS tiene la reputación de ser mucho más restrictiva o generar más conflicto a la hora de publicar una aplicación.
+
+Otro factor significativo es el hecho de que somos un equipo con poca experiencia en este tipo de desarrollos, por lo tanto, creemos que como primera experiencia las facilidades y bajos costes que Android nos ofrece son un factor muy importante que poner sobre la balanza al momento de decantarse por un sistema operativo.
+
+Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
+
 # Gestión Agile #
 ## Sprint 1 ##
 ### Planning ###
