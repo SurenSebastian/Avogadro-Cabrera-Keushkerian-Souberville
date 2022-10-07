@@ -1,11 +1,12 @@
 # Proyecto BONDi #
 # Ingeniería de Software Ágil 1 #
-## Docentes: Fabiana Pedrini - Analía Moreira ##
+## Docentes: 
+Fabiana Pedrini - Analía Moreira
 ## Alumnos: ##
-## Leandro Avogadro - 221869 ##
-## Daniel Cabrera - 198360 ##
-## Suren Keushkerian - 141534 ##
-## Denise Souberville - 223427 ##
+Leandro Avogadro - 221869 
+Daniel Cabrera - 198360 
+Suren Keushkerian - 141534 
+Denise Souberville - 223427 
 
 # Introducción #
 Descripción del documento
