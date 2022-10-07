@@ -4,9 +4,13 @@
 Fabiana Pedrini - Analía Moreira
 ## Alumnos: ##
 Leandro Avogadro - 221869 
+
 Daniel Cabrera - 198360 
+
 Suren Keushkerian - 141534 
+
 Denise Souberville - 223427 
+
 
 # Introducción #
 Descripción del documento
@@ -120,11 +124,17 @@ Para realizar el análisis de los interesados se procedió a realizar un brainst
 ### 1. Lista de interesados
 #### a.	Interesados Externos
 Usuarios del sistema de transporte público: personas que utilizan o piensan utilizar en algún momento el transporte colectivo.
+
 Proveedores de servicio de transporte público: empresas que proveen flota de transporte como ser CUTCSA, COECT, COPSA, etc.
+
 Intendencia de cada departamento: son las que regulan las normas de tránsito y transporte de cada departamento.
+
 Otras aplicaciones de transporte público: aplicaciones que brinda servicios similares a nuestro producto, como ser las aplicaciones ComoIr, Moovit.
+
 Ministerio de Transporte y Obras Públicas - Dirección Nacional de Transporte: es responsable de asegurar la calidad del transporte regular de pasajeros como servicio público responsabilidad del Estado, mejorar su eficiencia, su calidad y su seguridad; así como de implementar y controlar políticas de transporte de pasajeros por carretera y transporte de carga.
+
 Appstore y Play Store: son los Marketplace en los cuales debemos poner a disposición nuestra aplicación, los cuales nos deben revisar la app antes de publicarla.
+
 
 #### b.	Interesados Internos
 Equipo de proyecto: Product Owner, Developers, Scrum Master.
