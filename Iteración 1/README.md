@@ -4,10 +4,10 @@
 - Fabiana Pedrini 
 - Analía Moreira
 ## Alumnos: ##
--Leandro Avogadro - 221869 
--Daniel Cabrera - 198360 
--Suren Keushkerian - 141534 
--Denise Souberville - 223427 
+- Leandro Avogadro - 221869  
+- Daniel Cabrera - 198360 
+- Suren Keushkerian - 141534 
+- Denise Souberville - 223427 
 
 
 # Introducción #
