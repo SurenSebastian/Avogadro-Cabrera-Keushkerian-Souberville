@@ -11,7 +11,7 @@
 
 
 # Introducción #
-Descripción del documento
+Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
 # Descripción de la aplicación #
 
@@ -206,5 +206,3 @@ Para el primer sprint decidimos utilizar el board de Open Box, que consiste en i
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
 - [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
 - [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
-
-# Anexos #
