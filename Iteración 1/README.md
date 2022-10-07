@@ -154,7 +154,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 ### 1. Formulario mediante Google Forms
 
-Se realizo un fomrulario con 8 preguntas para lograr recabar informacion tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones mas comunes que usa de la aplicacion de viaje y cualquier otra funcion que considerarn necesarrio. El informe completo de la encuesta y su análisis para obtener nuevos requerimeintos  se encuentra en la carpeta Evidencias
+Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta y su análisis para obtener nuevos requerimientos  se encuentra en la carpeta Evidencias
 
 -- Ver documento *** Procesamiento de Encuestas.docx
 -- Ver documento *** Encuesta de Apliaciones de Viaje.pdf
