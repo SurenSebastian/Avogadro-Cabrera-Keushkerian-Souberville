@@ -188,6 +188,19 @@ Para el primer sprint decidimos utilizar el board de Open Box, que consiste en i
 
 [Open the Box Retro Board](https://metroretro.io/templates/open-the-box-retrospective "Open the Box Retro Board")
 
+Los resultados de la Retrospective se pueden encontrar en el archivo
+
+"Iteracion 1\Evidencias\Sprint\RetroISA1Sprint1.csv"
+
+Se crearon los siguientes items en el backlog como consecuencia de los action items
+
+- Setear ceremonias del Sprint en google calendar por parte del Scrum Master.
+- Crear dashboard de completed work por persona.
+- Crear dashboard con cantidad de tareas por persona y sus status.
+- Generar esqueleto de documentación para el sprint.
+- Actualizar documentación respecto a Pull Requests.
+- Actualizar documentación de manejo del board.
+
 # Bibliografía #
 
 
