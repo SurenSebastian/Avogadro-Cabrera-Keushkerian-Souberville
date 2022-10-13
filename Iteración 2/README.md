@@ -12,10 +12,10 @@
 - Denise Souberville - 223427 
 
 # Tabla de Contenidos
-1 [Introducción](#introduccion)
-2 [Descripción de la aplicación](#descripcionAplicacion)
-3 [Funcionalidades](#funcionalidades)
-4 [Marco de Gestión](#marcoDeGestion)
+1. [Introducción](#introduccion)
+2. [Descripción de la aplicación](#descripcionAplicacion)
+3. [Funcionalidades](#funcionalidades)
+4. [Marco de Gestión](#marcoDeGestion)
 
 
 ## Introducción <a name="introduccion"></a>
