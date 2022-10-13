@@ -1,23 +1,32 @@
 # Proyecto BONDi #
-# Ingeniería de Software Ágil 1 #
-## Docentes: 
+
+## Ingeniería de Software Ágil 1 ##
+
+### Docentes: 
 - Fabiana Pedrini 
 - Analía Moreira
-## Alumnos: ##
+### Alumnos: ##
 - Leandro Avogadro - 221869  
 - Daniel Cabrera - 198360 
 - Suren Keushkerian - 141534 
 - Denise Souberville - 223427 
 
+# Tabla de Contenidos
+1 [Introducción](#introduccion)
+2 [Descripción de la aplicación](#descripcionAplicacion)
+3 [Funcionalidades](#funcionalidades)
+4 [Marco de Gestión](#marcoDeGestion)
 
-# Introducción #
+
+## Introducción <a name="introduccion"></a>
 Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
-# Descripción de la aplicación #
+## Descripción de la aplicación <a name="descripcionAplicacion"></a>
 El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
-El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales. 
+El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales.
 
-## Funcionalidades ##
+## Funcionalidades <a name="funcionalidades"></a>
+
 - Login de usuario.
 - Registrar nuevo usuario.
 - Editar usuario.
@@ -28,18 +37,19 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
 - Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
 - Compartir mi viaje a otro usuario.
 - Notificaciones:
-* La línea seleccionada está por llegar a la parada de ómnibus.
-* La siguiente parada es tu destino.
-* Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
-* La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
-* La línea seleccionada tiene un desvío.
-Algunos atributos de calidad (RNF) importantes son:
-* La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
-* Debe ser fácil de usar por las distintas franjas etarias de población.
-* Debe poder mantener la privacidad de datos sensibles de sus usuarios.
-* Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+  - La línea seleccionada está por llegar a la parada de ómnibus.
+  - La siguiente parada es tu destino.
+  - Línea frecuente llega en X minutos (dependiendo de distancia del usuario a la parada) a parada habitual.
+  - La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+  - La línea seleccionada tiene un desvío.
+  
+- Algunos atributos de calidad (RNF) importantes son:
+  - La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
+  - Debe ser fácil de usar por las distintas franjas etarias de población.
+  - Debe poder mantener la privacidad de datos sensibles de sus usuarios.
+  - Debe contar con una interfaz principalmente móvil (iOS y/o Android).
 
-# Marco de Gestión #
+## Marco de Gestión <a name="marcoDeGestion"></a>
 
 Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias: 
 
@@ -83,18 +93,17 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
-
 ## Definition of Done ##
-* La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
-* Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-* Para el sprint 1, el DoD de las user story va a contemplar:
-  * Evidencia de la tarea realizada mediante documentación.
-  * Registro de Horas que llevó la tarea.
-  
-  
 
+- La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
+- Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
+- En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
+- Para el sprint 1, el DoD de las user story va a contemplar:
+  - Evidencia de la tarea realizada mediante documentación.
+  - Registro de Horas que llevó la tarea.
+  
 ## Estrategias de Branching ##
+
  - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
  
 ## Roles: ##
