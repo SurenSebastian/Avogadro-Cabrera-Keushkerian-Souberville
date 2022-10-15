@@ -219,21 +219,21 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
 Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
 Se realizó la planning para el sprint, documentando a continuación la evidencia.
 
-![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/planning1.png)
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/planning1.png)
 
-![Estimacion Marco de Gestion](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion1.png)
+![Estimacion Marco de Gestion](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion1.png)
 
-![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
+![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
 
 ### Sprint Progress ###
 
-![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint1.png)
+![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint1.png)
 
-![Sprint Progress2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint2.png)
+![Sprint Progress2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint2.png)
 
-![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
+![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
 
-![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
 
 **Burndown**
 
@@ -241,9 +241,7 @@ Como se puede observar en el burndown chart, el equipo los primeros días del sp
 Desde el 28/9 en adelante se observa un progreso lento pero mantenido, donde por momentos nos salimos un poco del ideal trend, manejando cierto riesgo a la hora de completar el sprint.
 Se puede observar algún pendiente de tareas hacia el final del sprint que se van un poco del ideal trend, lo cual implicó un poco más de esfuerzo por parte del equipo para poder cumplir con lo comprometido y así evitar tener carry over hacia el siguiente sprint.
 
-El burndown se pueden encontrar en el archivo
-
-"Iteracion 1\Evidencias\Sprint\sprint4.png"
+![Burndown chart](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint4.png)
 
 ### Retrospective ###
 
@@ -264,6 +262,14 @@ Se crearon los siguientes items en el backlog como consecuencia de los action it
 - Actualizar documentación respecto a Pull Requests.
 - Actualizar documentación de manejo del board.
 
+## Sprint 2 ##
+### Planning ###
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/123/Iteraci%C3%B3n%202/Evidencias/Planning/Planning.png)
+
+### Sprint Progress ###
+**Burndown**
+### Retrospective ###
 
 # Prototipo #
 
