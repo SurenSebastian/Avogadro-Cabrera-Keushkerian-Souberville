@@ -104,7 +104,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   
 ## Estrategias de Branching ##
 
- - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
+ - Ver documento de [Estrategia de Branching]( https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  
 ## Roles: ##
 
