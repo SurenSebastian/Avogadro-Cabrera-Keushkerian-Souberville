@@ -269,6 +269,30 @@ Se crearon los siguientes items en el backlog como consecuencia de los action it
 
 ### Sprint Progress ###
 **Burndown**
+
+### Daily ###
+**Registro de daily realizada el 15/10**
+
+*Suren*
+
+Ayer Trabajo en la documentacion del feedback, falta agregarlo.
+Hoy va a trabajar en la pantalla de recuperar constraseña y buscar la funcionalidad de valor agregado
+
+*Denise*
+
+Trabajo en las pantallas de registro y editar usuario. Quedaron pendientes las validaciones que no sabemos como hacer en framer
+Para hoy va a estar tomando nuevas tareas.
+
+*Daniel*
+
+Estuve trabajando en dashboards y documentacion de la planning y el progreso del sprint. Además comencé con la pantalla de login.
+Para hoy voy a continuar con login y la documentacion.
+
+*Leandro*
+
+No updates
+Mañana va a trabajar en la pantalla de buscar linea de omnibus
+
 ### Retrospective ###
 
 # Prototipo #
