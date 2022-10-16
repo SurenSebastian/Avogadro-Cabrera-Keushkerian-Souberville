@@ -1,32 +1,23 @@
 # Proyecto BONDi #
-
-## Ingeniería de Software Ágil 1 ##
-
-### Docentes: 
+# Ingeniería de Software Ágil 1 #
+## Docentes: 
 - Fabiana Pedrini 
 - Analía Moreira
-### Alumnos: ##
+## Alumnos: ##
 - Leandro Avogadro - 221869  
 - Daniel Cabrera - 198360 
 - Suren Keushkerian - 141534 
 - Denise Souberville - 223427 
 
-# Tabla de Contenidos
-1. [Introducción](#introduccion)
-2. [Descripción de la aplicación](#descripcionAplicacion)
-3. [Funcionalidades](#funcionalidades)
-4. [Marco de Gestión](#marcoDeGestion)
 
-
-## Introducción <a name="introduccion"></a>
+# Introducción #
 Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
-## Descripción de la aplicación <a name="descripcionAplicacion"></a>
+# Descripción de la aplicación #
 El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
-El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales.
+El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales. 
 
-## Funcionalidades <a name="funcionalidades"></a>
-
+## Funcionalidades ##
 - Login de usuario.
 - Registrar nuevo usuario.
 - Editar usuario.
@@ -37,19 +28,18 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
 - Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
 - Compartir mi viaje a otro usuario.
 - Notificaciones:
-  - La línea seleccionada está por llegar a la parada de ómnibus.
-  - La siguiente parada es tu destino.
-  - Línea frecuente llega en X minutos (dependiendo de distancia del usuario a la parada) a parada habitual.
-  - La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
-  - La línea seleccionada tiene un desvío.
-  
-- Algunos atributos de calidad (RNF) importantes son:
-  - La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
-  - Debe ser fácil de usar por las distintas franjas etarias de población.
-  - Debe poder mantener la privacidad de datos sensibles de sus usuarios.
-  - Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+* La línea seleccionada está por llegar a la parada de ómnibus.
+* La siguiente parada es tu destino.
+* Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+* La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+* La línea seleccionada tiene un desvío.
+Algunos atributos de calidad (RNF) importantes son:
+* La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
+* Debe ser fácil de usar por las distintas franjas etarias de población.
+* Debe poder mantener la privacidad de datos sensibles de sus usuarios.
+* Debe contar con una interfaz principalmente móvil (iOS y/o Android).
 
-## Marco de Gestión <a name="marcoDeGestion"></a>
+# Marco de Gestión #
 
 Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias: 
 
@@ -93,18 +83,19 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Las dependencias fueron identificadas claramente. El equipo sabe bien qué otras tareas se deben completar antes (si existe alguna) para poder comenzar a trabajar en la Story.
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
+
 ## Definition of Done ##
-
-- La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
-- Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-- En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-- Para el sprint 1, el DoD de las user story va a contemplar:
-  - Evidencia de la tarea realizada mediante documentación.
-  - Registro de Horas que llevó la tarea.
+* La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
+* Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
+* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
+* Para el sprint 1, el DoD de las user story va a contemplar:
+  * Evidencia de la tarea realizada mediante documentación.
+  * Registro de Horas que llevó la tarea.
   
-## Estrategias de Branching ##
+  
 
- - Ver documento de [Estrategia de Branching]( https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+## Estrategias de Branching ##
+ - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
  
 ## Roles: ##
 
@@ -228,21 +219,21 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
 Para el primer sprint el equipo planificó un total de 36 Story Points a realizarse en 3 semanas desde el 23 de septiembre al 7 de octubre (los primeros 4 días del sprint fueron removidos ya que el equipo estaba trabajando en completar el product backlog para la planning).
 Se realizó la planning para el sprint, documentando a continuación la evidencia.
 
-![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/planning1.png)
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/planning1.png)
 
-![Estimacion Marco de Gestion](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion1.png)
+![Estimacion Marco de Gestion](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion1.png)
 
-![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
+![Estimacion Requerimientos Interesados](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Planning/estimacion2.png)
 
 ### Sprint Progress ###
 
-![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint1.png)
+![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint1.png)
 
-![Sprint Progress2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint2.png)
+![Sprint Progress2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint2.png)
 
-![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
+![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint3.png)
 
-![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/scrum/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
 
 **Burndown**
 
@@ -250,9 +241,7 @@ Como se puede observar en el burndown chart, el equipo los primeros días del sp
 Desde el 28/9 en adelante se observa un progreso lento pero mantenido, donde por momentos nos salimos un poco del ideal trend, manejando cierto riesgo a la hora de completar el sprint.
 Se puede observar algún pendiente de tareas hacia el final del sprint que se van un poco del ideal trend, lo cual implicó un poco más de esfuerzo por parte del equipo para poder cumplir con lo comprometido y así evitar tener carry over hacia el siguiente sprint.
 
-El burndown se pueden encontrar en el archivo
-
-"Iteracion 1\Evidencias\Sprint\sprint4.png"
+![Burndown chart](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/sprint4.png)
 
 ### Retrospective ###
 
@@ -273,6 +262,38 @@ Se crearon los siguientes items en el backlog como consecuencia de los action it
 - Actualizar documentación respecto a Pull Requests.
 - Actualizar documentación de manejo del board.
 
+## Sprint 2 ##
+### Planning ###
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/123/Iteraci%C3%B3n%202/Evidencias/Planning/Planning.png)
+
+### Sprint Progress ###
+**Burndown**
+
+### Daily ###
+**Registro de daily realizada el 15/10**
+
+*Suren*
+
+Ayer Trabajo en la documentacion del feedback, falta agregarlo.
+Hoy va a trabajar en la pantalla de recuperar constraseña y buscar la funcionalidad de valor agregado
+
+*Denise*
+
+Trabajo en las pantallas de registro y editar usuario. Quedaron pendientes las validaciones que no sabemos como hacer en framer
+Para hoy va a estar tomando nuevas tareas.
+
+*Daniel*
+
+Estuve trabajando en dashboards y documentacion de la planning y el progreso del sprint. Además comencé con la pantalla de login.
+Para hoy voy a continuar con login y la documentacion.
+
+*Leandro*
+
+No updates
+Mañana va a trabajar en la pantalla de buscar linea de omnibus
+
+### Retrospective ###
 
 # Prototipo #
 
