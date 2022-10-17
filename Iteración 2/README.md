@@ -123,24 +123,25 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Roles <a name="roles"></a> 
 
 **Scrum Master:**
-  * Daniel Cabrera
+  * Daniel Cabrera:
     * Encargado de gestionar y asegurar que el proceso Scrum se lleva a cabo correctamente.
     * Facilitar la ejecución del proceso y sus mecánicas.
     * Tratar de eliminar impedimentos que van surgiendo.
   
 **Product Owner:**
-  * Suren Keushkerian
-    * Encargado de optimizar y maximizar el valor del producto
+  * Suren Keushkerian:
+    * Encargado de optimizar y maximizar el valor del producto.
     * Gestionar el Product Backlog para manetenerlo estructurado y priorizado.
-T  
+
 **Developers:**
   * Denise Souberville
   * Leandro Avogadro
   * Daniel Cabrera
   * Suren Keushkerian
-   * Encargados de  desarrollar el producto.
-   * Son responsables de ser auto-organizádos y auto-gestionándos para entregar un incremento de software al final del sprint.
-   * Particpan activamente en las cerermonias de Scrum.
+  
+    * Encargados de  desarrollar el producto.
+    * Son responsables de ser auto-organizádos y auto-gestionádos para entregar un incremento de software al final del sprint.
+    * Participan activamente en las ceremonias de Scrum.
  
 # Análisis de Requerimientos #
 ## Relevamiento de aplicaciones existentes <a name="relevamientoAplicaciones"></a> 
