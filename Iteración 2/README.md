@@ -141,8 +141,8 @@ Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el
 
 ## Formulario de investigación <a name="formularioInviestiagcion"></a> 
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver ***Formulario Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias/Formularios".
-- Ver ***Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias".
+- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
+- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a> 
 
@@ -152,12 +152,12 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver documento ***Encuesta de Apliacion de Viaje.pdf*** en carpeta "Iteracion 1/Evidencias".
+- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
 ## Procesamiento de datos <a name="procesamientoDeDatos"></a> 
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
-- Ver documento ***Procesamiento de Encuestas y Análisis de Aplicaciones.docx*** en carpeta "Iteracion 1".
+- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
 
 ## Analisis de interesados <a name="analisisInteresados"></a> 
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -213,7 +213,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 |              |     Alto    |      -Proveedores de servicio de transporte   público    -Intendencias     -Equipo de proyecto    |     -MTOP - Dirección Nacional de Transporte                                                                                    |
 
 
-- Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
+- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
 
 # Elección de Sistema Operativo <a name="sistemaoperativo"></a> 
