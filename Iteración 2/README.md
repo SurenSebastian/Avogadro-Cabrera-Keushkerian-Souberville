@@ -30,7 +30,8 @@
 18. [Procesamiento de datos](#procesamientoDeDatos)
 19. [Analisis de interesados](#analisisInteresados)
 20. [Elección de Sistema Operativo](#sistemaoperativo)
-21. [Gestion Agile](#gestionAgile)
+21. [Backlog](#backlog)
+22. [Gestion Agile](#gestionAgile)
 
 
 # Introducción <a name="introduccion"></a>
@@ -243,6 +244,11 @@ En iOS una cuenta para un único desarrollador tiene un precio de 99 dólares al
 Otro factor significativo es el hecho de que somos un equipo con poca experiencia en este tipo de desarrollos, por lo tanto, creemos que como primera experiencia las facilidades y bajos costes que Android nos ofrece son un factor muy importante que poner sobre la balanza al momento de decantarse por un sistema operativo.
 
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
+
+## Backlog <a name="backlog"></a>
+ * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
+ * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
+
 
 # Gestión Agile <a name="gestionAgile"></a>
 ## Sprint 1 ##
