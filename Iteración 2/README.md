@@ -121,6 +121,8 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
  - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  -  Para los pull request se establece la metodología que 2 approvers  deben validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main .  El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
+ - Estructra de Git por Iteración:
+    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
  
 ## Roles <a name="roles"></a> 
 
