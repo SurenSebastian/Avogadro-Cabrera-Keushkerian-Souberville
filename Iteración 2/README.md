@@ -288,6 +288,10 @@ En este segundo sprint el equipo tuvo que agregar algunas Stories durante el spr
 
 **Burndown**
 
+En este sprint logramos tener un desempeño más parejo que el anterior, pudiendo ser un poco más constantes en el esfuerzo.
+
+Por otro lado también se puede observar algunos puntos de subida en el burndown
+
 ### Daily ###
 **Registro de daily realizada el 15/10**
 
@@ -313,13 +317,17 @@ Mañana va a trabajar en la pantalla de buscar linea de omnibus
 
 ### Retrospective ###
 
-Para el primer sprint decidimos utilizar el board de Open Box, que consiste en identificar qué cosas comenzar a hacer, qué cosas dejar de hacer y qué cosas continuar haciendo. Principalmente el objetivo es analizar procesos y dado que es nuestro primer sprint nos pareció un buen punto de partida.
+Para este sprint decidimos usar una retrospectiva diferente, en este caso la idea es intentar analizar por un lado las cosas buenas del equipo y por otro los problemas que surgieron durante el sprint con el delivery. Al ser el primer sprint que tenía un producto para liberar, nos pareció una buena oportunidad para analizarlo de esta forma.
 
 [The Boxing Ring](https://metroretro.io/BOP0LNN2YA19 "The Boxing Ring")
 
 Los resultados de la Retrospective se pueden encontrar en el archivo
 
 "Iteracion 2\Evidencias\Sprint\Sprint-2-102022.csv"
+
+Como se puede observar por los resultados hubo una buena coordinación del lado del equipo, entendemos que eso es de las cosas que hicimos mejor.
+
+Mientras que por otro lado en cuanto a los problemas evidenciados se observa el problema de planificación que tuvimos por los items que identificamos tarde en el sprint, para lo cual se creó un item para revisar la rúbrica previo a la iteración y crear las stories necesarias. El otro feedback que surgió fue respecto al uso de framer y la creación de los prototipos, que por un lado framer nos pareció una herramienta más difícil de lo que esperábamos y por otro lado el proceso de diseño de los prototipos fue un poco caótico, sin lineamientos de estilo y con poca coordinación en ese sentido. Para esto se creo un item para elegir una pantalla como referencia de look and feel para ajustarnos a ese ejemplo. 
 
 ### Roadmap ###
 A continuación se documenta el roadmap generado hasta el sprint 2.
