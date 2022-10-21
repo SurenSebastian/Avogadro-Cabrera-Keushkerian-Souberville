@@ -362,7 +362,7 @@ Las funcionalidades implementadas en el primer release fueron:
 - Búsqueda de lineas
 - Lineas cercanas
 - Pago de boleto con celular
-
+![Pantallaprincipal]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png
 A continuación se deja evidencia visual de las capturas de las pantallas
 | -|-  |
 |---|---|
