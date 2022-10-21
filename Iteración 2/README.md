@@ -61,15 +61,15 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
     * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
     * La línea seleccionada tiene un desvío.
 
-Algunos atributos de calidad (RNF) importantes son:
-   * La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
-   * Debe ser fácil de usar por las distintas franjas etarias de población.
-   * Debe poder mantener la privacidad de datos sensibles de sus usuarios.
-   * Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+Atributos de calidad (RNF):
+   * Alcance a toda la población uruguaya.
+   * Fácil de usar por las distintas franjas etarias de población.
+   * Privacidad de datos sensibles de sus usuarios.
+   * Interfaz principalmente móvil (Android).
 
 ## Propuesta de valor <a name="propuestadevalor"></a>  
 **BONDi: horarios de ómnibus al alcance de tu mano.**
-
+![Logo](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Logos/logo-white.png)
 Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte público colectivo.
 - Un nuevo sistema para satisfacer la necesidad de los usuarios a través de una única aplicación móvil para dispositivos Android que integra a toda la red de proveedores de transporte público de Uruguay.
 -  BONDi propone más flexibilidad y conveniencia, permitiendo satisfacer las necesidades específicas para cada usuario, en términos de elección de ruta y tiempos de viaje.
@@ -245,6 +245,39 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 - Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
+### Detalle de las funcionalidades por stakeholder ###
+
+**Usuarios:**
+- Login de usuario.
+- Registrar nuevo usuario.
+- Editar usuario.
+- Restaurar contraseña.
+- Buscar línea de ómnibus utilizando filtros.
+- Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
+- Historias de los últimos viajes (líneas de ómnibus utilizadas).
+- Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
+- Compartir mi viaje a otro usuario.
+- Pago de boleto con celular
+- Escalabilidad a toda la población uruguaya.
+- Alcance a toda la población uruguaya.
+- Fácil de usar por las distintas franjas etarias de población.
+- Privacidad de datos sensibles de sus usuarios.
+- Interfaz principalmente móvil (Android).
+- Notificaciones:
+    * La línea seleccionada está por llegar a la parada de ómnibus.
+    * La siguiente parada es tu destino.
+    * Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+    * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+    * La línea seleccionada tiene un desvío.
+**Gobierno:**
+- Alcance a toda la población uruguaya.
+- Privacidad de datos sensibles de sus usuarios.
+**Empresas de transporte:**
+- Buscar línea de ómnibus utilizando filtros.
+- Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
+- Pago de boleto con celular
+**Playstore**
+-Interfaz principalmente móvil (Android).
 
 # Elección de Sistema Operativo <a name="sistemaoperativo"></a> 
 
@@ -308,8 +341,15 @@ Para el primer sprint decidimos utilizar el board de Open Box, que consiste en i
 [Open the Box Retro Board](https://metroretro.io/templates/open-the-box-retrospective "Open the Box Retro Board")
 
 Los resultados de la Retrospective se pueden encontrar en el archivo
+[RetroISA1Sprint1.csv](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/RetroISA1Sprint1.csv)
 
-"Iteracion 1\Evidencias\Sprint\RetroISA1Sprint1.csv"
+**Análisis:**
+En términos generales, respecto a lo que deberíamos empezar a hacer o mejorar, el equipo concordó en que se debería crear eventos en google calendar para la coordinación de las reuniones, también que se deberían de mejorar algunos aspectos de comunicación en cuanto a si no se puede asistir a alguna reunión o si no se llega con las tareas. Se podría mejorar en el uso de la herramienta de devops y en la organización de la documentación.
+
+En consideración a lo que se debería dejar de hacer, se hace mención a situaciones respecto a la puntualidad de las reuniones y al poco avance en general de la entrega en los primeros días del sprint.
+
+En cuanto a la parte positiva y como cosas a mantener, se destacan como punto fuerte la comunicación y flexibilidad entre los compañeros, la eficacia de las daily y la disposición de reasignación de tareas durante el desarrollo del sprint.
+
 
 Se crearon los siguientes items en el backlog como consecuencia de los action items
 
@@ -372,14 +412,14 @@ Las funcionalidades implementadas en el primer release fueron:
 A continuación se deja evidencia visual de las diferentes pantallas
 | -|-  |
 |---|---|
-| ![Pantallaprincipal](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png) | ![MenuDesplegado](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/2.png) | 
-| ![Registro](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/3.png) | ![Login](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/4.png) | 
-| ![RestaurarPass](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/5.png) | ![IngresarMail](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/6.png) |
-| ![MenuLogged](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/7.png) | ![MetodoPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/8.png) |
-| ![ConfigurarTarjeta](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/9.png) | ![TarjetaAgregada](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/10.png) | 
-| ![Lineas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/11.png) | ![MapaLinea](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/12.png) |
-| ![LineasCercanas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/13.png) | ![OpcionPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/14.png) | 
-| ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/15.png) |
+| ![Pantallaprincipal](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/1.png) | ![MenuDesplegado](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/2.png) | 
+| ![Registro](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/3.png) | ![Login](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/4.png) | 
+| ![RestaurarPass](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/5.png) | ![IngresarMail](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/6.png) |
+| ![MenuLogged](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/7.png) | ![MetodoPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/8.png) |
+| ![ConfigurarTarjeta](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/9.png) | ![TarjetaAgregada](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/10.png) | 
+| ![Lineas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/11.png) | ![MapaLinea](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/12.png) |
+| ![LineasCercanas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/13.png) | ![OpcionPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/14.png) | 
+| ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/15.png) |
 
 ## Validacion ##
 Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
