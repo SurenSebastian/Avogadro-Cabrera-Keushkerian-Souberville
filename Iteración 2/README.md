@@ -33,6 +33,7 @@
 20. [Elección de Sistema Operativo](#sistemaoperativo)
 21. [Backlog](#backlog)
 22. [Gestion Agile](#gestionAgile)
+[Prototipo](#gestionAgile)
 
 
 # Introducción <a name="introduccion"></a>
@@ -133,10 +134,10 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   
 
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  -  Para los pull request se establece la metodología que 2 approvers  deben validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main .  El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  - Estructra de Git por Iteración:
-    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
  
 ## Roles <a name="roles"></a> 
 
@@ -168,8 +169,8 @@ Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el
 
 ## Formulario de investigación <a name="formularioInviestiagcion"></a> 
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
-- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
+- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a> 
 
@@ -179,12 +180,12 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
+- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
 ## Procesamiento de datos <a name="procesamientoDeDatos"></a> 
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
-- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
+- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
 
 ## Analisis de interesados <a name="analisisInteresados"></a> 
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -240,7 +241,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 |              |     Alto    |      -Proveedores de servicio de transporte   público    -Intendencias     -Equipo de proyecto    |     -MTOP - Dirección Nacional de Transporte                                                                                    |
 
 
-- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
+- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
 
 # Elección de Sistema Operativo <a name="sistemaoperativo"></a> 
@@ -263,7 +264,7 @@ Otro factor significativo es el hecho de que somos un equipo con poca experienci
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
 
 ## Backlog <a name="backlog"></a>
- * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
+ * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
  * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
 
 
@@ -350,7 +351,7 @@ Mañana va a trabajar en la pantalla de buscar linea de omnibus
 
 ### Retrospective ###
 
-# Prototipo #
+# Prototipo # <a name="Prototipo"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 
@@ -363,7 +364,8 @@ Las funcionalidades implementadas en el primer release fueron:
 - Lineas cercanas
 - Pago de boleto con celular
 
-A continuación se deja evidencia visual de las capturas de las pantallas
+## Evidencia ##
+A continuación se deja evidencia visual de las diferentes pantallas
 | -|-  |
 |---|---|
 | ![Pantallaprincipal](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png) | ![MenuDesplegado](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/2.png) | 
@@ -375,6 +377,16 @@ A continuación se deja evidencia visual de las capturas de las pantallas
 | ![LineasCercanas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/13.png) | ![OpcionPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/14.png) | 
 | ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/15.png) |
 
+## Validacion ##
+Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
+
+### Análisis del feedback de usuarios
+-En terminos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
+-Como funcionalidades que podriamos agregar fueron sugeridas: mostrar ubicación de los omnibus en tiempo real, opción de busqueda de viaje ingresando inicio y destino, agregar accesibilidad para no videntes y agregar una opción que permita buscar cuanto demora en promedio un bus en llegar de una parada a otra.
+-Respecto a las funcionalidades de inicio de sesión y registro, algunos usuarios sugirieron mostrar un icono en el menu principal que muestre si estás logged, aunque actualmente se encuentra implementado tal vez no esté lo suficientemente visible para el usuario. También se sugirió que en los campos de ingreso de fecha de nacimiento, se utilice un calendario que permita seleccionar la fecha.
+-En cuanto a los datos de usuario, se sugirió que exista una pantalla que muestre los datos del usuario, previo a la edición.
+-De la funcionalidad de pago se sugiere que se informe en algún área qué métodos de pago se encuentran asociados y que en caso de permitir tener más de uno se pueda seleccionar el deseado antes del pago.
+-Para las funcionalidades que impliquen ingresar una dirección que exista un botón que permita seleccionar automáticamente la ubicación actual del usuario.
 
 # Bibliografía #
 
