@@ -9,39 +9,15 @@
 - Suren Keushkerian - 141534 
 - Denise Souberville - 223427 
 
-## Tabla de Contenidos ##
-1. [Introducción](#introduccion)
-2. [Descripción de la aplicación](#descripcionaplicacion)
-3. [Funcionalidades](#funcionalidades)
-4. [Marco de Gestion](#marcodegestion)
-5. [Planning](#planning1)
-6. [Daily](#daily1)
-7. [Sprint Retrospective](#sprintretrospective)
-8. [Sprint Review](#sprintreview)
-9. [Backlog Refinement](#backlogrefinement)
-10. [Capacity](#capacity)
-11. [Definition of Ready](#dor)
-12. [Definition of Done](#dod)
-13. [Estrategias de Branching y Pull Request](#estrategiaBranching)
-14. [Roles](#roles)
-15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
-16. [Formulario de investigación](#formularioInviestiagcion)
-17. [Realización de Encuestas](#realizacionEncuestas)
-18. [Procesamiento de datos](#procesamientoDeDatos)
-19. [Analisis de interesados](#analisisInteresados)
-20. [Elección de Sistema Operativo](#sistemaoperativo)
-21. [Backlog](#backlog)
-22. [Gestion Agile](#gestionAgile)
 
-
-# Introducción <a name="introduccion"></a>
+# Introducción #
 Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
-# Descripción de la aplicación <a name="descripcionaplicacion"></a>
+# Descripción de la aplicación #
 El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
 El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales. 
 
-## Funcionalidades  <a name="funcionalidades"></a>
+## Funcionalidades ##
 - Login de usuario.
 - Registrar nuevo usuario.
 - Editar usuario.
@@ -63,7 +39,7 @@ Algunos atributos de calidad (RNF) importantes son:
 * Debe poder mantener la privacidad de datos sensibles de sus usuarios.
 * Debe contar con una interfaz principalmente móvil (iOS y/o Android).
 
-# Marco de Gestión <a name="marcodegestion"></a>  
+# Marco de Gestión #
 
 Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias: 
 
@@ -73,10 +49,10 @@ Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias:
 - Sprint Review
 - Backlog Refinement
 
-## Planning  <a name="planning1"></a>  
+## Planning ##
 Se va a realizar el primer día de cada sprint, la duración aproximada va a ser de 2 horas, se va a estimar utilizando planning poker. La escala de Story Points va a ser Fibonacci, considerando que 13 o mayor significa que la Story es muy compleja para ser completada en un sprint y va a necesitar ser dividida en partes más pequeñas.
 
-## Daily <a name="daily1"></a>  
+## Daily ##
 Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a diario a revisar progreso dado que no vamos a poder generar un progreso diario. Para ello vamos a tener 3 daily por semana distribuidas de la siguiente forma
 
 - Jueves
@@ -84,20 +60,23 @@ Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a
 - Domingo
 
 Esto se debe a que la mayor contribución del equipo se concentra en los fines de semana, entonces nos parece importante que ahí sí se respete la daily. Se va a realizar por llamada en WhatsApp.
+Esto nos da 2 ventajas claras:
+1. Facilita la coordinación, ya que no necesitamos estar físicamente en el mismo lugar y WhatsApp es una aplicación que todos utilizamos.
+2. Al ser 3 veces a la semana nos permite revisar el progreso del sprint conforme los momentos de trabajo que va a tener nuestro equipo. Ya que de lunes a viernes por diferentes circunstancias no se espera demasiado progreso, poner una daily diaria implicaría muchas veces que no hay updates, con lo cual supone una perdida de tiempo. Sin embargo si fuera menor la frecuencia terminaría quedando muchos días sin sincronización, con lo cual podría generar situaciones complicadas a la hora de gestionar el proyecto.
 
-## Sprint Retrospective <a name="sprintretrospective"></a>   
+## Sprint Retrospective ##
 Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una duración máxima de 30 minutos y todos los action items van a ser convertidos en product backlog items, priorizados e ingresados en el próximo sprint planning para considerar y aplicar las mejoras.
 
-## Sprint Review  <a name="sprintreview"></a>   
+## Sprint Review ##
 Esta ceremonia va a suceder el último día del sprint (viernes) y todo el feedback recibido va a ser convertido en product backlog items que luego deben ser priorizados con el PO e ingresados en futuros sprints. No va a durar más de 30 minutos y el objetivo es mostrar el incremento generado durante el sprint al PO para su validación.
 
-## Backlog Refinement <a name="backlogrefinement"></a>  
+## Backlog Refinement ##
 Se va a realizar un refinamiento del backlog cada jueves a excepción de la última semana de cada sprint, en este caso el equipo va a estar enfocado en la planning y estimación del siguiente sprint.
 
-## Capacity <a name="capacity"></a>  
+## Capacity ##
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
- 
-## Definition of Ready  <a name="dor"></a>  
+
+## Definition of Ready ##
 Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones:
 
 - Es clara: El equipo tiene bien definido el incremento a entregar y no existen dudas respecto a lo que hay que hacer.
@@ -108,7 +87,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story a los stakeholders o interesados que corresponda.
 
 
-## Definition of Done  <a name="dod"></a>  
+## Definition of Done ##
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
 * En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
@@ -118,61 +97,49 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   
   
 
-## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
- -  Para los pull request se establece la metodología que 2 approvers  deben validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main .  El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
- - Estructra de Git por Iteración:
-    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+## Estrategias de Branching ##
+ - Ver documento de ***Estrategia de Branching.docx*** en carpeta Iteracion 1
  
-## Roles <a name="roles"></a> 
+## Roles: ##
 
 **Scrum Master:**
-  * Daniel Cabrera:
-    * Encargado de gestionar y asegurar que el proceso Scrum se lleva a cabo correctamente.
-    * Facilitar la ejecución del proceso y sus mecánicas.
-    * Tratar de eliminar impedimentos que van surgiendo.
+  - Daniel Cabrera 
   
 **Product Owner:**
-  * Suren Keushkerian:
-    * Encargado de optimizar y maximizar el valor del producto.
-    * Gestionar el Product Backlog para manetenerlo estructurado y priorizado.
-
-**Developers:**
-  * Denise Souberville
-  * Leandro Avogadro
-  * Daniel Cabrera
-  * Suren Keushkerian
+  - Suren Keushkerian
   
-    * Encargados de  desarrollar el producto.
-    * Son responsables de ser auto-organizádos y auto-gestionádos para entregar un incremento de software al final del sprint.
-    * Participan activamente en las ceremonias de Scrum.
- 
+**Developers:**
+  - Denise Souberville
+  - Leandro Avogadro
+  - Daniel Cabrera
+  - Suren Keushkerian
+  
 # Análisis de Requerimientos #
-## Relevamiento de aplicaciones existentes <a name="relevamientoAplicaciones"></a> 
+## Relevamiento de aplicaciones existentes ##
 
 Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto. 
 
-## Formulario de investigación <a name="formularioInviestiagcion"></a> 
+### Formulario de investigación ##
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
-- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+- Ver ***Formulario Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias/Formularios".
+- Ver ***Analisis Aplicaciones.docx*** en carpeta "Iteracion 1/Evidencias".
 
-## Realización de Encuestas <a name="realizacionEncuestas"></a> 
+## Realización de Encuestas
 
 Procedimos también a buscar ideas y requerimientos mediante la realización de encuestas a algunos usuarios del transporte público de Montevideo.
 
-#### Formulario mediante Google Forms  
+#### Formulario mediante Google Forms
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
+- Ver documento ***Encuesta de Apliacion de Viaje.pdf*** en carpeta "Iteracion 1/Evidencias".
 
-## Procesamiento de datos <a name="procesamientoDeDatos"></a> 
+## Procesamiento de datos
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
-- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
+- Ver documento ***Procesamiento de Encuestas y Análisis de Aplicaciones.docx*** en carpeta "Iteracion 1".
 
-## Analisis de interesados <a name="analisisInteresados"></a> 
+## Analisis de interesados
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
@@ -226,10 +193,10 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 |              |     Alto    |      -Proveedores de servicio de transporte   público    -Intendencias     -Equipo de proyecto    |     -MTOP - Dirección Nacional de Transporte                                                                                    |
 
 
-- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
+- Ver documento de ***AnálisisDeInteresadosBONDi.docx*** en carpeta Iteracion 1
 
 
-# Elección de Sistema Operativo <a name="sistemaoperativo"></a> 
+# Elección de Sistema Operativo #
 
 Luego de una búsqueda que nos brindara estadísticas que a nuestro criterio puedan ser representativas del uso de cada sistema operativo dentro de la sociedad uruguaya, se encontraron los siguientes artículos:
 
@@ -248,12 +215,7 @@ Otro factor significativo es el hecho de que somos un equipo con poca experienci
 
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
 
-## Backlog <a name="backlog"></a>
- * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
- * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
-
-
-# Gestión Agile <a name="gestionAgile"></a>
+# Gestión Agile #
 ## Sprint 1 ##
 ### Planning ###
 
@@ -306,9 +268,24 @@ Se crearon los siguientes items en el backlog como consecuencia de los action it
 ## Sprint 2 ##
 ### Planning ###
 
-![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/123/Iteraci%C3%B3n%202/Evidencias/Planning/Planning.png)
+Para este segundo sprint el objetivo era trabajar en las primeras pantallas de la aplicación y comenzar con el diseño de esto.
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Planning/Planning.png)
+
+En este segundo sprint el equipo tuvo que agregar algunas Stories durante el sprint, por diferentes items que nos perdimos durante la planificación y que no estaban en el backlog. Eso nos llevó a tener que realizar una segunda planning documentada abajo
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Planning/Planning2.png)
 
 ### Sprint Progress ###
+
+![Sprint Progress1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/sprint1.png)
+
+![Sprint Progress2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/sprint2.png)
+
+![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/sprint3.png)
+
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/capacity.png)
+
 **Burndown**
 
 ### Daily ###
@@ -335,6 +312,20 @@ No updates
 Mañana va a trabajar en la pantalla de buscar linea de omnibus
 
 ### Retrospective ###
+
+Para el primer sprint decidimos utilizar el board de Open Box, que consiste en identificar qué cosas comenzar a hacer, qué cosas dejar de hacer y qué cosas continuar haciendo. Principalmente el objetivo es analizar procesos y dado que es nuestro primer sprint nos pareció un buen punto de partida.
+
+[The Boxing Ring](https://metroretro.io/BOP0LNN2YA19 "The Boxing Ring")
+
+Los resultados de la Retrospective se pueden encontrar en el archivo
+
+"Iteracion 2\Evidencias\Sprint\Sprint-2-102022.csv"
+
+### Roadmap ###
+A continuación se documenta el roadmap generado hasta el sprint 2.
+Como se puede observar hay algunas funcionalidades que el equipo considera valiosas pero no hay suficiente capacidad para completarlas, con lo cual las consideramos para el sprint 5 en adelante, junto con las subsecuentes mejoras que puedan surgir a lo largo de los sprints restantes.
+
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/specmap-Obligatorio ISA1-Roadmap.png)
 
 # Prototipo #
 
