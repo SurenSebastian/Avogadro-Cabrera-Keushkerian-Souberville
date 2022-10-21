@@ -13,6 +13,7 @@
 1. [Introducción](#introduccion)
 2. [Descripción de la aplicación](#descripcionaplicacion)
 3. [Funcionalidades](#funcionalidades)
+[Propuesta de valor](#propuestadevalor)
 4. [Marco de Gestion](#marcodegestion)
 5. [Planning](#planning1)
 6. [Daily](#daily1)
@@ -62,6 +63,19 @@ Algunos atributos de calidad (RNF) importantes son:
 * Debe ser fácil de usar por las distintas franjas etarias de población.
 * Debe poder mantener la privacidad de datos sensibles de sus usuarios.
 * Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+
+## Propuesta de valor <a name="propuestadevalor"></a>  
+**BONDi: horarios de ómnibus al alcance de tu mano.**
+
+Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte público colectivo.
+- Un nuevo sistema para satisfacer la necesidad de los usuarios a través de una única aplicación móvil para dispositivos Android que integra a toda la red de proveedores de transporte público de Uruguay.
+-  BONDi propone más flexibilidad y conveniencia, permitiendo satisfacer las necesidades específicas para cada usuario, en términos de elección de ruta y tiempos de viaje.
+-Nuestro ecosistema es dinámico y evoluciona constantemente
+- La propuesta de valor clave para los usuarios es a través de la búsqueda de rutas, el despliegue de información de paradas cercanas, detalle de la ocupación del bus, horarios, pago de boleto, historial de rutas y más.
+- Somos pioneros en la compra del boleto urbano a través de nuestra tecnología, permitiendo integrar distintos métodos de pago.
+- Facilitamos la comunicación con la familia o amigos al permitir compartir el viaje, brindando comodidad y seguridad.
+-Permitimos generar oportunidad de mercado a las distintas empresas de transporte público del país, brindando mayor flujo de usuarios y generando una mejora en los servicios que proveen a sus clientes.
+- Al brindar a los ciudadanos mejores servicios de transporte promovemos el uso de transporte público, ayudando a respetar el medio ambiente al reducir la contaminación generada.
 
 # Marco de Gestión <a name="marcodegestion"></a>  
 
@@ -337,10 +351,27 @@ Mañana va a trabajar en la pantalla de buscar linea de omnibus
 ### Retrospective ###
 
 # Prototipo #
-
 Link a Framer:
-
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
+
+Las funcionalidades implementadas en el primer release fueron:
+- Registro de usuario
+- Login de usuario
+- Editar usuario
+- Agregar método de pago
+- Búsqueda de lineas
+- Lineas cercanas
+- Pago de boleto con celular
+
+A continuación se deja evidencia visual de las capturas de las pantallas
+| |  |  |
+|---|---|---|
+| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/2.png | ahttps://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/3.png |
+| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/4.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/5.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/6.png |
+| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/7.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/8.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/9.png |
+| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/10.png | ahttps://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/11.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/12.png |
+| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/13.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/14.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/15.png |
+
 
 # Bibliografía #
 
