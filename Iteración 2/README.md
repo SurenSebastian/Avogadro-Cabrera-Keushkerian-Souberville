@@ -13,6 +13,7 @@
 1. [Introducción](#introduccion)
 2. [Descripción de la aplicación](#descripcionaplicacion)
 3. [Funcionalidades](#funcionalidades)
+[Propuesta de valor](#propuestadevalor)
 4. [Marco de Gestion](#marcodegestion)
 5. [Planning](#planning1)
 6. [Daily](#daily1)
@@ -32,6 +33,7 @@
 20. [Elección de Sistema Operativo](#sistemaoperativo)
 21. [Backlog](#backlog)
 22. [Gestion Agile](#gestionAgile)
+[Prototipo](#gestionAgile)
 
 
 # Introducción <a name="introduccion"></a>
@@ -51,17 +53,32 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
 - Historias de los últimos viajes (líneas de ómnibus utilizadas).
 - Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
 - Compartir mi viaje a otro usuario.
+- Pago de boleto con celular
 - Notificaciones:
-* La línea seleccionada está por llegar a la parada de ómnibus.
-* La siguiente parada es tu destino.
-* Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
-* La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
-* La línea seleccionada tiene un desvío.
-Algunos atributos de calidad (RNF) importantes son:
-* La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
-* Debe ser fácil de usar por las distintas franjas etarias de población.
-* Debe poder mantener la privacidad de datos sensibles de sus usuarios.
-* Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+    * La línea seleccionada está por llegar a la parada de ómnibus.
+    * La siguiente parada es tu destino.
+    * Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+    * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+    * La línea seleccionada tiene un desvío.
+
+Atributos de calidad (RNF):
+   * Alcance a toda la población uruguaya.
+   * Fácil de usar por las distintas franjas etarias de población.
+   * Privacidad de datos sensibles de sus usuarios.
+   * Interfaz principalmente móvil (Android).
+
+## Propuesta de valor <a name="propuestadevalor"></a>  
+**BONDi: horarios de ómnibus al alcance de tu mano.**
+![Logo](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Logos/logo-white.png)
+Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte público colectivo.
+- Un nuevo sistema para satisfacer la necesidad de los usuarios a través de una única aplicación móvil para dispositivos Android que integra a toda la red de proveedores de transporte público de Uruguay.
+-  BONDi propone más flexibilidad y conveniencia, permitiendo satisfacer las necesidades específicas para cada usuario, en términos de elección de ruta y tiempos de viaje.
+-Nuestro ecosistema es dinámico y evoluciona constantemente
+- La propuesta de valor clave para los usuarios es a través de la búsqueda de rutas, el despliegue de información de paradas cercanas, detalle de la ocupación del bus, horarios, pago de boleto, historial de rutas y más.
+- Somos pioneros en la compra del boleto urbano a través de nuestra tecnología, permitiendo integrar distintos métodos de pago.
+- Facilitamos la comunicación con la familia o amigos al permitir compartir el viaje, brindando comodidad y seguridad.
+-Permitimos generar oportunidad de mercado a las distintas empresas de transporte público del país, brindando mayor flujo de usuarios y generando una mejora en los servicios que proveen a sus clientes.
+- Al brindar a los ciudadanos mejores servicios de transporte promovemos el uso de transporte público, ayudando a respetar el medio ambiente al reducir la contaminación generada.
 
 # Marco de Gestión <a name="marcodegestion"></a>  
 
@@ -119,10 +136,10 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   
 
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  -  Para los pull request se establece la metodología que 2 approvers  deben validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main .  El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  - Estructra de Git por Iteración:
-    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
  
 ## Roles <a name="roles"></a> 
 
@@ -154,8 +171,8 @@ Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el
 
 ## Formulario de investigación <a name="formularioInviestiagcion"></a> 
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
-- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
-- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
+- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a> 
 
@@ -165,12 +182,12 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
+- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
 ## Procesamiento de datos <a name="procesamientoDeDatos"></a> 
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
-- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
+- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
 
 ## Analisis de interesados <a name="analisisInteresados"></a> 
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -226,8 +243,41 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 |              |     Alto    |      -Proveedores de servicio de transporte   público    -Intendencias     -Equipo de proyecto    |     -MTOP - Dirección Nacional de Transporte                                                                                    |
 
 
-- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
+- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
+### Detalle de las funcionalidades por stakeholder ###
+
+**Usuarios:**
+- Login de usuario.
+- Registrar nuevo usuario.
+- Editar usuario.
+- Restaurar contraseña.
+- Buscar línea de ómnibus utilizando filtros.
+- Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
+- Historias de los últimos viajes (líneas de ómnibus utilizadas).
+- Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
+- Compartir mi viaje a otro usuario.
+- Pago de boleto con celular
+- Escalabilidad a toda la población uruguaya.
+- Alcance a toda la población uruguaya.
+- Fácil de usar por las distintas franjas etarias de población.
+- Privacidad de datos sensibles de sus usuarios.
+- Interfaz principalmente móvil (Android).
+- Notificaciones:
+    * La línea seleccionada está por llegar a la parada de ómnibus.
+    * La siguiente parada es tu destino.
+    * Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+    * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+    * La línea seleccionada tiene un desvío.
+**Gobierno:**
+- Alcance a toda la población uruguaya.
+- Privacidad de datos sensibles de sus usuarios.
+**Empresas de transporte:**
+- Buscar línea de ómnibus utilizando filtros.
+- Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
+- Pago de boleto con celular
+**Playstore**
+-Interfaz principalmente móvil (Android).
 
 # Elección de Sistema Operativo <a name="sistemaoperativo"></a> 
 
@@ -249,7 +299,7 @@ Otro factor significativo es el hecho de que somos un equipo con poca experienci
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
 
 ## Backlog <a name="backlog"></a>
- * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/iteracion2-suren/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
+ * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
  * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
 
 
@@ -291,8 +341,15 @@ Para el primer sprint decidimos utilizar el board de Open Box, que consiste en i
 [Open the Box Retro Board](https://metroretro.io/templates/open-the-box-retrospective "Open the Box Retro Board")
 
 Los resultados de la Retrospective se pueden encontrar en el archivo
+[RetroISA1Sprint1.csv](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/RetroISA1Sprint1.csv)
 
-"Iteracion 1\Evidencias\Sprint\RetroISA1Sprint1.csv"
+**Análisis:**
+En términos generales, respecto a lo que deberíamos empezar a hacer o mejorar, el equipo concordó en que se debería crear eventos en google calendar para la coordinación de las reuniones, también que se deberían de mejorar algunos aspectos de comunicación en cuanto a si no se puede asistir a alguna reunión o si no se llega con las tareas. Se podría mejorar en el uso de la herramienta de devops y en la organización de la documentación.
+
+En consideración a lo que se debería dejar de hacer, se hace mención a situaciones respecto a la puntualidad de las reuniones y al poco avance en general de la entrega en los primeros días del sprint.
+
+En cuanto a la parte positiva y como cosas a mantener, se destacan como punto fuerte la comunicación y flexibilidad entre los compañeros, la eficacia de las daily y la disposición de reasignación de tareas durante el desarrollo del sprint.
+
 
 Se crearon los siguientes items en el backlog como consecuencia de los action items
 
@@ -336,11 +393,56 @@ Mañana va a trabajar en la pantalla de buscar linea de omnibus
 
 ### Retrospective ###
 
-# Prototipo #
-
+# Prototipo # <a name="Prototipo"></a>
 Link a Framer:
-
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
+Link aL prototipo publicado:
+https://happen-forego-312426.framer.app/
+
+Las funcionalidades implementadas en el primer release fueron:
+- Registro de usuario
+- Login de usuario
+- Editar usuario
+- Agregar método de pago
+- Búsqueda de lineas
+- Lineas cercanas
+- Pago de boleto con celular
+
+## Evidencia ##
+A continuación se deja evidencia visual de las diferentes pantallas
+| -|-  |
+|---|---|
+| ![Pantallaprincipal](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/1.png) | ![MenuDesplegado](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/2.png) | 
+| ![Registro](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/3.png) | ![Login](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/4.png) | 
+| ![RestaurarPass](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/5.png) | ![IngresarMail](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/6.png) |
+| ![MenuLogged](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/7.png) | ![MetodoPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/8.png) |
+| ![ConfigurarTarjeta](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/9.png) | ![TarjetaAgregada](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/10.png) | 
+| ![Lineas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/11.png) | ![MapaLinea](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/12.png) |
+| ![LineasCercanas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/13.png) | ![OpcionPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/14.png) | 
+| ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/15.png) |
+
+## Validacion ##
+Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
+
+### Análisis del feedback de usuarios
+-En terminos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
+-Como funcionalidades que podriamos agregar fueron sugeridas: mostrar ubicación de los omnibus en tiempo real, opción de busqueda de viaje ingresando inicio y destino, agregar accesibilidad para no videntes y agregar una opción que permita buscar cuanto demora en promedio un bus en llegar de una parada a otra.
+-Respecto a las funcionalidades de inicio de sesión y registro, algunos usuarios sugirieron mostrar un icono en el menu principal que muestre si estás logged, aunque actualmente se encuentra implementado tal vez no esté lo suficientemente visible para el usuario. También se sugirió que en los campos de ingreso de fecha de nacimiento, se utilice un calendario que permita seleccionar la fecha.
+-En cuanto a los datos de usuario, se sugirió que exista una pantalla que muestre los datos del usuario, previo a la edición.
+-De la funcionalidad de pago se sugiere que se informe en algún área qué métodos de pago se encuentran asociados y que en caso de permitir tener más de uno se pueda seleccionar el deseado antes del pago.
+-Para las funcionalidades que impliquen ingresar una dirección que exista un botón que permita seleccionar automáticamente la ubicación actual del usuario.
+
+Se crearon los siguientes items en el backlog como consecuencia de la validación de usuario
+
+- Corregir dualidad de idioma en toda la aplicación.
+- Busqueda de viaje con incio/destino
+- Calculo tiempo estimado entre una parada y otra
+- Reubicar el icono de usuario logeado para hacerlo mas visible
+- Pantalla para ver datos de usuario (Previa a edición)
+- Ver metodos de pagos asociados
+- Seleccionar metodo de pago a usar
+- Seleccionar ubicación actual
+
 
 # Bibliografía #
 
