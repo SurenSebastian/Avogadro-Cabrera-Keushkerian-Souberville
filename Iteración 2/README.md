@@ -53,17 +53,19 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
 - Historias de los últimos viajes (líneas de ómnibus utilizadas).
 - Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
 - Compartir mi viaje a otro usuario.
+- Pago de boleto con celular
 - Notificaciones:
-* La línea seleccionada está por llegar a la parada de ómnibus.
-* La siguiente parada es tu destino.
-* Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
-* La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
-* La línea seleccionada tiene un desvío.
+    * La línea seleccionada está por llegar a la parada de ómnibus.
+    * La siguiente parada es tu destino.
+    * Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
+    * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
+    * La línea seleccionada tiene un desvío.
+
 Algunos atributos de calidad (RNF) importantes son:
-* La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
-* Debe ser fácil de usar por las distintas franjas etarias de población.
-* Debe poder mantener la privacidad de datos sensibles de sus usuarios.
-* Debe contar con una interfaz principalmente móvil (iOS y/o Android).
+   * La aplicación debe poder escalar a millones de usuarios (mínimamente a toda la población uruguaya).
+   * Debe ser fácil de usar por las distintas franjas etarias de población.
+   * Debe poder mantener la privacidad de datos sensibles de sus usuarios.
+   * Debe contar con una interfaz principalmente móvil (iOS y/o Android).
 
 ## Propuesta de valor <a name="propuestadevalor"></a>  
 **BONDi: horarios de ómnibus al alcance de tu mano.**
@@ -354,6 +356,8 @@ Mañana va a trabajar en la pantalla de buscar linea de omnibus
 # Prototipo # <a name="Prototipo"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
+Link aL prototipo publicado:
+https://happen-forego-312426.framer.app/
 
 Las funcionalidades implementadas en el primer release fueron:
 - Registro de usuario
@@ -387,6 +391,18 @@ Se procedió a realizar una encuesta de google forms a algunos usuarios de trans
 -En cuanto a los datos de usuario, se sugirió que exista una pantalla que muestre los datos del usuario, previo a la edición.
 -De la funcionalidad de pago se sugiere que se informe en algún área qué métodos de pago se encuentran asociados y que en caso de permitir tener más de uno se pueda seleccionar el deseado antes del pago.
 -Para las funcionalidades que impliquen ingresar una dirección que exista un botón que permita seleccionar automáticamente la ubicación actual del usuario.
+
+Se crearon los siguientes items en el backlog como consecuencia de la validación de usuario
+
+- Corregir dualidad de idioma en toda la aplicación.
+- Busqueda de viaje con incio/destino
+- Calculo tiempo estimado entre una parada y otra
+- Reubicar el icono de usuario logeado para hacerlo mas visible
+- Pantalla para ver datos de usuario (Previa a edición)
+- Ver metodos de pagos asociados
+- Seleccionar metodo de pago a usar
+- Seleccionar ubicación actual
+
 
 # Bibliografía #
 
