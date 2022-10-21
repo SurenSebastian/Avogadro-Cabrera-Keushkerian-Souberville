@@ -364,13 +364,16 @@ Las funcionalidades implementadas en el primer release fueron:
 - Pago de boleto con celular
 
 A continuación se deja evidencia visual de las capturas de las pantallas
-| |  |  |
-|---|---|---|
-| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/2.png | ahttps://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/3.png |
-| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/4.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/5.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/6.png |
-| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/7.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/8.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/9.png |
-| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/10.png | ahttps://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/11.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/12.png |
-| https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/13.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/14.png | https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/15.png |
+| -|-  |
+|---|---|
+| ![Pantallaprincipal]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/1.png | ![MenuDesplegado]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/2.png | 
+| ![Registro]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/3.png | ![Login]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/4.png | 
+| ![RestaurarPass]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/5.png | ![IngresarMail]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/6.png |
+| ![MenuLogged]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/7.png | ![MetodoPago]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/8.png |
+| ![ConfigurarTarjeta]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/9.png | ![TarjetaAgregada] https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/10.png | 
+| ![Lineas]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/11.png | ![MapaLinea]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/12.png |
+| ![LineasCercanas]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/13.png | ![OpcionPago]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/14.png | 
+| ![Registro]https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/feature/denise/Iteraci%C3%B3n%202/Prototipo/15.png |
 
 
 # Bibliografía #
