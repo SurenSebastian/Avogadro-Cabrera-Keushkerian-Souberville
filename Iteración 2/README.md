@@ -40,11 +40,11 @@
 
 Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
 
-# Descripción de la aplicación #
+# Descripción de la aplicación <a name="descripcionaplicacion"></a>
 El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
 El MVP de la aplicación está dirigida principalmente a personas de cualquier edad que utilicen el transporte público, como usuarios finales. 
 
-## Funcionalidades ##
+## Funcionalidades  <a name="funcionalidades"></a>
 - Login de usuario.
 - Registrar nuevo usuario.
 - Editar usuario.
@@ -81,7 +81,7 @@ Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte pú
 -Permitimos generar oportunidad de mercado a las distintas empresas de transporte público del país, brindando mayor flujo de usuarios y generando una mejora en los servicios que proveen a sus clientes.
 - Al brindar a los ciudadanos mejores servicios de transporte promovemos el uso de transporte público, ayudando a respetar el medio ambiente al reducir la contaminación generada.
 
-# Marco de Gestión #
+# Marco de Gestión <a name="marcodegestion"></a>
 
 Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias: 
 
@@ -91,10 +91,10 @@ Para la gestión de este proyecto vamos a utilizar Scrum, con las ceremonias:
 - Sprint Review
 - Backlog Refinement
 
-## Planning ##
+## Planning <a name="planning1"></a>
 Se va a realizar el primer día de cada sprint, la duración aproximada va a ser de 2 horas, se va a estimar utilizando planning poker. La escala de Story Points va a ser Fibonacci, considerando que 13 o mayor significa que la Story es muy compleja para ser completada en un sprint y va a necesitar ser dividida en partes más pequeñas.
 
-## Daily ##
+## Daily <a name="daily1"></a>
 Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a diario a revisar progreso dado que no vamos a poder generar un progreso diario. Para ello vamos a tener 3 daily por semana distribuidas de la siguiente forma
 
 - Jueves
@@ -106,19 +106,19 @@ Esto nos da 2 ventajas claras:
 1. Facilita la coordinación, ya que no necesitamos estar físicamente en el mismo lugar y WhatsApp es una aplicación que todos utilizamos.
 2. Al ser 3 veces a la semana nos permite revisar el progreso del sprint conforme los momentos de trabajo que va a tener nuestro equipo. Ya que de lunes a viernes por diferentes circunstancias no se espera demasiado progreso, poner una daily diaria implicaría muchas veces que no hay updates, con lo cual supone una perdida de tiempo. Sin embargo si fuera menor la frecuencia terminaría quedando muchos días sin sincronización, con lo cual podría generar situaciones complicadas a la hora de gestionar el proyecto.
 
-## Sprint Retrospective ##
+## Sprint Retrospective <a name="sprintretrospective"></a>
 Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una duración máxima de 30 minutos y todos los action items van a ser convertidos en product backlog items, priorizados e ingresados en el próximo sprint planning para considerar y aplicar las mejoras.
 
-## Sprint Review ##
+## Sprint Review <a name="sprintreview"></a>
 Esta ceremonia va a suceder el último día del sprint (viernes) y todo el feedback recibido va a ser convertido en product backlog items que luego deben ser priorizados con el PO e ingresados en futuros sprints. No va a durar más de 30 minutos y el objetivo es mostrar el incremento generado durante el sprint al PO para su validación.
 
-## Backlog Refinement ##
+## Backlog Refinement <a name="backlogrefinement"></a>
 Se va a realizar un refinamiento del backlog cada jueves a excepción de la última semana de cada sprint, en este caso el equipo va a estar enfocado en la planning y estimación del siguiente sprint.
 
-## Capacity ##
+## Capacity <a name="capacity"></a>
 Se va a considerar que cada miembro puede trabajar en total 7hs semanales.
 
-## Definition of Ready ##
+## Definition of Ready <a name="dor"></a>
 Una User Story se considera pronta para ser incluida en una planning si cumple con las condiciones:
 
 - Es clara y realizable: el equipo entiende la User Story y puede descomponer la User Story en tareas las cuales todas son realizables dentro de un sprint considerando dependencias.
@@ -128,7 +128,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 - Es demostrable: el equipo tiene en claro como hacer una demo de la User Story, tiene identificados a los stakeholders o interesados que corresponda demostrar la Story.
 
 
-## Definition of Done ##
+## Definition of Done <a name="dod"></a>
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
 * En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
@@ -142,31 +142,43 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
  - Estructra de Git por Iteración:
     - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
  
-## Roles: ##
+## Roles: <a name="roles"></a>
 
 **Scrum Master:**
-  - Daniel Cabrera 
+
+  - Daniel Cabrera:
+    - Encargado de gestionar y asegurar que el proceso Scrum se lleva a cabo correctamente.
+    - Facilitar la ejecución del proceso y sus mecánicas.
+    - Tratar de eliminar impedimentos que van surgiendo. 
   
 **Product Owner:**
-  - Suren Keushkerian
+  
+* Suren Keushkerian:
+    * Encargado de optimizar y maximizar el valor del producto.
+    * Gestionar el Product Backlog para manetenerlo estructurado y priorizado.
   
 **Developers:**
+
   - Denise Souberville
   - Leandro Avogadro
   - Daniel Cabrera
   - Suren Keushkerian
+
+* Encargados de  desarrollar el producto.
+    * Son responsables de ser auto-organizádos y auto-gestionádos para entregar un incremento de software al final del sprint.
+    * Participan activamente en las ceremonias de Scrum.
   
 # Análisis de Requerimientos #
-## Relevamiento de aplicaciones existentes ##
+## Relevamiento de aplicaciones existentes <a name="relevamientoAplicaciones"></a>
 
 Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto. 
 
-### Formulario de investigación ##
+### Formulario de investigación <a name="formularioInviestiagcion"></a>
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
 - Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
 - Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
-## Realización de Encuestas
+## Realización de Encuestas <a name="realizacionEncuestas"></a>
 
 Procedimos también a buscar ideas y requerimientos mediante la realización de encuestas a algunos usuarios del transporte público de Montevideo.
 
@@ -176,12 +188,12 @@ Se realizó un formulario con 8 preguntas para lograr recabar información tal c
 
 - Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
-## Procesamiento de datos
+## Procesamiento de datos <a name="procesamientoDeDatos"></a>
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
 - Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
 
-## Analisis de interesados
+## Analisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
@@ -270,7 +282,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 **Playstore**
 -Interfaz principalmente móvil (Android).
 
-# Elección de Sistema Operativo #
+# Elección de Sistema Operativo <a name="sistemaoperativo"></a>
 
 Luego de una búsqueda que nos brindara estadísticas que a nuestro criterio puedan ser representativas del uso de cada sistema operativo dentro de la sociedad uruguaya, se encontraron los siguientes artículos:
 
