@@ -388,7 +388,22 @@ En este segundo sprint el equipo tuvo que agregar algunas Stories durante el spr
 
 En este sprint logramos tener un desempeño más parejo que el anterior, pudiendo ser un poco más constantes en el esfuerzo.
 
-Por otro lado también se puede observar algunos puntos de subida en el burndown
+Por otro lado también se puede observar algunos puntos de subida en el burndown que corresponden a esos momentos en que se agregaron nuevas User Stories, como se mencionó en la sección Planning.
+
+![Burndown chart](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/burndown.png)
+
+**Velocity**
+Si consideramos los Story Points para los últimos 2 Sprints
+Sprint 1 - 36
+Sprint 2 - 32
+
+La velocidad del equipo se puede calcular como
+(36+32) / 2 = 34
+
+Mejor Sprint = 36
+Peor Sprint = 32
+
+Por lo tanto la velocidad de nuestro equipo es 34.
 
 ### Daily ###
 **Registro de daily realizada el 15/10**
@@ -427,11 +442,48 @@ Como se puede observar por los resultados hubo una buena coordinación del lado 
 
 Mientras que por otro lado en cuanto a los problemas evidenciados se observa el problema de planificación que tuvimos por los items que identificamos tarde en el sprint, para lo cual se creó un item para revisar la rúbrica previo a la iteración y crear las stories necesarias. El otro feedback que surgió fue respecto al uso de framer y la creación de los prototipos, que por un lado framer nos pareció una herramienta más difícil de lo que esperábamos y por otro lado el proceso de diseño de los prototipos fue un poco caótico, sin lineamientos de estilo y con poca coordinación en ese sentido. Para esto se creo un item para elegir una pantalla como referencia de look and feel para ajustarnos a ese ejemplo. 
 
-### Roadmap ###
+### StoryMap ###
 A continuación se documenta el roadmap generado hasta el sprint 2.
 Como se puede observar hay algunas funcionalidades que el equipo considera valiosas pero no hay suficiente capacidad para completarlas, con lo cual las consideramos para el sprint 5 en adelante, junto con las subsecuentes mejoras que puedan surgir a lo largo de los sprints restantes.
 
-![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/specmap-Obligatorio ISA1-Roadmap.png)
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/specmap-Obligatorio%20ISA1-Roadmap.png)
+
+## Sprint 3 ##
+### Planning ###
+Para este tercer sprint el objetivo es completar lo más posible la aplicación, intentando cumplir con todas las funcionalidades pedidas. Para eso el equipo estimo y considero 32 Story Points, algo bastante cercano a la velocidad actual del equipo 34.
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/Planning.png)
+
+![Planning2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/Planning2.png)
+
+### Sprint Progress ###
+
+
+**Burndown**
+
+**Velocity**
+Si consideramos los Story Points para los últimos Sprints
+Sprint 1 - 36
+Sprint 2 - 32
+Sprint 3 - 32
+
+La velocidad del equipo se puede calcular como
+(36+32+32) / 3 = 34
+
+Mejor Sprint = 36
+Peor Sprint = 32
+
+Por lo tanto la velocidad de nuestro equipo es 34.
+
+
+### Daily ###
+**Registro de daily realizada el 15/10**
+
+
+### Retrospective ###
+ 
+
+### StoryMap ###
 
 # Prototipo # <a name="Prototipo"></a>
 Link a Framer:
