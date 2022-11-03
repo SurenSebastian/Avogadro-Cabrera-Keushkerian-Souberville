@@ -132,9 +132,17 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
 * En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-* Para el sprint 1, el DoD de las user story va a contemplar:
+
+* Para el sprint 1:
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
+
+* Para el sprint 2 y 3:
+  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
+  * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
+  * Registro de Horas que llevó la tarea.
+  * Evidencia de la tarea realizada mediante documentación.
+
   
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
  - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
