@@ -471,7 +471,9 @@ Como se puede observar hay algunas funcionalidades que el equipo considera valio
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/specmap-Obligatorio ISA1-Roadmap.png)
 
-# Prototipo # <a name="Prototipo"></a>
+# Prototipo  <a name="Prototipo"></a>
+
+## Sprint 2
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 Link aL prototipo publicado:
@@ -486,7 +488,7 @@ Las funcionalidades implementadas en el primer release fueron:
 - Lineas cercanas
 - Pago de boleto con celular
 
-## Evidencia ##
+
 A continuación se deja evidencia visual de las diferentes pantallas
 | -|-  |
 |---|---|
@@ -499,10 +501,9 @@ A continuación se deja evidencia visual de las diferentes pantallas
 | ![LineasCercanas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/13.png) | ![OpcionPago](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/14.png) | 
 | ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/15.png) |
 
-## Validación ##
+### Validación
 Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
 
-## Evidencia ##
 A continuación se deja evidencia del resultado de la encuesta
 | -|-  |
 |---|---|
@@ -513,12 +514,18 @@ A continuación se deja evidencia del resultado de la encuesta
 
 ### Análisis del feedback de usuarios
 -En terminos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
+
 -Como funcionalidades que podriamos agregar fueron sugeridas: mostrar ubicación de los omnibus en tiempo real, opción de busqueda de viaje ingresando inicio y destino, agregar accesibilidad para no videntes y agregar una opción que permita buscar cuanto demora en promedio un bus en llegar de una parada a otra.
+
 -Respecto a las funcionalidades de inicio de sesión y registro, algunos usuarios sugirieron mostrar un icono en el menu principal que muestre si estás logged, aunque actualmente se encuentra implementado tal vez no esté lo suficientemente visible para el usuario. También se sugirió que en los campos de ingreso de fecha de nacimiento, se utilice un calendario que permita seleccionar la fecha.
+
 -En cuanto a los datos de usuario, se sugirió que exista una pantalla que muestre los datos del usuario, previo a la edición.
+
 -De la funcionalidad de pago se sugiere que se informe en algún área qué métodos de pago se encuentran asociados y que en caso de permitir tener más de uno se pueda seleccionar el deseado antes del pago.
+
 -Para las funcionalidades que impliquen ingresar una dirección que exista un botón que permita seleccionar automáticamente la ubicación actual del usuario.
 
+#### Product Backlog
 Se crearon los siguientes items en el backlog como consecuencia de la validación de usuario
 
 - Corregir dualidad de idioma en toda la aplicación.
@@ -529,6 +536,43 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Ver metodos de pagos asociados
 - Seleccionar metodo de pago a usar
 - Seleccionar ubicación actual
+
+
+## Sprint 3
+Link a Framer:
+https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
+https://framer.com/projects/Notificaciones-Obli--9YKNZoie33LfTc9MkxCP-c1OgY?node=augiA20Il
+Link aL prototipo publicado:
+
+**Aplicacion**
+
+https://happen-forego-312426.framer.app/
+
+**Notificaciones**
+https://frank-timing-834165.framer.app/
+
+Las funcionalidades implementadas en el segundo release fueron:
+- Registro de usuario
+- Login de usuario
+- Editar usuario
+- Agregar método de pago
+- Búsqueda de lineas
+- Lineas cercanas
+- Pago de boleto con celular
+- Búsqueda inicio - destino
+- Participación en sorteos
+- Agregar favoritos
+
+A continuación se deja evidencia visual de las diferentes pantallas
+| -|-  |
+|---|---|
+
+### Validación
+
+### Análisis del feedback de usuarios
+
+#### Product Backlog
+
 
 
 # Bibliografía #
