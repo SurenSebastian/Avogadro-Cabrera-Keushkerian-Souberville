@@ -26,7 +26,7 @@
 13. [Estrategias de Branching y Pull Request](#estrategiaBranching)
 14. [Roles](#roles)
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
-16. [Formulario de investigación](#formularioInviestiagcion)
+16. [Formulario de investigación](#formularioInvestigacion)
 17. [Realización de Encuestas](#realizacionEncuestas)
 18. [Procesamiento de datos](#procesamientoDeDatos)
 19. [Analisis de interesados](#analisisInteresados)
@@ -55,6 +55,7 @@ El MVP de la aplicación está dirigida principalmente a personas de cualquier e
 - Modo viaje. El usuario debe poder seguir el trayecto de la línea de ómnibus a la que se subió, pudiendo saber en qué parte del recorrido se encuentra, cuáles son las paradas hasta el próximo destino e información del destino.
 - Compartir mi viaje a otro usuario.
 - Pago de boleto con celular
+- Participación en sorteos
 - Notificaciones:
     * La línea seleccionada está por llegar a la parada de ómnibus.
     * La siguiente parada es tu destino.
@@ -73,13 +74,22 @@ Atributos de calidad (RNF):
 ![Logo](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Logos/logo-white.png)
 Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte público colectivo.
 - Un nuevo sistema para satisfacer la necesidad de los usuarios a través de una única aplicación móvil para dispositivos Android que integra a toda la red de proveedores de transporte público de Uruguay.
--  BONDi propone más flexibilidad y conveniencia, permitiendo satisfacer las necesidades específicas para cada usuario, en términos de elección de ruta y tiempos de viaje.
+- BONDi propone más flexibilidad y conveniencia, permitiendo satisfacer las necesidades específicas para cada usuario, en términos de elección de ruta y tiempos de viaje.
 -Nuestro ecosistema es dinámico y evoluciona constantemente
-- La propuesta de valor clave para los usuarios es a través de la búsqueda de rutas, el despliegue de información de paradas cercanas, detalle de la ocupación del bus, horarios, pago de boleto, historial de rutas y más.
-- Somos pioneros en la compra del boleto urbano a través de nuestra tecnología, permitiendo integrar distintos métodos de pago.
+- La propuesta de valor clave para los usuarios es a través de la búsqueda de rutas, el despliegue de información de paradas cercanas, detalle de la ocupación del bus, horarios, pago de boleto, historial de rutas, participación en sorteos y más.
 - Facilitamos la comunicación con la familia o amigos al permitir compartir el viaje, brindando comodidad y seguridad.
 -Permitimos generar oportunidad de mercado a las distintas empresas de transporte público del país, brindando mayor flujo de usuarios y generando una mejora en los servicios que proveen a sus clientes.
 - Al brindar a los ciudadanos mejores servicios de transporte promovemos el uso de transporte público, ayudando a respetar el medio ambiente al reducir la contaminación generada.
+### Funcionalidades únicas
+- Somos pioneros en la **compra del boleto urbano a través de nuestra tecnología**, permitiendo integrar distintos métodos de pago.
+
+ Actualmente el dinero en efectivo se encuentra cada vez más en desuso, y la recarga de boletos en las redes de cobranza del país puede ser inconveniente si no tienes ningún local cerca o si estás apurado. Con nuestra aplicación proponemos ahorrar tiempo al usuario al permitir que asocie el método de pago de su preferencia, de esta manera puede despreocuparse de si lleva efectivo o si le queda carga en su tarjeta STM. Con tan solo un par de clics puede pagar el boleto sin inconvenientes y de manera muy práctica!.
+
+ - Generamos oportunidades de obtener **premios de diversa indole mediante sorteos**.
+
+ Con el fin de brindar premios a los usuarios, nuestra aplicación tiene la funcionalidad de participación en sorteos de forma muy sencilla, tan solo se debe mirar una publicidad para generar una chance de participar. Los premios varian semanalmente y pueden obtener premios como boletos gratis, entradas a espectaculos, electrodomésticos y mucho más!
+
+ Esta funcionalidad permite monetizar la aplicación, a la vez que brinda un espacio para distintas empresas que quieran publicitar su producto, tanto como para brindar el premio, como para que su publicidad sea vista.
 
 # Marco de Gestión <a name="marcodegestion"></a>
 
@@ -173,8 +183,17 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 
 Aplicamos el proceso de ingeniería inversa a 3 aplicaciones ya existentes en el mercado, a los efectos de obtener mayor entendimiento del problema, lograr obtener ideas para adaptar a nuestra solución e intentar agregar mejoras o nuevas funcionalidades al backlog que puedan darle un valor agregado al producto. 
 
-### Formulario de investigación <a name="formularioInviestiagcion"></a>
+### Formulario de investigación <a name="formularioInvestigacion"></a>
 Se creó un formulario para la investigación de las aplicaciones existentes, el cuál fue completado para cada una de las aplicaciones Moovit, ComoIr y Citymapper.
+
+En dicho formulario recabamos información como cantidad de descargas, puntajes, funcionalidades y las regiones que abarca.
+
+Como ejemplo se adjunta imagen del formulario para una de dichas aplicaciones:
+
+![COMOIR](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/EjemploCOMOIR.png)
+
+El informe completo queda disponible en los siguientes archivos adjuntos:
+
 - Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
 - Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
@@ -186,20 +205,36 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver [Encuesta de Apliacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
+- Ver [Encuesta de Aplicacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
 ## Procesamiento de datos <a name="procesamientoDeDatos"></a>
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
 
-- Ver [Procesamiento de Encuestas y Análisis de Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Procesamiento%20de%20Encuestas%20y%20An%C3%A1lisis%20de%20Aplicaciones.docx)
+**Procesamiento de Encuestas y Análisis de Aplicaciones**
 
-## Analisis de interesados <a name="analisisInteresados"></a>
+De las encuestas realizadas para la aplicación BONDi se logró recabar información tal como las edades de los usuarios, tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje.
+
+De las encuestas y el análisis de aplicaciones se lograron obtener nuevos requerimientos a los ya solicitados inicialmente
+Algunos de los nuevos requerimientos a estudiar son:
+*	Pago de Boleto con el Celular
+*	Que se muestre la cantidad de asientos disponibles en el ómnibus
+*	Trayecto en vivo que muestre demoras en la ruta del ómnibus
+*	Notificación de evento que modifiquen el horario normal (obras, paros)
+*	Notificación de que GPS del ómnibus esta apagado
+*	Participar en sorteos de Boletos Gratis.
+*	Compartir el viaje con Contacto
+*	Permite guardar favorito de las ubicaciones
+*	Permite sincronizar viajes con eventos del calendario de google por ejemplo
+*	Sugiere combinaciones de ómnibus
+
+
+# Analisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
 
-### 1. Lista de interesados
-#### a.	Interesados Externos
+## 1. Lista de interesados
+### a.	Interesados Externos
 Usuarios del sistema de transporte público: personas que utilizan o piensan utilizar en algún momento el transporte colectivo.
 
 Proveedores de servicio de transporte público: empresas que proveen flota de transporte como ser CUTCSA, COECT, COPSA, etc.
@@ -213,11 +248,11 @@ Ministerio de Transporte y Obras Públicas - Dirección Nacional de Transporte: 
 Appstore y Play Store: son los Marketplace en los cuales debemos poner a disposición nuestra aplicación, los cuales nos deben revisar la app antes de publicarla.
 
 
-#### b.	Interesados Internos
+### b.	Interesados Internos
 Equipo de proyecto: Product Owner, Developers, Scrum Master.
 
 
-### 2. Registro de interesados
+## 2. Registro de interesados
 
 |Nombre |     Rol                   |     Requerimientos                                                                                                                                                                |     Expectativas                                                                         |     Influencia    |     Clasificación    |
 |-------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------|----------------------|
@@ -229,7 +264,7 @@ Equipo de proyecto: Product Owner, Developers, Scrum Master.
 |     Appstore y Play Store                             |     Asesor                |     Que   no contengan contenido restringido, ni propiedad intelectual robada, que siga   con las normas de seguridad y privacidad y que sus funcionalidades no estén   rotas.    |     Comprometerse   a proteger al usuario y a brindar calidad en las aplicaciones.       |     Media         |     Amigo            |
 |     Equipo de proyecto                                |     Creador               |     Aprender,   exonerar la materia.                                                                                                                                              |     Aprender   el uso de la metodología SCRUM.                                           |     Alta          |     Amigo            |
 
-### 3. Matrices de interesados
+## 3. Matrices de interesados
 Según lo analizado se procedió a clasificar a los interesados según su nivel de poder e interés. Los jugadores claves son los que tienen alto poder e interés en el proyecto, pero también hay que mantener satisfechos a los que tienen alto poder pero no tanto interés. A los que tienen bajo interés y poder se les prestará menos dedicación al momento de satisfacerlos.
 
 |              |             |     Interés                     |                                                                                                                                                                                                |
@@ -248,7 +283,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 
 - Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
-### Detalle de las funcionalidades por stakeholder ###
+## Detalle de las funcionalidades por stakeholder ###
 
 **Usuarios:**
 - Login de usuario.
@@ -272,13 +307,16 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
     * Tu línea frecuente llega en X minutos (dependiendo de la distancia del usuario a la parada) a tu parada habitual.
     * La línea seleccionada tiene un retraso y demorará en llegar a tu parada origen.
     * La línea seleccionada tiene un desvío.
+
 **Gobierno:**
 - Alcance a toda la población uruguaya.
 - Privacidad de datos sensibles de sus usuarios.
+
 **Empresas de transporte:**
 - Buscar línea de ómnibus utilizando filtros.
 - Listado de las líneas más cercanas al usuario con información del destino/origen/tiempo estimado, con la información de cantidad de pasajeros en las mismas.
 - Pago de boleto con celular
+
 **Playstore**
 -Interfaz principalmente móvil (Android).
 
@@ -463,6 +501,15 @@ A continuación se deja evidencia visual de las diferentes pantallas
 
 ## Validación ##
 Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
+
+## Evidencia ##
+A continuación se deja evidencia del resultado de la encuesta
+| -|-  |
+|---|---|
+| ![Pagina1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion1.png) | ![Pagina2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion2.png) | 
+| ![Pagina3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion3.png) | ![Pagina4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion4.png) | 
+| ![Pagina5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion5.png) | ![Pagina6](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion6.png) |
+| ![Pagina7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion7.png) |  |
 
 ### Análisis del feedback de usuarios
 -En terminos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
