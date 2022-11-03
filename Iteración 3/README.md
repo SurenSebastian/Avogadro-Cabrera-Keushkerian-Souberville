@@ -143,6 +143,13 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   * Registro de Horas que llevó la tarea.
   * Evidencia de la tarea realizada mediante documentación.
 
+*  Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
+  * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
+  * Debe poder mantener la privacidad de datos sensibles de sus usuarios, así que se usaran los principio de la ISO 27701 para la gestión de la privacidad y la información
+  * La interfaz de diseño móvil será en Android ,e llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
+  
+
+
   
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
  - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
