@@ -502,7 +502,7 @@ A continuación se deja evidencia visual de las diferentes pantallas
 | ![EdicionUsuario](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Prototipo/15.png) |
 
 ### Validación
-Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/EncuestaRespuestas.pdf)
+Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Validacion/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Validacion/EncuestaRespuestas.pdf)
 
 A continuación se deja evidencia del resultado de la encuesta
 | -|-  |
@@ -526,7 +526,7 @@ A continuación se deja evidencia del resultado de la encuesta
 -Para las funcionalidades que impliquen ingresar una dirección que exista un botón que permita seleccionar automáticamente la ubicación actual del usuario.
 
 #### Product Backlog
-Se crearon los siguientes items en el backlog como consecuencia de la validación de usuario
+Se crearon los siguientes items en el backlog como consecuencia de la validación de usuarios:
 
 - Corregir dualidad de idioma en toda la aplicación.
 - Busqueda de viaje con incio/destino
@@ -558,6 +558,7 @@ Las funcionalidades implementadas en el segundo release fueron:
 - Agregar método de pago
 - Búsqueda de lineas
 - Lineas cercanas
+- Historial de viajes
 - Pago de boleto con celular
 - Búsqueda inicio - destino
 - Participación en sorteos
@@ -566,14 +567,64 @@ Las funcionalidades implementadas en el segundo release fueron:
 A continuación se deja evidencia visual de las diferentes pantallas
 | -|-  |
 |---|---|
+| ![Foto1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/1.png) | ![Foto2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/2.png) | 
+| ![Foto3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/3.png) | ![Foto4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/4.png) | 
+| ![Foto5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/5.png) | ![Foto5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/5.png) | 
+| ![Foto6](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/6.png) | ![Foto7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/7.png) | 
+| ![Foto8](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/8.png) | ![Foto9](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/9.png) |
+| ![Foto10](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/10.png) | ![Foto11](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/11.png) |
+| ![Foto12](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/12.png) | ![Foto13](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/13.png) |   
+| ![Foto14](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/14.png) | ![Foto15](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/15.png) | 
+| ![Foto16](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/16.png) | ![Foto17](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/17.png) | 
+| ![Foto18](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/18.png) | ![Foto19](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/19.png) | 
+| ![Foto20](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/20.png) | ![Foto21](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/21.png) |
+| ![Foto22](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/22.png) | ![Foto23](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/23.png) |  
+| ![Foto24](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/24.png) | ![Foto25](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/25.png) | 
+| ![Foto26](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/26.png) | ![Foto27](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/27.png) | 
+| ![Foto28](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/28.png) | ![Foto29](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/29.png) | 
+| ![Foto30](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/30.png) | ![Foto31](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/31.png) | 
+| ![Foto32](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/32.png) | ![Foto33](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/33.png) | 
+| ![Foto34](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/34.png) | ![Foto35](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/35.png) |
+ | ![Foto36](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/36.png) |  | 
+
 
 ### Validación
+Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaRespuestas.pdf)
+
+A continuación se deja evidencia del resultado de la encuesta
+| -|-  |
+|---|---|
+| ![Pagina1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion1.png) | ![Pagina2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion2.png) | 
+| ![Pagina3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion3.png) | ![Pagina4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion4.png) | 
+| ![Pagina5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion5.png) | ![Pagina6](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion6.png) |
+| ![Pagina7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion7.png) | ![Pagina8](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion8.png) |
+| ![Pagina9](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion9.png) | ![Pagina10](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion10.png) |
 
 ### Análisis del feedback de usuarios
 
+- Respecto a los formularios, se sugirió indicar cuales campos son obligatorios, y en los que se trata de fecha indicar el formato esperado o agregar un calendario para seleccionarla, el cual ya tenemos agregado a nuestro backlog. También tener un feedback al usuario de si se completó correctamente el proceso.
+
+- En varias otras acciones también se sugirió se muestre confirmación al usuario. Esta devolución ya la habiamos tenido en la primera validación.
+
+- Respecto a la funcionalidad de medios de pago, se deberia de dejar consistente a qué pantalla llegar luego de agregar cuenta de google play o de agregar tarjeta.
+
+-  Se sugirió que en la búsqueda por linea hubiese un campo de búsqueda, y no solo toda la lista en un scroll.
+
+- De acuerdo a lo sugerido podríamos agregar también una sección donde se muestre un historial con los últimos pagos de boletos, a efectos de agregar constancia al usuario.
+
+- En terminos generales se sugirió cambiar la distribución de los componentes, por ejemplo, aprovechar más la pantalla principal y no depender tanto del menú desplegable, también no tener que ir para atrás en cada acción, sino que los menu de arriba y abajo estén fijos.
+
+
 #### Product Backlog
 
+Se crearon los siguientes items en el backlog como consecuencia de la validación de usuarios:
 
+- Indicar campos obligatorios en formularios
+- Agregar confirmacion al usuario luego de acciones
+- Dejar consistente el agregar medio de pago
+- Agregar campo de busqueda en la busqueda por linea
+- Agregar historial de pagos de boleto
+- Reacomodar distribución de menues y pantalla principal
 
 # Bibliografía #
 
