@@ -329,6 +329,13 @@ Se realizó la planning para el sprint, documentando a continuación la evidenci
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Sprint/capacity.png)
 
+**Tareas**
+
+![Sprint tareas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Sprint/tareas-sprint1.png)
+
+Como este primer sprint fue más enfocado en requerimientos y documentación del marco de trabajo, las tareas del equipo se enfocaron principalmente en estos, viendo muchos miembros más enfocados en lo que son requerimientos y algunos en documentación.
+El objetivo fue principalmente setear el product backlog y asegurar el trabajo para los siguientes sprints.
+
 **Burndown**
 
 Como se puede observar en el burndown chart, el equipo los primeros días del sprint estuvo trabajando en el Product Backlog, lo cual indica lo chato de los primeros días. Luego progresivamente se fue completando el sprint y sus tareas, lo cual se observa en el salto que hay entre 26/9 y 28/9, donde el equipo terminó de crear todas las tareas pertinentes al sprint.
@@ -383,6 +390,15 @@ En este segundo sprint el equipo tuvo que agregar algunas Stories durante el spr
 ![Sprint Progress3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/sprint3.png)
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/capacity.png)
+
+**Tareas**
+
+![Sprint tareas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Sprint/tareas-sprint2.png)
+
+Como se puede observar las tareas de documentación estuvieron mayoritariamente divididas entre Suren y Daniel, mientras que Leandro estuvo más enfocado en lo que fueron tareas de desarrollo y Denise estuvo con varios tipos de tareas.
+Esto se da ya que tanto los roles de Suren (Product Owner) y Daniel (Scrum Master) están más relacionados con actividades que necesitan ser documentadas (como ser planning, retrospective y product backlog).
+Denise dado su buen desempeño a medida que fue quedando libre continuo tomando las tareas restantes, por eso termino tan balanceada.
+Mientras que Leandro estuvo más enfocado en ayudar con tareas de desarrollo del prototipo.
 
 **Burndown**
 
@@ -458,6 +474,14 @@ Para este tercer sprint el objetivo es completar lo más posible la aplicación,
 
 ### Sprint Progress ###
 
+**Tareas**
+
+![Sprint tareas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Sprint/tareas-sprint3.png)
+
+Como se puede observar las tareas de documentación estuvieron mayoritariamente divididas entre Suren y Daniel nuevamente como el sprint anterior, mientras que Leandro estuvo más enfocado en lo que fueron tareas de desarrollo y Denise estuvo con varios tipos de tareas.
+Esto se da ya que tanto los roles de Suren (Product Owner) y Daniel (Scrum Master) están más relacionados con actividades que necesitan ser documentadas (como ser planning, retrospective y product backlog).
+Denise dado su buen desempeño a medida que fue quedando libre continuo tomando las tareas restantes, por eso termino tan balanceada.
+Mientras que Leandro estuvo más enfocado en ayudar con tareas de desarrollo del prototipo.
 
 **Burndown**
 
@@ -481,9 +505,30 @@ Por lo tanto la velocidad de nuestro equipo es 34.
 
 
 ### Retrospective ###
+
+Para esta Retrospective decidimos utilizar el ejercicio de la estrella de mar, donde básicamente el equipo trabaja en identificar qué acciones empezar a hacer, qué dejar de hacer, así como también qué continuar haciendo. Adicionalmente se tiene también la sección para identificar qué acciones debemos hacer menos y qué hacer más.
+
+![retrospective](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/retrospective.png)
+
+Mayoritariamente el equipo resaltó la buena comunicación y colaboración que se mantuvo, mientras que se pueden observar algunas preocupaciones como el refinamiento de historias y cuidar la forma en la cual las escribimos (intentando seguir la guía de BDD). También se ve la preocupación del equipo por el manejo de tareas durante este sprint, donde el esfuerzo no pudo ser constante sino que en realidad hubo ciertos momentos del sprint donde se concentró el esfuerzo y se pueden observar los avances (como evidencia nuestro burndown para este sprint igualmente).
+
+Dado el feedback que se ve en la imagen anterior, el equipo identificó las siguientes acciones
+
+![retrospective acciones](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/retrospective-actions.png)
+
+Los resultados completos de la Retrospective se pueden encontrar en el archivo
+
+"Iteracion 3\Evidencias\Sprint\Sprint-3-11422.csv"
  
 
 ### StoryMap ###
+
+A continuación se documenta el roadmap generado hasta el sprint 3.
+Se continua avanzando en la aplicación y ya completando lo pedido para el MVP, quedando algunas historias aún pendientes que podrán tomarse en un futuro.
+Se puede observar el incremento en historias de las features de viajes y notificaciones durante el sprint 3 y una disminución de las Stories de usuarios, ya que fueron mayoritariamente completadas durante el sprint 2 por cuestiones de importancia y precedencia.
+
+
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
 
 # Prototipo # <a name="Prototipo"></a>
 Link a Framer:
