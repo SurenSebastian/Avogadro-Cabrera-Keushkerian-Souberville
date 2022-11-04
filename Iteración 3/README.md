@@ -32,7 +32,9 @@
 19. [Analisis de interesados](#analisisInteresados)
 20. [Elección de Sistema Operativo](#sistemaoperativo)
 21. [Backlog](#backlog)
-22. [Gestion Agile](#gestionAgile)
+22. [Objetivos por Iteración](#objetivosIteracion)
+23. [User Stories - BDD](#userstoriesBDD)
+24. [Gestion Agile](#gestionAgile)
 [Prototipo](#gestionAgile)
 
 
@@ -132,15 +134,31 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
 * En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-* Para el sprint 1, el DoD de las user story va a contemplar:
+
+* Para el sprint 1:
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
+
+* Para el sprint 2 y 3:
+  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
+  * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
+  * Registro de Horas que llevó la tarea.
+  * Evidencia de la tarea realizada mediante documentación.
+
+
+* Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
+  * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
+  * Debe poder mantener la privacidad de datos sensibles de sus usuarios, así que se usaran los principio de la ISO 27701 para la gestión de la privacidad y la información
+  * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
+ 
   
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- - Ver documento [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
- -  Para los pull request se establece la metodología que 2 approvers  deben validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main .  El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
- - Estructra de Git por Iteración:
-    - [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
+ * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
+ * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
+ 
+ * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+  * Estrategia de Branching [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  
 ## Roles: <a name="roles"></a>
 
@@ -302,9 +320,38 @@ Otro factor significativo es el hecho de que somos un equipo con poca experienci
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
 
 ## Backlog <a name="backlog"></a>
- * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
  * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
+ * [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
 
+# Objetivos de Iteraciones <a name="objetivosIteracion"></a>
+
+## Iteración 1
+  El objetivo del Sprint 1 es generar las definiciones para el marco de trabajo de agile y obtener los requerimientos necesarios para la aplicación de viajes mediante múltiples uso de tecnicas asociadas a la elicitación. Se generan múltiples User Stories de documentación y de requerimientos ya brindados por la letra.
+   * Ver [Sprint Iteracion 1](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint1.png)
+
+## Iteración 2
+  El objetivo del Sprint 2 es tener un primer prototipo , que va a incluir la  función de valor agregado (Pago de boleto) y parte de las funciones solicitadas de letra que figuran en el siguiente sprint.
+   * Ver [Sprint Iteracion 2](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
+   
+## Iteración 3
+El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra que figuran en el siguiente sprint
+   * Ver [Sprint Iteracion 3](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
+
+## Iteración 4
+
+# User Stories en BDD  <a name="userstoriesBDD"></a> 
+
+Para definir las user stories se utilizó la estrategia de BDD siguiendo el patron Dado-Cuando-Entonces
+ * El ‘dado’:  especifica el escenario, las precondiciones.
+ * El ‘cuando’: las condiciones de las acciones que se van a ejecutar.
+ * El ‘entonces’: El resultado esperado.
+
+ Algunos ejemplos de historias de BDD:
+ 
+   *  Ver [User Story Sorteo](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Sorteos.png)
+   *  Ver [User Story Modo Viaje](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-ModoViaje.png)
+   *  Ver [User Story Favoritos](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
+ 
 
 # Gestión Agile <a name="gestionAgile"></a>
 ## Sprint 1 ##
