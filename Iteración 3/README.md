@@ -32,7 +32,8 @@
 19. [Analisis de interesados](#analisisInteresados)
 20. [Elección de Sistema Operativo](#sistemaoperativo)
 21. [Backlog](#backlog)
-22. [Gestion Agile](#gestionAgile)
+22. [Objetivos por Iteración](#objetivosIteracion)
+23. [Gestion Agile](#gestionAgile)
 [Prototipo](#gestionAgile)
 
 
@@ -321,6 +322,19 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
  * Ver imagen [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
  * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
 
+# Objetivos de Iteraciones <a name="objetivosIteracion"></a>
+
+## Iteración 1
+  El objetivo del Sprint 1 es obtener los requerimientos necesarios para la aplicación de viajes. Se generan múltiples User Stories de documentación y de requerimientos ya brindados por la letra.
+
+## Iteración 2
+  El objetivo del Sprint 2 es tener un primer prototipo que va a tener una función de valor agregado(Pago de boleto) y parte de las funciones solicitadas por letra
+
+## Iteración 3
+El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra
+
+## Iteración 4
+  
 
 # Gestión Agile <a name="gestionAgile"></a>
 ## Sprint 1 ##
