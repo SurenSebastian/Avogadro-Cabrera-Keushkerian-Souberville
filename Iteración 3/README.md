@@ -33,7 +33,8 @@
 20. [Elección de Sistema Operativo](#sistemaoperativo)
 21. [Backlog](#backlog)
 22. [Objetivos por Iteración](#objetivosIteracion)
-23. [Gestion Agile](#gestionAgile)
+23. [User Stories - BDD](#userstoriesBDD)
+24. [Gestion Agile](#gestionAgile)
 [Prototipo](#gestionAgile)
 
 
@@ -334,7 +335,18 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
 El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra
 
 ## Iteración 4
-  
+
+# User Stories en BDD  <a name="userstoriesBDD"></a> 
+
+Para definir las user stories se utilizo la estrategia de BDD siguiendo el patron Dado-Cuando-Entonces
+ * El ‘dado’:  especifica el escenario, las precondiciones.
+ * El ‘cuando’: las condiciones de las acciones que se van a ejecutar.
+ * El ‘entonces’: El resultado esperado.
+
+ Algunos ejemplos de historias de BDD:
+ 
+
+
 
 # Gestión Agile <a name="gestionAgile"></a>
 ## Sprint 1 ##
