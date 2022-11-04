@@ -149,11 +149,11 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 * Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
   * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
   * Debe poder mantener la privacidad de datos sensibles de sus usuarios, así que se usaran los principio de la ISO 27701 para la gestión de la privacidad y la información
-  * La interfaz de diseño móvil será en Android ,e llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
+  * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
  
   
 ## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- * El equipo de desarrolladoras va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
  * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
@@ -341,7 +341,7 @@ El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nuev
 
 # User Stories en BDD  <a name="userstoriesBDD"></a> 
 
-Para definir las user stories se utilizo la estrategia de BDD siguiendo el patron Dado-Cuando-Entonces
+Para definir las user stories se utilizó la estrategia de BDD siguiendo el patron Dado-Cuando-Entonces
  * El ‘dado’:  especifica el escenario, las precondiciones.
  * El ‘cuando’: las condiciones de las acciones que se van a ejecutar.
  * El ‘entonces’: El resultado esperado.
