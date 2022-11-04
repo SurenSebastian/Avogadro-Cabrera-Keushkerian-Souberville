@@ -541,15 +541,14 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 ## Sprint 3
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
+
 https://framer.com/projects/Notificaciones-Obli--9YKNZoie33LfTc9MkxCP-c1OgY?node=augiA20Il
+
 Link aL prototipo publicado:
 
-**Aplicacion**
+**Aplicacion:** https://happen-forego-312426.framer.app/
 
-https://happen-forego-312426.framer.app/
-
-**Notificaciones**
-https://frank-timing-834165.framer.app/
+**Notificaciones:** https://frank-timing-834165.framer.app/
 
 Las funcionalidades implementadas en el segundo release fueron:
 - Registro de usuario
