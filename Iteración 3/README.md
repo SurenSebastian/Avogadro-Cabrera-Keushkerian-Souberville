@@ -35,7 +35,7 @@
 22. [Objetivos por Iteración](#objetivosIteracion)
 23. [User Stories - BDD](#userstoriesBDD)
 24. [Gestion Agile](#gestionAgile)
-[Prototipo](#gestionAgile)
+25. [Prototipo](#gestionAgile)
 
 
 # Introducción <a name="introduccion"></a>
@@ -167,8 +167,8 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
  * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
- * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
-  * Estrategia de Branching [Estrategia de Branching.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
+  * Estrategia de Branching [Estrategia de Branching.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
  
 ## Roles: <a name="roles"></a>
 
@@ -212,8 +212,8 @@ Como ejemplo se adjunta imagen del formulario para una de dichas aplicaciones:
 
 El informe completo queda disponible en los siguientes archivos adjuntos:
 
-- Ver [Formulario Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
-- Ver [Analisis Aplicaciones.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+- Ver [Formulario Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
+- Ver [Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a>
 
@@ -223,7 +223,7 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
-- Ver [Encuesta de Aplicacion de Viaje.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
+- Ver [Encuesta de Aplicacion de Viaje.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
 ## Procesamiento de datos <a name="procesamientoDeDatos"></a>
 Se realizó un análisis de la información obtenida mediante el relevamiento de aplicaciones existentes y la realización de encuestas para obtener nuevos requerimientos, cuyos resultados quedaron adjuntos en el repositorio.
@@ -299,7 +299,7 @@ También se realizó una tabla basada en el poder y dinamismo de los interesados
 |     Poder    |     Bajo    |                                                                                                   |     -Appstore   y Play Store     -Otras aplicaciones de transporte público     -Usuarios del   sistema de transporte público    |
 |              |     Alto    |      -Proveedores de servicio de transporte   público    -Intendencias     -Equipo de proyecto    |     -MTOP - Dirección Nacional de Transporte                                                                                    |
 
-- Ver [AnálisisDeInteresadosBONDi.docx](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
+- Ver [AnálisisDeInteresadosBONDi.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/An%C3%A1lisisDeInteresadosBONDi.docx)
 
 ## Detalle de las funcionalidades por stakeholder ###
 
@@ -359,23 +359,22 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
 
 ## Backlog <a name="backlog"></a>
  * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
- * [ProductBacklog.png](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
+ 
+[ProductBacklog.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
 
 # Objetivos de Iteraciones <a name="objetivosIteracion"></a>
 
 ## Iteración 1
   El objetivo del Sprint 1 es generar las definiciones para el marco de trabajo de agile y obtener los requerimientos necesarios para la aplicación de viajes mediante múltiples uso de tecnicas asociadas a la elicitación. Se generan múltiples User Stories de documentación y de requerimientos ya brindados por la letra.
-   * Ver [Sprint Iteracion 1](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint1.png)
+   * Ver [Sprint Iteracion 1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint1.png)
 
 ## Iteración 2
   El objetivo del Sprint 2 es tener un primer prototipo , que va a incluir la  función de valor agregado (Pago de boleto) y parte de las funciones solicitadas de letra que figuran en el siguiente sprint.
-   * Ver [Sprint Iteracion 2](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
+   * Ver [Sprint Iteracion 2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
    
 ## Iteración 3
 El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra que figuran en el siguiente sprint
-   * Ver [Sprint Iteracion 3](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
-
-## Iteración 4
+   * Ver [Sprint Iteracion 3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
 
 # User Stories en BDD  <a name="userstoriesBDD"></a> 
 
@@ -386,9 +385,9 @@ Para definir las user stories se utilizó la estrategia de BDD siguiendo el patr
 
  Algunos ejemplos de historias de BDD:
  
-   *  Ver [User Story Sorteo](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Sorteos.png)
-   *  Ver [User Story Modo Viaje](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-ModoViaje.png)
-   *  Ver [User Story Favoritos](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
+   *  Ver [User Story Sorteo](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Sorteos.png)
+   *  Ver [User Story Modo Viaje](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-ModoViaje.png)
+   *  Ver [User Story Favoritos](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
  
 
 # Gestión Agile <a name="gestionAgile"></a>
@@ -553,9 +552,9 @@ Como se puede observar hay algunas funcionalidades que el equipo considera valio
 ### Planning ###
 Para este tercer sprint el objetivo es completar lo más posible la aplicación, intentando cumplir con todas las funcionalidades pedidas. Para eso el equipo estimo y considero 32 Story Points, algo bastante cercano a la velocidad actual del equipo 34.
 
-![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/Planning.png)
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/planning.png)
 
-![Planning2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/Planning2.png)
+![Planning2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Planning/planning2.png)
 
 ### Sprint Progress ###
 
@@ -729,20 +728,19 @@ A continuación se deja evidencia visual de las diferentes pantallas
 | ![Foto30](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/30.png) | ![Foto31](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/31.png) | 
 | ![Foto32](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/32.png) | ![Foto33](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/33.png) | 
 | ![Foto34](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/34.png) | ![Foto35](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/35.png) |
- | ![Foto36](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Prototipo/36.png) |  | 
 
 
 ### Validación
-Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaRespuestas.pdf)
+Se procedió a realizar una encuesta de google forms a algunos usuarios de transporte urbano para validar el prototipo generado, el esqueleto del formulario y los datos de las respuestas se encuentran a disposición en los documentos [EncuestaPreguntas.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaPreguntas.pdf) y [EncuestaRespuestas.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Validacion/EncuestaRespuestas.pdf)
 
 A continuación se deja evidencia del resultado de la encuesta
 | -|-  |
 |---|---|
-| ![Pagina1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion1.png) | ![Pagina2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion2.png) | 
-| ![Pagina3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion3.png) | ![Pagina4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion4.png) | 
-| ![Pagina5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion5.png) | ![Pagina6](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion6.png) |
-| ![Pagina7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion7.png) | ![Pagina8](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion8.png) |
-| ![Pagina9](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion9.png) | ![Pagina10](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion10.png) |
+| ![Pagina1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion1.png) | ![Pagina2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion2.png) | 
+| ![Pagina3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion3.png) | ![Pagina4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion4.png) | 
+| ![Pagina5](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion5.png) | ![Pagina6](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion6.png) |
+| ![Pagina7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion7.png) | ![Pagina8](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion8.png) |
+| ![Pagina9](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion9.png) | ![Pagina10](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto2-Validacion10.png) |
 
 ### Análisis del feedback de usuarios
 
