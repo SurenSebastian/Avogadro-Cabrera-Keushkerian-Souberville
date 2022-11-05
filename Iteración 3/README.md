@@ -570,6 +570,11 @@ Mientras que Leandro estuvo más enfocado en ayudar con tareas de desarrollo del
 
 **Burndown**
 
+Como se puede observar este sprint el burndown fue un poco más chato y los esfuerzos del equipo se concentraron hacia el final del sprint para intentar llegar a completar lo comprometido. Esto también fue evidenciado y levantado con cierta importancia por parte del equipo en la retrospective también.
+A pesar de todo el equipo pudo cumplir con todo lo comprometido pero a futuro se entiende esta no es la mejor forma de poder cumplir con un sprint, idealmente el esfuerzo debería ser menor y sostenido para tener un burndown más parejo.
+
+![Sprint burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Sprint/burndown.png)
+
 **Velocity**
 Si consideramos los Story Points para los últimos Sprints
 Sprint 1 - 36
@@ -583,10 +588,6 @@ Mejor Sprint = 36
 Peor Sprint = 32
 
 Por lo tanto la velocidad de nuestro equipo es 34.
-
-
-### Daily ###
-**Registro de daily realizada el 15/10**
 
 
 ### Retrospective ###
