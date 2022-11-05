@@ -369,11 +369,11 @@ Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicac
 
 ## Iteración 2
   El objetivo del Sprint 2 es tener un primer prototipo , que va a incluir la  función de valor agregado (Pago de boleto) y parte de las funciones solicitadas de letra que figuran en el siguiente sprint.
-   * Ver [Sprint Iteracion 2](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
+   * Ver [Sprint Iteracion 2](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
    
 ## Iteración 3
 El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra que figuran en el siguiente sprint
-   * Ver [Sprint Iteracion 3](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
+   * Ver [Sprint Iteracion 3](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
 
 ## Iteración 4
 
@@ -386,9 +386,9 @@ Para definir las user stories se utilizó la estrategia de BDD siguiendo el patr
 
  Algunos ejemplos de historias de BDD:
  
-   *  Ver [User Story Sorteo](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Sorteos.png)
-   *  Ver [User Story Modo Viaje](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-ModoViaje.png)
-   *  Ver [User Story Favoritos](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/itreracion3-suren/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
+   *  Ver [User Story Sorteo](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Sorteos.png)
+   *  Ver [User Story Modo Viaje](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-ModoViaje.png)
+   *  Ver [User Story Favoritos](https://github.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/blob/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
  
 
 # Gestión Agile <a name="gestionAgile"></a>
