@@ -578,10 +578,10 @@ A pesar de todo el equipo pudo cumplir con todo lo comprometido pero a futuro se
 Si consideramos los Story Points para los últimos Sprints
 Sprint 1 - 36
 Sprint 2 - 32
-Sprint 3 - 32
+Sprint 3 - 34
 
 La velocidad del equipo se puede calcular como
-(36+32+32) / 3 = 34
+(36+32+34) / 3 = 34
 
 Mejor Sprint = 36
 Peor Sprint = 32
@@ -614,6 +614,40 @@ Se puede observar el incremento en historias de las features de viajes y notific
 
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
+
+## Sprint 4 ##
+### Planning ###
+Para este sprint al ser el último el equipo planificó una cantidad menor, unos 25 Story Points, para poder completar la aplicación y terminar los últimos detalles.
+
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Planning/planning.png)
+
+### Sprint Progress ###
+
+**Tareas**
+
+
+**Burndown**
+
+
+**Velocity**
+Si consideramos los Story Points para los últimos 3 Sprints
+Sprint 2 - 32
+Sprint 3 - 34
+Sprint 4 - 25
+
+La velocidad del equipo se puede calcular como
+(32+32+25) / 3 = 30
+
+Mejor Sprint = 36
+Peor Sprint = 25
+
+Por lo tanto la velocidad de nuestro equipo es 34.
+
+
+### Retrospective ###
+ 
+
+### StoryMap ###
 
 # Prototipo  <a name="Prototipo"></a>
 
