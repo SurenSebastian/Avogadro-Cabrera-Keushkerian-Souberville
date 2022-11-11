@@ -143,18 +143,12 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Definition of Done <a name="dod"></a>
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
 
-* Para el sprint 1:
+* Criterios:
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
-
-* Para el sprint 2 y 3:
-  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
   * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
-  * Registro de Horas que llevó la tarea.
-  * Evidencia de la tarea realizada mediante documentación.
-
+  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
 
 * Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
   * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
