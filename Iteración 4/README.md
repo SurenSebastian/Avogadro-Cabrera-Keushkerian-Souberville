@@ -245,15 +245,15 @@ Se llevó a cabo una última encuesta con el prototipo del sprint 4 , obteniendo
 
 * ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
 
 * ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
   
 * ¿Cómo calificaría la intuición de los iconos?
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
 
 * Qué característica esperaba y no encontró?
 
