@@ -257,51 +257,45 @@ Se llevó a cabo una última encuesta con el prototipo del sprint 4 , obteniendo
 
 * Qué característica esperaba y no encontró?
 
-     | Detalles                        | # |
-     | ------------------------------- | - |
-     | Medio de pagos adicionales      | 3 |
-     | Recarga de STM                  | 3 |
-     | Ayuda /Confirmación de Acciones | 3 |
-     | Horarios                        | 2 |
-     | Mejores Búsquedas               | 2 |
-     | Mapas                           | 2 |
-     | Repetir última búsqueda         | 1 |
-     | Rutas para el interior          | 1 |
-     | Cuanto se demora caminando      | 1 |
+   | Detalle                         | # |
+   | ------------------------------- | - |
+   | Medio de pagos adicionales      | 3 |
+   | Recarga de STM                  | 3 |
+   | Ayuda /Confirmación de Acciones | 3 |
+   | Horarios                        | 2 |
+   | Mejores Búsquedas               | 2 |
+   | Mapas                           | 2 |
+   | Repetir ultima búsqueda         | 1 |
+   | Rutas para el interior          | 1 |
+   | Cuanto se demora caminando      | 1 |
 
 * ¿Qué es lo que más le gusta de la aplicación móvil? 
-
-     | Detalle      | # |
-     | ------------ | - |
-     | Simple/Facil | 9 |
-     | Pago bloetos | 4 |
-     | Sorteos      | 2 |
-     | Busqueda     | 2 |
-     | Asientos     | 1 |
-     | Iconos       | 1 |
-     | Colores      | 1 |
-
+   | Detalle      | # |
+   | ------------ | - |
+   | Simple/Fácil | 9 |
+   | Pago boletos | 4 |
+   | Sorteos      | 2 |
+   | Búsqueda     | 2 |
+   | Asientos     | 1 |
+   | Iconos       | 1 |
+   | Colores      | 1 |
+   
 * ¿Qué es lo que menos le gusta de la aplicación móvil? 
 
-     | Detalle                         | # |
-     | ------------------------------- | - |
-     | Medio de pagos adicionales      | 3 |
-     | Recarga de STM                  | 3 |
-     | Ayuda /Confirmacion de Acciones | 3 |
-     | Horarios                        | 2 |
-     | Mejores Busquedas               | 2 |
-     | Mapas                           | 2 |
-     | Repetir ultima busqueda         | 1 |
-     | Rutas para el interior          | 1 |
-     | Cuanto se demora camiando       | 1 |
+   | Detalle                  | #  |
+   | ------------------------ | -- |
+   | Diseño e Intuición       | 10 |
+   | Colores                  | 6  |
+   | Imágenes no prolijas     | 2  |
+   | No da feedback de acción | 2  |
 
 De los siguientes resultados se crean nuevas User Stories para el product Backlog
 
-* Estandarización de colores
-* Agregar cedio de pagos adicionales
-* Brindar confirmación de acciones realizadas
-* Repetir última búsqueda
-* Aumentar la calidad de las imágenes
+* Estandarización de colores.
+* Agregar medio de pagos adicionales.
+* Brindar confirmación de acciones realizadas.
+* Repetir última búsqueda.
+* Aumentar la calidad de las imágenes.
 
 
 # Analisis de interesados <a name="analisisInteresados"></a>
