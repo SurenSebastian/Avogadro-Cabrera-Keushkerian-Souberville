@@ -28,6 +28,7 @@
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
 17. [Realización de Encuestas](#realizacionEncuestas)
+17. [Última Encuesta](#ulitmaencuesta)
 18. [Procesamiento de datos](#procesamientoDeDatos)
 19. [Analisis de interesados](#analisisInteresados)
 20. [Elección de Sistema Operativo](#sistemaoperativo)
@@ -238,6 +239,69 @@ Algunos de los nuevos requerimientos a estudiar son:
 *	Permite guardar favorito de las ubicaciones
 *	Permite sincronizar viajes con eventos del calendario de google por ejemplo
 *	Sugiere combinaciones de ómnibus
+
+## Última Encuesta <a name="ulitmaencuesta"></a>
+Se llevó a cabo una última encuesta con el prototipo del sprint 4 , obteniendo un feedback de 20 usuarios a las siguientes preguntas:
+
+* ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+
+* ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+  
+* ¿Cómo calificaría la intuición de los iconos?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+
+* Qué característica esperaba y no encontró?
+
+     | Detalles                        | # |
+     | ------------------------------- | - |
+     | Medio de pagos adicionales      | 3 |
+     | Recarga de STM                  | 3 |
+     | Ayuda /Confirmación de Acciones | 3 |
+     | Horarios                        | 2 |
+     | Mejores Búsquedas               | 2 |
+     | Mapas                           | 2 |
+     | Repetir última búsqueda         | 1 |
+     | Rutas para el interior          | 1 |
+     | Cuanto se demora caminando      | 1 |
+
+* ¿Qué es lo que más le gusta de la aplicación móvil? 
+
+     | Detalle      | # |
+     | ------------ | - |
+     | Simple/Facil | 9 |
+     | Pago bloetos | 4 |
+     | Sorteos      | 2 |
+     | Busqueda     | 2 |
+     | Asientos     | 1 |
+     | Iconos       | 1 |
+     | Colores      | 1 |
+
+* ¿Qué es lo que menos le gusta de la aplicación móvil? 
+
+     | Detalle                         | # |
+     | ------------------------------- | - |
+     | Medio de pagos adicionales      | 3 |
+     | Recarga de STM                  | 3 |
+     | Ayuda /Confirmacion de Acciones | 3 |
+     | Horarios                        | 2 |
+     | Mejores Busquedas               | 2 |
+     | Mapas                           | 2 |
+     | Repetir ultima busqueda         | 1 |
+     | Rutas para el interior          | 1 |
+     | Cuanto se demora camiando       | 1 |
+
+De los siguientes resultados se crean nuevas User Stories para el product Backlog
+
+* Estandarización de colores
+* Agregar cedio de pagos adicionales
+* Brindar confirmación de acciones realizadas
+* Repetir última búsqueda
+* Aumentar la calidad de las imágenes
 
 
 # Analisis de interesados <a name="analisisInteresados"></a>
