@@ -23,7 +23,7 @@
 10. [Capacity](#capacity)
 11. [Definition of Ready](#dor)
 12. [Definition of Done](#dod)
-13. [Estrategias de Branching y Pull Request](#estrategiaBranching)
+13. [Git, Estrategias de Branching y Pull Request](#estrategiaBranching)
 14. [Roles](#roles)
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
@@ -157,14 +157,27 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
  
   
-## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
+## Git, Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador. 
+ * Para los pull request se establece la metodología que 1 approver debe validar la información que se ingresa a la rama Iteracion-X. Posteriormente desde la rama Iteracion-X, se hace el merge a main.
+ * El desarrollador que genera el request es responsable de notificar a los colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
+ 
+ * Ejemplo de Branching y Pull Request:
+ 
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
+    
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
+         
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
- * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
- * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
-  * Estrategia de Branching [Estrategia de Branching.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ * Estructra de Git por Iteración 
  
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
+   
+ * Info Adicional del Repo
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
+   
 ## Roles: <a name="roles"></a>
 
 **Scrum Master:**
