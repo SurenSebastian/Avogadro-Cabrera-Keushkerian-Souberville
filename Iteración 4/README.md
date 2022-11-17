@@ -37,9 +37,9 @@
 23. [User Stories - BDD](#userstoriesBDD)
 24. [Gestion Agile](#gestionAgile)
 25. [Prototipo](#prototipo)
-26. [     Sprint 2](#prototipo2)
-26. [     Sprint 3](#prototipo3)
-26. [     Sprint 4](#prototipo4)
+26. [ . . . . Sprint 2](#prototipo2)
+26. [ . . . . Sprint 3](#prototipo3)
+26. [ . . . . Sprint 4](#prototipo4)
 
 
 
