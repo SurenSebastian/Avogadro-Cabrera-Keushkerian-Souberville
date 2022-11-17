@@ -36,7 +36,11 @@
 22. [Objetivos por Iteración](#objetivosIteracion)
 23. [User Stories - BDD](#userstoriesBDD)
 24. [Gestion Agile](#gestionAgile)
-25. [Prototipo](#gestionAgile)
+25. [Prototipo](#prototipo)
+26. [     Sprint 2](#prototipo2)
+26. [     Sprint 3](#prototipo3)
+26. [     Sprint 4](#prototipo4)
+
 
 
 # Introducción <a name="introduccion"></a>
@@ -239,64 +243,6 @@ Algunos de los nuevos requerimientos a estudiar son:
 *	Permite guardar favorito de las ubicaciones
 *	Permite sincronizar viajes con eventos del calendario de google por ejemplo
 *	Sugiere combinaciones de ómnibus
-
-## Última Encuesta <a name="ulitmaencuesta"></a>
-Se llevó a cabo una última encuesta con el prototipo del sprint 4 , obteniendo un feedback de 20 usuarios a las siguientes preguntas:
-
-* ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
- 
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
-
-* ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
- 
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
-  
-* ¿Cómo calificaría la intuición de los iconos?
- 
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
-
-* Qué característica esperaba y no encontró?
-
-   | Detalle                         | # |
-   | ------------------------------- | - |
-   | Medio de pagos adicionales      | 3 |
-   | Recarga de STM                  | 3 |
-   | Ayuda /Confirmación de Acciones | 3 |
-   | Horarios                        | 2 |
-   | Mejores Búsquedas               | 2 |
-   | Mapas                           | 2 |
-   | Repetir ultima búsqueda         | 1 |
-   | Rutas para el interior          | 1 |
-   | Cuanto se demora caminando      | 1 |
-
-* ¿Qué es lo que más le gusta de la aplicación móvil? 
-   | Detalle      | # |
-   | ------------ | - |
-   | Simple/Fácil | 9 |
-   | Pago boletos | 4 |
-   | Sorteos      | 2 |
-   | Búsqueda     | 2 |
-   | Asientos     | 1 |
-   | Iconos       | 1 |
-   | Colores      | 1 |
-   
-* ¿Qué es lo que menos le gusta de la aplicación móvil? 
-
-   | Detalle                  | #  |
-   | ------------------------ | -- |
-   | Diseño e Intuición       | 10 |
-   | Colores                  | 6  |
-   | Imágenes no prolijas     | 2  |
-   | No da feedback de acción | 2  |
-
-De los siguientes resultados se crean nuevas User Stories para el product Backlog
-
-* Estandarización de colores.
-* Agregar medio de pagos adicionales.
-* Brindar confirmación de acciones realizadas.
-* Repetir última búsqueda.
-* Aumentar la calidad de las imágenes.
-
 
 # Analisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -667,9 +613,9 @@ Se puede observar el incremento en historias de las features de viajes y notific
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
 
-# Prototipo  <a name="Prototipo"></a>
+# Prototipo  <a name="prototipo"></a>
 
-## Sprint 2
+## Sprint 2 <a name="prototipo2"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 Link aL prototipo publicado:
@@ -733,8 +679,20 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Seleccionar metodo de pago a usar
 - Seleccionar ubicación actual
 
+#### Planificación en incorporación de mejoras
 
-## Sprint 3
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, en esta oportunidad los items que fueron planificados para el sprint 3 fueron los de unificar el idioma utilizado en la aplicación, pues consideramos que era sencillo de implementar, tambiem reubicamos el icono de usuario logeado, permitiendo también hacer clic en el para editar los datos del usuario. 
+
+Además generamos una pantalla para la visualización de los métodos de pagos agregados por el usuario logueado, permitiendo que se seleccione cual de ellos desea antes del pago. 
+
+También permitimos que al momento de agregar favoritos, se pueda elegir la ubicación actual, a efectos de brindar facilidad al usuario. 
+
+Como último y principal, implementamos la funcionalidad de búsqueda de viajes a través de inicio-destino, la cual nos pareció de mayor relevancia, y que se nos había pasado por alto de agregar a nuestro product backlog, siendo una funcionalidad importante y que las aplicaciones ya existentes en el mercado implementan.
+
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
+
+
+## Sprint 3 <a name="prototipo3"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 
@@ -819,6 +777,79 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Agregar campo de busqueda en la busqueda por linea
 - Agregar historial de pagos de boleto
 - Reacomodar distribución de menues y pantalla principal
+
+#### Planificación en incorporación de mejoras
+
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, como la mayoria eran cambios respecto al diseño, y debido a que no contabamos con la capacidad para incluir tantos como desearamos, el único item que fue ejecutado fue el de agregar campo de búsqueda en la búsqueda por linea, para esta funcionalidad en particular se agregó además la opción de buscar con filtros.
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
+
+
+## Sprint 4 <a name="prototipo4"></a>
+
+### Validacion y análisis
+
+Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo un feedback de 20 usuarios a las siguientes preguntas:
+
+* ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+
+* ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+  
+* ¿Cómo calificaría la intuición de los iconos?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+
+
+* Qué característica esperaba y no encontró?
+
+   | Detalle                         | # |
+   | ------------------------------- | - |
+   | Medio de pagos adicionales      | 3 |
+   | Recarga de STM                  | 3 |
+   | Ayuda /Confirmación de Acciones | 3 |
+   | Horarios                        | 2 |
+   | Mejores Búsquedas               | 2 |
+   | Mapas                           | 2 |
+   | Repetir ultima búsqueda         | 1 |
+   | Rutas para el interior          | 1 |
+   | Cuanto se demora caminando      | 1 |
+
+* ¿Qué es lo que más le gusta de la aplicación móvil? 
+   | Detalle      | # |
+   | ------------ | - |
+   | Simple/Fácil | 9 |
+   | Pago boletos | 4 |
+   | Sorteos      | 2 |
+   | Búsqueda     | 2 |
+   | Asientos     | 1 |
+   | Iconos       | 1 |
+   | Colores      | 1 |
+   
+* ¿Qué es lo que menos le gusta de la aplicación móvil? 
+
+   | Detalle                  | #  |
+   | ------------------------ | -- |
+   | Diseño e Intuición       | 10 |
+   | Colores                  | 6  |
+   | Imágenes no prolijas     | 2  |
+   | No da feedback de acción | 2  |
+
+#### Product Backlog
+
+De los siguientes resultados se crean nuevas User Stories para el product Backlog
+
+* Estandarización de colores.
+* Agregar medio de pagos adicionales.
+* Brindar confirmación de acciones realizadas.
+* Repetir última búsqueda.
+* Aumentar la calidad de las imágenes.
+
+#### Planificación en incorporación de mejoras
+
+Debido a que se tratata de la ultim iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberiamos proceder en un proyecto real.
 
 # Bibliografía #
 
