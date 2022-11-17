@@ -164,19 +164,19 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
  
  * Ejemplo de Branching y Pull Request:
  
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren-fixes/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
     
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren-fixes/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
          
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
  
  * Estructra de Git por Iteración 
  
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren-fixes/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
    
  * Info Adicional del Repo
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren-fixes/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4-suren-fixes/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
    
 ## Roles: <a name="roles"></a>
 
