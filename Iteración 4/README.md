@@ -648,6 +648,7 @@ Siendo este nuestro último sprint nos costó un poco llevar el esfuerzo a un pu
 
 
 **Velocity**
+
 Si consideramos los Story Points para los últimos 3 Sprints
 Sprint 2 - 32
 Sprint 3 - 34
@@ -698,6 +699,12 @@ A continuación se presenta el burnup para el proyecto completo (las 4 iteracion
 ![burnup](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burnup.png)
 
 Se puede observar como hacia el final de cada iteración el burnup se mueve, evidenciando los mayores movimientos entre el sprint 2 y el 3, al igual que vemos en el burndown. A medida que nos acercamos al final del proyecto y al último sprint (sprint 4) el burnup se mantiene más estable teniendo su último pico hacia el final del sprint. 
+
+## Velocity
+
+![velocity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/velocity-general.png)
+
+En general nuestro equipo pudo mantener la misma velocidad durante las primeras 3 iteraciones, mostrando una variación de 3 o 4 story points. Ya para la última iteración la carga de trabajo disminuyó y por tanto la velocidad del equipo también cayó.
 
 # Prototipo  <a name="prototipo"></a>
 
