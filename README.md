@@ -23,19 +23,25 @@
 10. [Capacity](#capacity)
 11. [Definition of Ready](#dor)
 12. [Definition of Done](#dod)
-13. [Estrategias de Branching y Pull Request](#estrategiaBranching)
+13. [Git, Estrategias de Branching y Pull Request](#estrategiaBranching)
 14. [Roles](#roles)
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
-17. [Realización de Encuestas](#realizacionEncuestas)
-18. [Procesamiento de datos](#procesamientoDeDatos)
-19. [Analisis de interesados](#analisisInteresados)
-20. [Elección de Sistema Operativo](#sistemaoperativo)
-21. [Backlog](#backlog)
-22. [Objetivos por Iteración](#objetivosIteracion)
-23. [User Stories - BDD](#userstoriesBDD)
-24. [Gestion Agile](#gestionAgile)
-25. [Prototipo](#gestionAgile)
+17. [Análisis de competidores](#analisisDeCompetidores)
+18. [Realización de Encuestas](#realizacionEncuestas)
+19. [Procesamiento de datos](#procesamientoDeDatos)
+20. [Analisis de interesados](#analisisInteresados)
+21. [Elección de Sistema Operativo](#sistemaoperativo)
+22. [Backlog](#backlog)
+23. [Objetivos por Iteración](#objetivosIteracion)
+24. [User Stories - BDD](#userstoriesBDD)
+25. [Gestion Agile](#gestionAgile)
+26. [Prototipo](#prototipo)
+27. [ . . . . Sprint 2](#prototipo2)
+28. [ . . . . Sprint 3](#prototipo3)
+29. [ . . . . Sprint 4](#prototipo4)
+30. [Aprendizajes del Proyecto](#aprendizajes)
+31. [Bibliografia](#biblio)
 
 
 # Introducción <a name="introduccion"></a>
@@ -143,18 +149,11 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Definition of Done <a name="dod"></a>
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-
-* Para el sprint 1:
+* Criterios:
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
-
-* Para el sprint 2 y 3:
-  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
   * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
-  * Registro de Horas que llevó la tarea.
-  * Evidencia de la tarea realizada mediante documentación.
-
+  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
 
 * Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
   * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
@@ -162,14 +161,27 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
  
   
-## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
+## Git, Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador. 
+ * Para los pull request se establece la metodología que 1 approver debe validar la información que se ingresa a la rama Iteracion-X. Posteriormente desde la rama Iteracion-X, se hace el merge a main.
+ * El desarrollador que genera el request es responsable de notificar a los colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
+ 
+ * Ejemplo de Branching y Pull Request:
+ 
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
+    
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
+         
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
- * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
- * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
-  * Estrategia de Branching [Estrategia de Branching.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ * Estructra de Git por Iteración 
  
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
+   
+ * Info Adicional del Repo
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
+   
 ## Roles: <a name="roles"></a>
 
 **Scrum Master:**
@@ -206,14 +218,33 @@ Se creó un formulario para la investigación de las aplicaciones existentes, el
 
 En dicho formulario recabamos información como cantidad de descargas, puntajes, funcionalidades y las regiones que abarca.
 
-Como ejemplo se adjunta imagen del formulario para una de dichas aplicaciones:
+Se utilizo el siguiente formualario:
+
+![FORMULARIOAPLICACIONES](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/AnalisisDeAplicaciones.png)
+
+Se adjuntan imagenes con los resultados del formulario para las aplicaciones anteriormente mencionadas:
 
 ![COMOIR](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/EjemploCOMOIR.png)
+![MOOVIT](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploMoovit.png)
+![CITYMAPPER](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploCityMapper.png)
 
-El informe completo queda disponible en los siguientes archivos adjuntos:
-
+En caso de querer ver las encuestas en formato doc:
 - Ver [Formulario Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
 - Ver [Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+
+### Análisis de competidores <a name="analisisDeCompetidores"></a>
+
+Luego de aplicar el anterior formulario a los competidores mencionados pudimos obtener información de gran valor para conocer la posición de nuestra competencia.
+
+De las encuestas se desprenden varios resultados, por el lado de las estadísticas podemos notar que Moovit es nuestra principal competencia en este ámbito, ya que cuenta con un número de descargas muy superior al resto de aplicaciones en el rubro y también vemos que tiene una gran estima por parte de sus usuarios ya que tiene puntajes muy buenos tanto en PlayStore como en AppStore. En la valoración por parte de los usuarios es mínimamente superado por CityMapper, igualmente hay que considerar que CityMapper cuenta con un número muy inferior de descargas en comparación a Moovit por lo tanto afirmar que CityMapper es superior a Moovit en ese ámbito puede ser un tanto incierto.
+
+En cuanto a funcionalidades podemos observar que Moovit y CityMapper tienen muchas en común, como por ejemplo la búsqueda de ómnibus por líneas o mostrar las líneas más cercanas. Por lo tanto, podemos inferir que esas funcionalidades en común son importantes y básicas a la hora de crear una aplicación de este tipo.
+
+Notar que la aplicación Como Ir es la más carente de las tres, ya que cuenta con peores números de descargas y una peor recepción por parte de sus usuarios. Al momento de relevar sus funcionalidades podemos ver que esta app no cuenta con muchas de las funcionalidades básicas que tiene la competencia así que suponemos que ese puede ser el principal factor por el cual no logra destacar. Por todo esto decidimos que no es un gran modelo de aplicación o una aplicación en la cual nos podemos basar para el desarrollo de la nuestra.
+
+Uno de los principales frutos del análisis de estas encuestas son las bases para reflexionar qué funcionalidades de valor podemos agregar a nuestra aplicación para lograr un atractivo extra que nos destaque de la competencia. Para esto podemos tomar como ejemplo las funcionalidades que consideramos que hacen fuerte a nuestros rivales y adaptarlas a nuestra aplicación agregándoles las mejoras que creamos pertinentes para lograr ese valor agregado.
+
+Por ejemplo, vemos que Moovit no cuenta con la funcionalidad de compartir viaje y City Mapper no nos permite ver cuántos pasajeros hay a bordo del autobús. Para nosotros estas funcionalidades aportan un gran valor por lo tanto agregar ambas a nuestra app nos daría un diferencial con respecto a estas dos aplicaciones.
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a>
 
@@ -244,7 +275,6 @@ Algunos de los nuevos requerimientos a estudiar son:
 *	Permite guardar favorito de las ubicaciones
 *	Permite sincronizar viajes con eventos del calendario de google por ejemplo
 *	Sugiere combinaciones de ómnibus
-
 
 # Analisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -578,10 +608,10 @@ A pesar de todo el equipo pudo cumplir con todo lo comprometido pero a futuro se
 Si consideramos los Story Points para los últimos Sprints
 Sprint 1 - 36
 Sprint 2 - 32
-Sprint 3 - 32
+Sprint 3 - 34
 
 La velocidad del equipo se puede calcular como
-(36+32+32) / 3 = 34
+(36+32+34) / 3 = 34
 
 Mejor Sprint = 36
 Peor Sprint = 32
@@ -615,9 +645,90 @@ Se puede observar el incremento en historias de las features de viajes y notific
 
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
 
-# Prototipo  <a name="Prototipo"></a>
+## Sprint 4 ##
+### Planning ###
+Para este sprint al ser el último el equipo planificó una cantidad menor, unos 25 Story Points, para poder completar la aplicación y terminar los últimos detalles.
 
-## Sprint 2
+![Planning](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Planning/planning.png)
+
+### Sprint Progress ###
+
+**Tareas**
+
+Como se puede evidenciar desde las tareas (también si observamos desde la perspectiva de planning y Story Points) este sprint fue más liviano que los anteriores, distribuyendo la carga entre desarrollo (arreglar pantallas o detalles de feedback que hubieran sido priorizados) y documentación para poder completarla. 
+
+![Sprint tareas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/tareas.png)
+
+
+**Burndown**
+
+Siendo este nuestro último sprint nos costó un poco llevar el esfuerzo a un punto más constante, evidenciando como hacia el final del sprint nos fuimos por fuera del ideal trend. Aún así logramos completar todo lo propuesto para la iteración, aunque manteniendo el problema del sprint anterior de concentrar los esfuerzos hacia el final del sprint para asegurar completar todo.
+
+![Sprint burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burndown.png)
+
+
+**Velocity**
+
+Si consideramos los Story Points para los últimos 3 Sprints
+Sprint 2 - 32
+Sprint 3 - 34
+Sprint 4 - 25
+
+La velocidad del equipo se puede calcular como
+(32+32+25) / 3 = 30
+
+Mejor Sprint = 36
+Peor Sprint = 25
+
+Por lo tanto la velocidad de nuestro equipo es 30.
+
+
+### Retrospective ###
+
+Para la última retrospectiva decidimos utilizar el template "The Academy Awards", nuestra intención fue hacer una retrospectiva enfocada más en el proyecto en general (dado que hablamos del último sprint de trabajo) en lugar de enfocarnos en el sprint particular y sus aprendizajes.
+A partir de esto, todo el feedback recogido en la retrospectiva tiene un carácter mucho más general y más enfocado en hacer una evaluación del proceso a lo largo de los 4 sprints que hemos trabajado.
+
+![Retro1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro1.png)
+
+![Retro2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro2.png)
+
+![Retro3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro3.png)
+
+Como se puede observar los action items en este caso representan los aprendizajes del equipo durante todo el proyecto, estos items se ven luego reflejados en la sección de aprendizajes.
+
+### StoryMap ###
+
+A continuación se documenta el roadmap final.
+
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
+
+## General ##
+### Burndown
+
+A continuación se presenta el burndown del proyecto completo, incluyendo las 4 iteraciones que fueron trabajadas.
+
+![burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burndown-general.png)
+
+Se puede observar (y es consistente con lo observado durante las iteraciones) como por momentos el remaining sube (dado las historias que agregamos durante las iteraciones al backlog) así como también como se observan los movimientos conforme los sprints avanzan.
+Finalmente se puede observar como el esfuerzo más grande estuvo concentrado entre las iteraciones 2 y 3 aproximadamente. Observando una baja importante del trabajo que quedaba hacia el sprint 4.
+
+## Burnup
+
+A continuación se presenta el burnup para el proyecto completo (las 4 iteraciones).
+
+![burnup](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burnup.png)
+
+Se puede observar como hacia el final de cada iteración el burnup se mueve, evidenciando los mayores movimientos entre el sprint 2 y el 3, al igual que vemos en el burndown. A medida que nos acercamos al final del proyecto y al último sprint (sprint 4) el burnup se mantiene más estable teniendo su último pico hacia el final del sprint. 
+
+## Velocity
+
+![velocity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/velocity-general.png)
+
+En general nuestro equipo pudo mantener la misma velocidad durante las primeras 3 iteraciones, mostrando una variación de 3 o 4 story points. Ya para la última iteración la carga de trabajo disminuyó y por tanto la velocidad del equipo también cayó.
+
+# Prototipo  <a name="prototipo"></a>
+
+## Sprint 2 <a name="prototipo2"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 Link aL prototipo publicado:
@@ -681,8 +792,20 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Seleccionar metodo de pago a usar
 - Seleccionar ubicación actual
 
+#### Planificación en incorporación de mejoras
 
-## Sprint 3
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, en esta oportunidad los items que fueron planificados para el sprint 3 fueron los de unificar el idioma utilizado en la aplicación, pues consideramos que era sencillo de implementar, tambiem reubicamos el icono de usuario logeado, permitiendo también hacer clic en el para editar los datos del usuario. 
+
+Además generamos una pantalla para la visualización de los métodos de pagos agregados por el usuario logueado, permitiendo que se seleccione cual de ellos desea antes del pago. 
+
+También permitimos que al momento de agregar favoritos, se pueda elegir la ubicación actual, a efectos de brindar facilidad al usuario. 
+
+Como último y principal, implementamos la funcionalidad de búsqueda de viajes a través de inicio-destino, la cual nos pareció de mayor relevancia, y que se nos había pasado por alto de agregar a nuestro product backlog, siendo una funcionalidad importante y que las aplicaciones ya existentes en el mercado implementan.
+
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
+
+
+## Sprint 3 <a name="prototipo3"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 
@@ -768,9 +891,127 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Agregar historial de pagos de boleto
 - Reacomodar distribución de menues y pantalla principal
 
-# Bibliografía #
+#### Planificación en incorporación de mejoras
+
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, como la mayoria eran cambios respecto al diseño, y debido a que no contabamos con la capacidad para incluir tantos como desearamos, el único item que fue ejecutado fue el de agregar campo de búsqueda en la búsqueda por linea, para esta funcionalidad en particular se agregó además la opción de buscar con filtros.
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
 
 
+## Sprint 4 <a name="prototipo4"></a>
+
+### Validacion y análisis
+
+Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo un feedback de 20 usuarios a las siguientes preguntas:
+
+* ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+
+* ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+  
+* ¿Cómo calificaría la intuición de los iconos?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+
+
+* Qué característica esperaba y no encontró?
+
+   | Detalle                         | # |
+   | ------------------------------- | - |
+   | Medio de pagos adicionales      | 3 |
+   | Recarga de STM                  | 3 |
+   | Ayuda /Confirmación de Acciones | 3 |
+   | Horarios                        | 2 |
+   | Mejores Búsquedas               | 2 |
+   | Mapas                           | 2 |
+   | Repetir ultima búsqueda         | 1 |
+   | Rutas para el interior          | 1 |
+   | Cuanto se demora caminando      | 1 |
+
+* ¿Qué es lo que más le gusta de la aplicación móvil? 
+   | Detalle      | # |
+   | ------------ | - |
+   | Simple/Fácil | 9 |
+   | Pago boletos | 4 |
+   | Sorteos      | 2 |
+   | Búsqueda     | 2 |
+   | Asientos     | 1 |
+   | Iconos       | 1 |
+   | Colores      | 1 |
+   
+* ¿Qué es lo que menos le gusta de la aplicación móvil? 
+
+   | Detalle                  | #  |
+   | ------------------------ | -- |
+   | Diseño e Intuición       | 10 |
+   | Colores                  | 6  |
+   | Imágenes no prolijas     | 2  |
+   | No da feedback de acción | 2  |
+
+#### Product Backlog
+
+De los siguientes resultados se crean nuevas User Stories para el product Backlog
+
+* Estandarización de colores.
+* Agregar medio de pagos adicionales.
+* Brindar confirmación de acciones realizadas.
+* Repetir última búsqueda.
+* Aumentar la calidad de las imágenes.
+
+#### Planificación en incorporación de mejoras
+
+Debido a que se tratata de la ultim iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberiamos proceder en un proyecto real.
+
+## Demo
+Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuario, intentando demostrar la experiencia de usuario que ofrece nuestra aplicación.
+
+**Flujo**
+
+1. Registrar
+2. Iniciar sesión
+3. Editar datos de usuario
+4. Ubicaciones Favoritas
+	1. Agregar Ubicación (ORT / Cuareim 1451)
+	2. Borrar Ubicación agregada (ORT)
+3. Líneas cercanas - casa
+4. Buscar inicio/destino
+	1. Elegir CE1 Tres Cruces - Ciudad Vieja
+	3. Compartir / Telegram
+	4. Terminar Viaje
+5. Historial de Viajes
+6. Líneas
+7. Ver/Configurar medios de pago
+	1. Ver medios asociados
+	2. Modificar
+	3. Paga tu boleto
+4. Participar Sorteos
+	1. Boleto Gratis
+	2. Si
+	3. Participar
+4. Cerrar Sesión
+
+**Link en Webstream**
+
+[Video Demo](https://web.microsoftstream.com/video/44de525e-2988-43d0-a16a-aefc078613db)
+
+
+# Aprendizajes del Proyecto <a name="aprendizajes"></a>
+
+* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas. Si bien fue algo que por momentos nos costó por la naturaleza del proyecto.
+
+* La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints. Si bien no es el mejor medio para recabar feedback, si queremos resaltar (como dijimos) la importancia de obtener dicho feedback y mejorar nuestro producto en cada iteración.
+
+* El comenzar las planning con las user stories bien descriptas en formato BDD a partir del  segundo sprint, nos permitió tener reuniones  más eficientes.  No se perdía tiempo redactando grupalmente,  previo al estimation poker , lo que a su vez resultó en mejor estimación.
+
+* Tener objetivos de sprint claros ayudó al equipo a saber dónde dirigir los esfuerzos y una correcta priorización ayudó a poder completar los items planificados durante cada iteración. 
+
+* El tener claro la estrategias de branching y pull requests nos ayudó a mantener un orden en el repositorio  y poder trabajar de manera descentralizada
+
+* Las Retro fueron muy provechosas para entender cómo veníamos trabajando  y qué acciones se deberían tomar para seguir puliendo al equipo y el proceso. Definitivamente se vio  el progreso,  ya que con cada nuevo sprint, se notaba un equipo más aceitado, con  trabajo colaborativo y siempre pendiente del avance del proyecto.
+
+#### Bibliografia <a name="biblio"></a>
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
 - [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
 - [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
