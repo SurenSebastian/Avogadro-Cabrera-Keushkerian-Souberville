@@ -23,7 +23,7 @@
 10. [Capacity](#capacity)
 11. [Definition of Ready](#dor)
 12. [Definition of Done](#dod)
-13. [Estrategias de Branching y Pull Request](#estrategiaBranching)
+13. [Git, Estrategias de Branching y Pull Request](#estrategiaBranching)
 14. [Roles](#roles)
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
@@ -35,7 +35,12 @@
 22. [Objetivos por Iteración](#objetivosIteracion)
 23. [User Stories - BDD](#userstoriesBDD)
 24. [Gestion Agile](#gestionAgile)
-25. [Prototipo](#gestionAgile)
+25. [Prototipo](#prototipo)
+26. [ . . . . Sprint 2](#prototipo2)
+26. [ . . . . Sprint 3](#prototipo3)
+26. [ . . . . Sprint 4](#prototipo4)
+27. [Aprendizajes del Proyecto](#aprendizajes)
+28. [Bibliografia](#biblio)
 
 
 # Introducción <a name="introduccion"></a>
@@ -143,18 +148,11 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
 ## Definition of Done <a name="dod"></a>
 * La Definición de Done es un acuerdo entre el equipo de desarrollo y el Product Owner sobre lo que debe completarse para cada User Story.
 * Son los criterios de aceptación acordados, que el Product Owner utilizará para aceptar el incremento del producto al final del sprint.
-* En nuestro proyecto, el DoD va a ser diferente para los sprints, ya que abarcan distintas etapas del proyecto.
-
-* Para el sprint 1:
+* Criterios:
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
-
-* Para el sprint 2 y 3:
-  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
   * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
-  * Registro de Horas que llevó la tarea.
-  * Evidencia de la tarea realizada mediante documentación.
-
+  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
 
 * Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
   * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
@@ -162,14 +160,27 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
  
   
-## Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador.
+## Git, Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador. 
+ * Para los pull request se establece la metodología que 1 approver debe validar la información que se ingresa a la rama Iteracion-X. Posteriormente desde la rama Iteracion-X, se hace el merge a main.
+ * El desarrollador que genera el request es responsable de notificar a los colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
+ 
+ * Ejemplo de Branching y Pull Request:
+ 
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
+    
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
+         
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
- * Para los pull request se establece la metodología que 2 approver debe validar la información que se ingresa a la rama Iteracion-X.  Siendo x el sprint correspondiente y luego desde la rama Iteracion-X que se hace el merge a main.El desarrollador que genera el request es responsable de notificar a 2 colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
- * Estructra de Git por Iteración [GIt-Iteracion1-Main.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/GIt-Iteracion1-Main.png) 
-  * Estrategia de Branching [Estrategia de Branching.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Estrategia%20de%20Branching.pdf)
+ * Estructra de Git por Iteración 
  
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
+   
+ * Info Adicional del Repo
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
+   
 ## Roles: <a name="roles"></a>
 
 **Scrum Master:**
@@ -244,7 +255,6 @@ Algunos de los nuevos requerimientos a estudiar son:
 *	Permite guardar favorito de las ubicaciones
 *	Permite sincronizar viajes con eventos del calendario de google por ejemplo
 *	Sugiere combinaciones de ómnibus
-
 
 # Analisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
@@ -641,7 +651,7 @@ La velocidad del equipo se puede calcular como
 Mejor Sprint = 36
 Peor Sprint = 25
 
-Por lo tanto la velocidad de nuestro equipo es 34.
+Por lo tanto la velocidad de nuestro equipo es 30.
 
 
 ### Retrospective ###
@@ -649,9 +659,15 @@ Por lo tanto la velocidad de nuestro equipo es 34.
 
 ### StoryMap ###
 
-# Prototipo  <a name="Prototipo"></a>
+A continuación se documenta el roadmap final.
 
-## Sprint 2
+
+
+![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
+
+# Prototipo  <a name="prototipo"></a>
+
+## Sprint 2 <a name="prototipo2"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 Link aL prototipo publicado:
@@ -715,8 +731,20 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Seleccionar metodo de pago a usar
 - Seleccionar ubicación actual
 
+#### Planificación en incorporación de mejoras
 
-## Sprint 3
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, en esta oportunidad los items que fueron planificados para el sprint 3 fueron los de unificar el idioma utilizado en la aplicación, pues consideramos que era sencillo de implementar, tambiem reubicamos el icono de usuario logeado, permitiendo también hacer clic en el para editar los datos del usuario. 
+
+Además generamos una pantalla para la visualización de los métodos de pagos agregados por el usuario logueado, permitiendo que se seleccione cual de ellos desea antes del pago. 
+
+También permitimos que al momento de agregar favoritos, se pueda elegir la ubicación actual, a efectos de brindar facilidad al usuario. 
+
+Como último y principal, implementamos la funcionalidad de búsqueda de viajes a través de inicio-destino, la cual nos pareció de mayor relevancia, y que se nos había pasado por alto de agregar a nuestro product backlog, siendo una funcionalidad importante y que las aplicaciones ya existentes en el mercado implementan.
+
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
+
+
+## Sprint 3 <a name="prototipo3"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 
@@ -802,6 +830,79 @@ Se crearon los siguientes items en el backlog como consecuencia de la validació
 - Agregar historial de pagos de boleto
 - Reacomodar distribución de menues y pantalla principal
 
+#### Planificación en incorporación de mejoras
+
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, como la mayoria eran cambios respecto al diseño, y debido a que no contabamos con la capacidad para incluir tantos como desearamos, el único item que fue ejecutado fue el de agregar campo de búsqueda en la búsqueda por linea, para esta funcionalidad en particular se agregó además la opción de buscar con filtros.
+El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
+
+
+## Sprint 4 <a name="prototipo4"></a>
+
+### Validacion y análisis
+
+Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo un feedback de 20 usuarios a las siguientes preguntas:
+
+* ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+
+* ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+  
+* ¿Cómo calificaría la intuición de los iconos?
+ 
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+
+
+* Qué característica esperaba y no encontró?
+
+   | Detalle                         | # |
+   | ------------------------------- | - |
+   | Medio de pagos adicionales      | 3 |
+   | Recarga de STM                  | 3 |
+   | Ayuda /Confirmación de Acciones | 3 |
+   | Horarios                        | 2 |
+   | Mejores Búsquedas               | 2 |
+   | Mapas                           | 2 |
+   | Repetir ultima búsqueda         | 1 |
+   | Rutas para el interior          | 1 |
+   | Cuanto se demora caminando      | 1 |
+
+* ¿Qué es lo que más le gusta de la aplicación móvil? 
+   | Detalle      | # |
+   | ------------ | - |
+   | Simple/Fácil | 9 |
+   | Pago boletos | 4 |
+   | Sorteos      | 2 |
+   | Búsqueda     | 2 |
+   | Asientos     | 1 |
+   | Iconos       | 1 |
+   | Colores      | 1 |
+   
+* ¿Qué es lo que menos le gusta de la aplicación móvil? 
+
+   | Detalle                  | #  |
+   | ------------------------ | -- |
+   | Diseño e Intuición       | 10 |
+   | Colores                  | 6  |
+   | Imágenes no prolijas     | 2  |
+   | No da feedback de acción | 2  |
+
+#### Product Backlog
+
+De los siguientes resultados se crean nuevas User Stories para el product Backlog
+
+* Estandarización de colores.
+* Agregar medio de pagos adicionales.
+* Brindar confirmación de acciones realizadas.
+* Repetir última búsqueda.
+* Aumentar la calidad de las imágenes.
+
+#### Planificación en incorporación de mejoras
+
+Debido a que se tratata de la ultim iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberiamos proceder en un proyecto real.
+
 ## Demo
 Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuario, intentando demostrar la experiencia de usuario que ofrece nuestra aplicación.
 
@@ -816,7 +917,6 @@ Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuari
 3. Líneas cercanas - casa
 4. Buscar inicio/destino
 	1. Elegir CE1 Tres Cruces - Ciudad Vieja
-	2. Modo Viaje
 	3. Compartir / Telegram
 	4. Terminar Viaje
 5. Historial de Viajes
@@ -831,9 +931,24 @@ Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuari
 	3. Participar
 4. Cerrar Sesión
 
-# Bibliografía #
+**Link en Webstream**
+
+[Video Demo](https://web.microsoftstream.com/video/44de525e-2988-43d0-a16a-aefc078613db)
 
 
+# Aprendizajes del Proyecto <a name="aprendizajes"></a>
+
+* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas.
+
+* La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints
+
+* El comenzar las planning con las user stories bien descriptas en formato BDD a partir del  2 segundo sprint, nos permitió tener reuniones  más eficientes.  No se perdía tiempo redactando grupalmente,  previo al estimation poker , lo que a su vez resultó en mejor estimación.
+
+* El tener claro la estrategias de branching y pull requests nos ayudó a mantener un orden en el repositorio  y poder trabajar de manera descentralizada
+
+* Las Retro fueron muy provechosas para entender cómo veníamos trabajando  y qué acciones se deberían tomar para seguir puliendo al equipo. Definitivamente se vio  el progreso,  ya que con cada nuevo sprint, se notaba un equipo más aceitado, con  trabajo colaborativo y siempre pendiente del avance del proyecto.
+
+#### Bibliografia <a name="biblio"></a>
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
 - [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
 - [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
