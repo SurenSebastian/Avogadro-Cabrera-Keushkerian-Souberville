@@ -866,7 +866,7 @@ Debido a que se tratata de la ultim iteración los items agregados al backlog qu
 
 ## Aprendizajes del Proyecto <a name="aprendizajes"></a>
 
-* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubieron tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas.
+* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas.
 
 * La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints
 
