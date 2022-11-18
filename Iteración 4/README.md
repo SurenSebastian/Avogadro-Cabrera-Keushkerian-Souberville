@@ -28,7 +28,6 @@
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
 17. [Realización de Encuestas](#realizacionEncuestas)
-17. [Última Encuesta](#ulitmaencuesta)
 18. [Procesamiento de datos](#procesamientoDeDatos)
 19. [Analisis de interesados](#analisisInteresados)
 20. [Elección de Sistema Operativo](#sistemaoperativo)
@@ -40,7 +39,8 @@
 26. [ . . . . Sprint 2](#prototipo2)
 26. [ . . . . Sprint 3](#prototipo3)
 26. [ . . . . Sprint 4](#prototipo4)
-
+27. [Aprendizajes del Proyecto](#aprendizajes)
+28. [Bibliografia](#biblio)
 
 
 # Introducción <a name="introduccion"></a>
@@ -168,19 +168,19 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
  
  * Ejemplo de Branching y Pull Request:
  
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Branching.png)
     
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
          
  * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
  
  * Estructra de Git por Iteración 
  
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
    
  * Info Adicional del Repo
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
-    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Contribuciones.png)
+    ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Add-Delete.png)
    
 ## Roles: <a name="roles"></a>
 
@@ -805,15 +805,15 @@ Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo 
 
 * ¿Cuál es su grado de satisfacción con la navegación de la aplicación? 
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/GradoDeSatisfaccion.png)
 
 * ¿Cómo calificaría el aspecto y la sensación de la aplicación móvil?
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Aspecto.png)
   
 * ¿Cómo calificaría la intuición de los iconos?
  
- ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/iteracion4/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
+ ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
 
 
 * Qué característica esperaba y no encontró?
@@ -864,9 +864,19 @@ De los siguientes resultados se crean nuevas User Stories para el product Backlo
 
 Debido a que se tratata de la ultim iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberiamos proceder en un proyecto real.
 
-# Bibliografía #
+## Aprendizajes del Proyecto <a name="aprendizajes"></a>
 
+* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas.
 
+* La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints
+
+* El comenzar las planning con las user stories bien descriptas en formato BDD a partir del  2 segundo sprint, nos permitió tener reuniones  más eficientes.  No se perdía tiempo redactando grupalmente,  previo al estimation poker , lo que a su vez resultó en mejor estimación.
+
+* El tener claro la estrategias de branching y pull requests nos ayudó a mantener un orden en el repositorio  y poder trabajar de manera descentralizada
+
+* Las Retro fueron muy provechosas para entender cómo veníamos trabajando  y qué acciones se deberían tomar para seguir puliendo al equipo. Definitivamente se vio  el progreso,  ya que con cada nuevo sprint, se notaba un equipo más aceitado, con  trabajo colaborativo y siempre pendiente del avance del proyecto.
+
+#### Bibliografia <a name="biblio"></a>
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
 - [Definition of Ready](https://agility.im/frequent-agile-question/what-is-a-definition-of-ready/)
 - [Definition of Ready vs Definition of Done](https://www.linkedin.com/pulse/definition-ready-dor-vs-done-dod-brian-will)
