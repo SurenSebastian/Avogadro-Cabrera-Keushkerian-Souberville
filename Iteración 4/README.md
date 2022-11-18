@@ -27,20 +27,21 @@
 14. [Roles](#roles)
 15. [Relevamiento de aplicaciones](#relevamientoAplicaciones)
 16. [Formulario de investigación](#formularioInvestigacion)
-17. [Realización de Encuestas](#realizacionEncuestas)
-18. [Procesamiento de datos](#procesamientoDeDatos)
-19. [Analisis de interesados](#analisisInteresados)
-20. [Elección de Sistema Operativo](#sistemaoperativo)
-21. [Backlog](#backlog)
-22. [Objetivos por Iteración](#objetivosIteracion)
-23. [User Stories - BDD](#userstoriesBDD)
-24. [Gestion Agile](#gestionAgile)
-25. [Prototipo](#prototipo)
-26. [ . . . . Sprint 2](#prototipo2)
-26. [ . . . . Sprint 3](#prototipo3)
-26. [ . . . . Sprint 4](#prototipo4)
-27. [Aprendizajes del Proyecto](#aprendizajes)
-28. [Bibliografia](#biblio)
+17. [Análisis de competidores](#analisisDeCompetidores)
+18. [Realización de Encuestas](#realizacionEncuestas)
+19. [Procesamiento de datos](#procesamientoDeDatos)
+20. [Analisis de interesados](#analisisInteresados)
+21. [Elección de Sistema Operativo](#sistemaoperativo)
+22. [Backlog](#backlog)
+23. [Objetivos por Iteración](#objetivosIteracion)
+24. [User Stories - BDD](#userstoriesBDD)
+25. [Gestion Agile](#gestionAgile)
+26. [Prototipo](#prototipo)
+27. [ . . . . Sprint 2](#prototipo2)
+28. [ . . . . Sprint 3](#prototipo3)
+29. [ . . . . Sprint 4](#prototipo4)
+30. [Aprendizajes del Proyecto](#aprendizajes)
+31. [Bibliografia](#biblio)
 
 
 # Introducción <a name="introduccion"></a>
@@ -217,14 +218,33 @@ Se creó un formulario para la investigación de las aplicaciones existentes, el
 
 En dicho formulario recabamos información como cantidad de descargas, puntajes, funcionalidades y las regiones que abarca.
 
-Como ejemplo se adjunta imagen del formulario para una de dichas aplicaciones:
+Se utilizo el siguiente formualario:
+
+![FORMULARIOAPLICACIONES](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/AnalisisDeAplicaciones.png)
+
+Se adjuntan imagenes con los resultados del formulario para las aplicaciones anteriormente mencionadas:
 
 ![COMOIR](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/EjemploCOMOIR.png)
+![MOOVIT](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploMoovit.png)
+![CITYMAPPER](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploCityMapper.png)
 
-El informe completo queda disponible en los siguientes archivos adjuntos:
-
+En caso de querer ver las encuestas en formato doc:
 - Ver [Formulario Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
 - Ver [Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Analisis%20Aplicaciones.docx)
+
+### Análisis de competidores <a name="analisisDeCompetidores"></a>
+
+Luego de aplicar el anterior formulario a los competidores mencionados pudimos obtener información de gran valor para conocer la posición de nuestra competencia.
+
+De las encuestas se desprenden varios resultados, por el lado de las estadísticas podemos notar que Moovit es nuestra principal competencia en este ámbito, ya que cuenta con un número de descargas muy superior al resto de aplicaciones en el rubro y también vemos que tiene una gran estima por parte de sus usuarios ya que tiene puntajes muy buenos tanto en PlayStore como en AppStore. En la valoración por parte de los usuarios es mínimamente superado por CityMapper, igualmente hay que considerar que CityMapper cuenta con un número muy inferior de descargas en comparación a Moovit por lo tanto afirmar que CityMapper es superior a Moovit en ese ámbito puede ser un tanto incierto.
+
+En cuanto a funcionalidades podemos observar que Moovit y CityMapper tienen muchas en común, como por ejemplo la búsqueda de ómnibus por líneas o mostrar las líneas más cercanas. Por lo tanto, podemos inferir que esas funcionalidades en común son importantes y básicas a la hora de crear una aplicación de este tipo.
+
+Notar que la aplicación Como Ir es la más carente de las tres, ya que cuenta con peores números de descargas y una peor recepción por parte de sus usuarios. Al momento de relevar sus funcionalidades podemos ver que esta app no cuenta con muchas de las funcionalidades básicas que tiene la competencia así que suponemos que ese puede ser el principal factor por el cual no logra destacar. Por todo esto decidimos que no es un gran modelo de aplicación o una aplicación en la cual nos podemos basar para el desarrollo de la nuestra.
+
+Uno de los principales frutos del análisis de estas encuestas son las bases para reflexionar qué funcionalidades de valor podemos agregar a nuestra aplicación para lograr un atractivo extra que nos destaque de la competencia. Para esto podemos tomar como ejemplo las funcionalidades que consideramos que hacen fuerte a nuestros rivales y adaptarlas a nuestra aplicación agregándoles las mejoras que creamos pertinentes para lograr ese valor agregado.
+
+Por ejemplo, vemos que Moovit no cuenta con la funcionalidad de compartir viaje y City Mapper no nos permite ver cuántos pasajeros hay a bordo del autobús. Para nosotros estas funcionalidades aportan un gran valor por lo tanto agregar ambas a nuestra app nos daría un diferencial con respecto a estas dos aplicaciones.
 
 ## Realización de Encuestas <a name="realizacionEncuestas"></a>
 
