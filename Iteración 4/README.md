@@ -635,8 +635,16 @@ Para este sprint al ser el último el equipo planificó una cantidad menor, unos
 
 **Tareas**
 
+Como se puede evidenciar desde las tareas (también si observamos desde la perspectiva de planning y Story Points) este sprint fue más liviano que los anteriores, distribuyendo la carga entre desarrollo (arreglar pantallas o detalles de feedback que hubieran sido priorizados) y documentación para poder completarla. 
+
+![Sprint tareas](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/tareas.png)
+
 
 **Burndown**
+
+Siendo este nuestro último sprint nos costó un poco llevar el esfuerzo a un punto más constante, evidenciando como hacia el final del sprint nos fuimos por fuera del ideal trend. Aún así logramos completar todo lo propuesto para la iteración, aunque manteniendo el problema del sprint anterior de concentrar los esfuerzos hacia el final del sprint para asegurar completar todo.
+
+![Sprint burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burndown.png)
 
 
 **Velocity**
@@ -655,15 +663,41 @@ Por lo tanto la velocidad de nuestro equipo es 30.
 
 
 ### Retrospective ###
- 
+
+Para la última retrospectiva decidimos utilizar el template "The Academy Awards", nuestra intención fue hacer una retrospectiva enfocada más en el proyecto en general (dado que hablamos del último sprint de trabajo) en lugar de enfocarnos en el sprint particular y sus aprendizajes.
+A partir de esto, todo el feedback recogido en la retrospectiva tiene un carácter mucho más general y más enfocado en hacer una evaluación del proceso a lo largo de los 4 sprints que hemos trabajado.
+
+![Retro1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro1.png)
+
+![Retro2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro2.png)
+
+![Retro3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/retro/retro3.png)
+
+Como se puede observar los action items en este caso representan los aprendizajes del equipo durante todo el proyecto, estos items se ven luego reflejados en la sección de aprendizajes.
 
 ### StoryMap ###
 
 A continuación se documenta el roadmap final.
 
-
-
 ![Sprint capacity](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/specmap-ObligatorioISA1-Roadmap.png)
+
+## General ##
+### Burndown
+
+A continuación se presenta el burndown del proyecto completo, incluyendo las 4 iteraciones que fueron trabajadas.
+
+![burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burndown-general.png)
+
+Se puede observar (y es consistente con lo observado durante las iteraciones) como por momentos el remaining sube (dado las historias que agregamos durante las iteraciones al backlog) así como también como se observan los movimientos conforme los sprints avanzan.
+Finalmente se puede observar como el esfuerzo más grande estuvo concentrado entre las iteraciones 2 y 3 aproximadamente. Observando una baja importante del trabajo que quedaba hacia el sprint 4.
+
+## Burnup
+
+A continuación se presenta el burnup para el proyecto completo (las 4 iteraciones).
+
+![burnup](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/sprint/burnup.png)
+
+Se puede observar como hacia el final de cada iteración el burnup se mueve, evidenciando los mayores movimientos entre el sprint 2 y el 3, al igual que vemos en el burndown. A medida que nos acercamos al final del proyecto y al último sprint (sprint 4) el burnup se mantiene más estable teniendo su último pico hacia el final del sprint. 
 
 # Prototipo  <a name="prototipo"></a>
 
@@ -938,15 +972,17 @@ Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuari
 
 # Aprendizajes del Proyecto <a name="aprendizajes"></a>
 
-* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas.
+* Scrum es una metodología que te ayuda a no procrastinar. Durante la duración de cada sprint , siempre hubo tareas asignadas a los desarrolladores y  las dailys nos permitian dar informe al resto del equipo del estado actual de nuestras tareas asignadas. Si bien fue algo que por momentos nos costó por la naturaleza del proyecto.
 
-* La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints
+* La importancia del feedback continuo del usuario en cada sprint mediante encuestas fue muy útil para ver en que debíamos enfocarnos y ver posibles nuevos incrementos de valor para futuros sprints. Si bien no es el mejor medio para recabar feedback, si queremos resaltar (como dijimos) la importancia de obtener dicho feedback y mejorar nuestro producto en cada iteración.
 
-* El comenzar las planning con las user stories bien descriptas en formato BDD a partir del  2 segundo sprint, nos permitió tener reuniones  más eficientes.  No se perdía tiempo redactando grupalmente,  previo al estimation poker , lo que a su vez resultó en mejor estimación.
+* El comenzar las planning con las user stories bien descriptas en formato BDD a partir del  segundo sprint, nos permitió tener reuniones  más eficientes.  No se perdía tiempo redactando grupalmente,  previo al estimation poker , lo que a su vez resultó en mejor estimación.
+
+* Tener objetivos de sprint claros ayudó al equipo a saber dónde dirigir los esfuerzos y una correcta priorización ayudó a poder completar los items planificados durante cada iteración. 
 
 * El tener claro la estrategias de branching y pull requests nos ayudó a mantener un orden en el repositorio  y poder trabajar de manera descentralizada
 
-* Las Retro fueron muy provechosas para entender cómo veníamos trabajando  y qué acciones se deberían tomar para seguir puliendo al equipo. Definitivamente se vio  el progreso,  ya que con cada nuevo sprint, se notaba un equipo más aceitado, con  trabajo colaborativo y siempre pendiente del avance del proyecto.
+* Las Retro fueron muy provechosas para entender cómo veníamos trabajando  y qué acciones se deberían tomar para seguir puliendo al equipo y el proceso. Definitivamente se vio  el progreso,  ya que con cada nuevo sprint, se notaba un equipo más aceitado, con  trabajo colaborativo y siempre pendiente del avance del proyecto.
 
 #### Bibliografia <a name="biblio"></a>
 - [Gherkin](https://profile.es/blog/que-es-gherkin/)
