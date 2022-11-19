@@ -14,7 +14,7 @@
 2. [Descripción de la aplicación](#descripcionaplicacion)
 3. [Funcionalidades](#funcionalidades)
 [Propuesta de valor](#propuestadevalor)
-4. [Marco de Gestion](#marcodegestion)
+4. [Marco de Gestión](#marcodegestion)
 5. [Planning](#planning1)
 6. [Daily](#daily1)
 7. [Sprint Retrospective](#sprintretrospective)
@@ -30,23 +30,23 @@
 17. [Análisis de competidores](#analisisDeCompetidores)
 18. [Realización de Encuestas](#realizacionEncuestas)
 19. [Procesamiento de datos](#procesamientoDeDatos)
-20. [Analisis de interesados](#analisisInteresados)
+20. [Análisis de interesados](#analisisInteresados)
 21. [Elección de Sistema Operativo](#sistemaoperativo)
 22. [Backlog](#backlog)
 23. [Objetivos por Iteración](#objetivosIteracion)
 24. [User Stories - BDD](#userstoriesBDD)
-25. [Gestion Agile](#gestionAgile)
+25. [Gestión Ágil](#gestionAgile)
 26. [Prototipo](#prototipo)
 27. [ . . . . Sprint 2](#prototipo2)
 28. [ . . . . Sprint 3](#prototipo3)
 29. [ . . . . Sprint 4](#prototipo4)
 30. [Aprendizajes del Proyecto](#aprendizajes)
-31. [Bibliografia](#biblio)
+31. [Bibliografía](#biblio)
 
 
 # Introducción <a name="introduccion"></a>
 
-Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi"con sus correspondientes acuerdos y evidencias.
+Este documento lleva un registro de la ejecución y gestión del "Proyecto BONDi" con sus correspondientes acuerdos y evidencias.
 
 # Descripción de la aplicación <a name="descripcionaplicacion"></a>
 El resultado del proyecto es poder descubrir, idear y prototipar un MVP (Minimum Viable Product) de una aplicación móvil para ayudar al usuario con el transporte público en el día a día.
@@ -93,9 +93,9 @@ Ofrecemos flexibilidad y conveniencia adaptada a los usuarios del transporte pú
 
  Actualmente el dinero en efectivo se encuentra cada vez más en desuso, y la recarga de boletos en las redes de cobranza del país puede ser inconveniente si no tienes ningún local cerca o si estás apurado. Con nuestra aplicación proponemos ahorrar tiempo al usuario al permitir que asocie el método de pago de su preferencia, de esta manera puede despreocuparse de si lleva efectivo o si le queda carga en su tarjeta STM. Con tan solo un par de clics puede pagar el boleto sin inconvenientes y de manera muy práctica!.
 
- - Generamos oportunidades de obtener **premios de diversa indole mediante sorteos**.
+ - Generamos oportunidades de obtener **premios de diversa índole mediante sorteos**.
 
- Con el fin de brindar premios a los usuarios, nuestra aplicación tiene la funcionalidad de participación en sorteos de forma muy sencilla, tan solo se debe mirar una publicidad para generar una chance de participar. Los premios varian semanalmente y pueden obtener premios como boletos gratis, entradas a espectaculos, electrodomésticos y mucho más!
+ Con el fin de brindar premios a los usuarios, nuestra aplicación tiene la funcionalidad de participación en sorteos de forma muy sencilla, tan solo se debe mirar una publicidad para generar una chance de participar. Los premios varían semanalmente y pueden obtener premios como boletos gratis, entradas a espectáculos, electrodomésticos y mucho más!
 
  Esta funcionalidad permite monetizar la aplicación, a la vez que brinda un espacio para distintas empresas que quieran publicitar su producto, tanto como para brindar el premio, como para que su publicidad sea vista.
 
@@ -122,7 +122,7 @@ Dada la naturaleza de nuestro proyecto no va a tener mucho sentido el reunirse a
 Esto se debe a que la mayor contribución del equipo se concentra en los fines de semana, entonces nos parece importante que ahí sí se respete la daily. Se va a realizar por llamada en WhatsApp.
 Esto nos da 2 ventajas claras:
 1. Facilita la coordinación, ya que no necesitamos estar físicamente en el mismo lugar y WhatsApp es una aplicación que todos utilizamos.
-2. Al ser 3 veces a la semana nos permite revisar el progreso del sprint conforme los momentos de trabajo que va a tener nuestro equipo. Ya que de lunes a viernes por diferentes circunstancias no se espera demasiado progreso, poner una daily diaria implicaría muchas veces que no hay updates, con lo cual supone una perdida de tiempo. Sin embargo si fuera menor la frecuencia terminaría quedando muchos días sin sincronización, con lo cual podría generar situaciones complicadas a la hora de gestionar el proyecto.
+2. Al ser 3 veces a la semana nos permite revisar el progreso del sprint conforme los momentos de trabajo que va a tener nuestro equipo. Ya que de lunes a viernes por diferentes circunstancias no se espera demasiado progreso, poner una daily diaria implicaría muchas veces que no hay updates, con lo cual supone una pérdida de tiempo. Sin embargo si fuera menor la frecuencia terminaría quedando muchos días sin sincronización, con lo cual podría generar situaciones complicadas a la hora de gestionar el proyecto.
 
 ## Sprint Retrospective <a name="sprintretrospective"></a>
 Esta ceremonia va a suceder el último día del sprint (viernes), va a tener una duración máxima de 30 minutos y todos los action items van a ser convertidos en product backlog items, priorizados e ingresados en el próximo sprint planning para considerar y aplicar las mejoras.
@@ -153,16 +153,16 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   * Evidencia de la tarea realizada mediante documentación.
   * Registro de Horas que llevó la tarea.
   * La funcionalidad de la ventana debe adecuarse a la BBD de la user story.
-  * Si se requiere la generación de una nueva ventana , debe aparecer en el framer como prototipo.
+  * Si se requiere la generación de una nueva ventana, debe aparecer en el framer como prototipo.
 
-* Para los RNF , cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
+* Para los RNF, cada uno de ellos es un objetivo principal que debe cumplir la aplicación:
   * Debe ser fácil de usar por las distintas franjas etarias de población, por tal motivo en las etapas de validación del prototipo se distribuye a franjas etarias diferentes.
-  * Debe poder mantener la privacidad de datos sensibles de sus usuarios, así que se usaran los principio de la ISO 27701 para la gestión de la privacidad y la información
-  * La interfaz de diseño móvil será en Android ,se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
+  * Debe poder mantener la privacidad de datos sensibles de sus usuarios, así que se usaran los principios de la ISO 27701 para la gestión de la privacidad y la información
+  * La interfaz de diseño móvil será en Android, se llegó a la conclusión de esta interfaz por el estudio de elección de Sistema Operativo.
  
   
 ## Git, Estrategias de Branching y Pull Request <a name="estrategiaBranching"></a> 
- * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando.La rama actual del desarollador debe ser identificada con una feature o con el nombre del desarollador. 
+ * El equipo de desarrolladores va a generar ramas sobre la iteración X que correspondan al Sprint en el que se está trabajando. La rama actual del desarrollador debe ser identificada con una feature o con el nombre del desarrollador. 
  * Para los pull request se establece la metodología que 1 approver debe validar la información que se ingresa a la rama Iteracion-X. Posteriormente desde la rama Iteracion-X, se hace el merge a main.
  * El desarrollador que genera el request es responsable de notificar a los colegas ya sea usando la función de Review de Github o notificarlos por otro medio.
  
@@ -172,9 +172,9 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
     
     ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/Ej_PullRequests.png)
          
- * El archivo README.md de la carpeta raíz deberá ser el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
+ * El archivo README.md de la carpeta raíz es el informe final con toda la información del mini-proyecto y todos los incrementos se pueden observar en los readme de cada iteración.
  
- * Estructra de Git por Iteración 
+ * Estructura de Git por Iteración 
  
     ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/ArbolGit.png)
    
@@ -195,7 +195,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   
 * Suren Keushkerian:
     * Encargado de optimizar y maximizar el valor del producto.
-    * Gestionar el Product Backlog para manetenerlo estructurado y priorizado.
+    * Gestionar el Product Backlog para mantenerlo estructurado y priorizado.
   
 **Developers:**
 
@@ -205,7 +205,7 @@ Una User Story se considera pronta para ser incluida en una planning si cumple c
   - Suren Keushkerian
 
 * Encargados de  desarrollar el producto.
-    * Son responsables de ser auto-organizádos y auto-gestionádos para entregar un incremento de software al final del sprint.
+    * Son responsables de ser auto-organizados y auto-gestionados para entregar un incremento de software al final del sprint.
     * Participan activamente en las ceremonias de Scrum.
   
 # Análisis de Requerimientos #
@@ -218,15 +218,15 @@ Se creó un formulario para la investigación de las aplicaciones existentes, el
 
 En dicho formulario recabamos información como cantidad de descargas, puntajes, funcionalidades y las regiones que abarca.
 
-Se utilizo el siguiente formualario:
+Se utilizo el siguiente formulario:
 
-![FORMULARIOAPLICACIONES](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/AnalisisDeAplicaciones.png)
+![FORMULARIOAPLICACIONES](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/AnalisisDeAplicaciones.jpeg)
 
-Se adjuntan imagenes con los resultados del formulario para las aplicaciones anteriormente mencionadas:
+Se adjuntan imágenes con los resultados del formulario para las aplicaciones anteriormente mencionadas:
 
 ![COMOIR](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/EjemploCOMOIR.png)
-![MOOVIT](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploMoovit.png)
-![CITYMAPPER](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploCityMapper.png)
+![MOOVIT](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploMoovit.jpeg)
+![CITYMAPPER](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias/Git/EjemploCityMapper.jpeg)
 
 En caso de querer ver las encuestas en formato doc:
 - Ver [Formulario Analisis Aplicaciones.docx](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Formularios/Formulario%20Analisis%20Aplicaciones.docx)
@@ -252,7 +252,7 @@ Procedimos también a buscar ideas y requerimientos mediante la realización de 
 
 #### Formulario mediante Google Forms
 
-Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios,tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
+Se realizó un formulario con 8 preguntas para lograr recabar información tal como las edades de los usuarios, tiempo de espera en la parada, demora del trayecto, cantidad de ómnibus para completar el viaje, funciones más comunes que usa de la aplicación de viaje y cualquier otra función que consideran necesario. El informe completo de la encuesta se encuentra en la carpeta Evidencias.
 
 - Ver [Encuesta de Aplicacion de Viaje.pdf](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%201/Evidencias/Encuesta%20de%20Aplicacion%20de%20Viaje.pdf)
 
@@ -276,7 +276,7 @@ Algunos de los nuevos requerimientos a estudiar son:
 *	Permite sincronizar viajes con eventos del calendario de google por ejemplo
 *	Sugiere combinaciones de ómnibus
 
-# Analisis de interesados <a name="analisisInteresados"></a>
+# Análisis de interesados <a name="analisisInteresados"></a>
 Es de relevancia realizar un análisis de los interesados en el proyecto, ya que se necesita conocerlos y pedir su participación para recolectar requerimientos y obtener información acerca de los servicios que se deben proporcionar en la aplicación y las restricciones que se puedan presentar.
 Definiremos sus roles y grados de poder e interés, a los efectos de definir prioridades en los requisitos, teniendo en cuenta que no siempre se puede satisfacer por completo a todos los interesados.
 Para realizar el análisis de los interesados se procedió a realizar un brainstorm entre los integrantes del equipo del proyecto, además de realizar una investigación sobre las diferentes asociaciones relativas al transporte y áreas del gobierno que podrían intervenir. 
@@ -387,24 +387,31 @@ Otro factor significativo es el hecho de que somos un equipo con poca experienci
 
 Por todo lo anteriormente mencionado, hemos decidido desarrollar nuestra aplicación para el sistema operativo Android. Al menos como primera experiencia, dependiendo de la recepción que esta aplicación tenga, más adelante podríamos plantearnos la idea de desarrollar nuestra app también para iOS.
 
-## Backlog <a name="backlog"></a>
- * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3.Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
+## Product Backlog <a name="backlog"></a>
+ * El criterio para dar prioridad al backlog se basó en lograr primero la mayor cantidad de funciones que son requeridas para el sistema, según la letra del obligatorio, pero a su vez poner una función de valor adicional tanto en el Sprint 2 como el Sprint 3. Se busca lograr una funcionalidad básica que luego permita seguir incrementando en valor agregado en futuros sprints.
  
-[ProductBacklog.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png).
+[ProductBacklog.png](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Capturas/ProductBacklog.png)
 
 # Objetivos de Iteraciones <a name="objetivosIteracion"></a>
 
 ## Iteración 1
-  El objetivo del Sprint 1 es generar las definiciones para el marco de trabajo de agile y obtener los requerimientos necesarios para la aplicación de viajes mediante múltiples uso de tecnicas asociadas a la elicitación. Se generan múltiples User Stories de documentación y de requerimientos ya brindados por la letra.
+  El objetivo del Sprint 1 es generar las definiciones para el marco de trabajo de agile y obtener los requerimientos necesarios para la aplicación de viajes mediante múltiples uso de técnicas asociadas a la elicitación. Se generan múltiples User Stories de documentación y de requerimientos ya brindados por la letra.
    * Ver [Sprint Iteracion 1](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint1.png)
 
 ## Iteración 2
-  El objetivo del Sprint 2 es tener un primer prototipo , que va a incluir la  función de valor agregado (Pago de boleto) y parte de las funciones solicitadas de letra que figuran en el siguiente sprint.
+  El objetivo del Sprint 2 es tener un primer prototipo, que va a incluir la  función de valor agregado (Pago de boleto) y parte de las funciones solicitadas de letra que figuran en el siguiente sprint.
    * Ver [Sprint Iteracion 2](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint2.png)
    
 ## Iteración 3
-El objetivo del Sprint 2 es lograr un prototipo mas funcional agregando una nueva función de valor agregado(Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra que figuran en el siguiente sprint
+El objetivo del Sprint 3 es lograr un prototipo más funcional agregando una nueva función de valor agregado (Sorteos/Publicidad) y nuevamente las funciones solicitadas por letra que figuran en el siguiente sprint
    * Ver [Sprint Iteracion 3](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-Sprints/Sprint3.png)
+
+## Iteración 4
+El sprint 4 presenta 2 objetivos bien claros:
+1. Completar el prototipo, atendiendo al feedback recabado durante el sprint pasado que entendemos prioritario.
+2. Reflexiones y cierre del proyecto.
+
+* Ver [Sprint Iteracion 4](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Evidencias\sprint/sprint.png)
 
 # User Stories en BDD  <a name="userstoriesBDD"></a> 
 
@@ -420,7 +427,7 @@ Para definir las user stories se utilizó la estrategia de BDD siguiendo el patr
    *  Ver [User Story Favoritos](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencia-BDD/BDD-Favoritos.png)
  
 
-# Gestión Agile <a name="gestionAgile"></a>
+# Gestión Ágil <a name="gestionAgile"></a>
 ## Sprint 1 ##
 ### Planning ###
 
@@ -523,12 +530,13 @@ Por otro lado también se puede observar algunos puntos de subida en el burndown
 ![Burndown chart](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%202/Evidencias/Sprint/burndown.png)
 
 **Velocity**
+
 Si consideramos los Story Points para los últimos 2 Sprints
+
 Sprint 1 - 36
 Sprint 2 - 32
 
-La velocidad del equipo se puede calcular como
-(36+32) / 2 = 34
+La velocidad del equipo se puede calcular como (36+32) / 2 = 34
 
 Mejor Sprint = 36
 Peor Sprint = 32
@@ -540,23 +548,23 @@ Por lo tanto la velocidad de nuestro equipo es 34.
 
 *Suren*
 
-Ayer Trabajo en la documentacion del feedback, falta agregarlo.
+Ayer Trabajó en la documentación del feedback, falta agregarlo.
 Hoy va a trabajar en la pantalla de recuperar constraseña y buscar la funcionalidad de valor agregado
 
 *Denise*
 
-Trabajo en las pantallas de registro y editar usuario. Quedaron pendientes las validaciones que no sabemos como hacer en framer
+Trabajó en las pantallas de registro y editar usuario. Quedaron pendientes las validaciones que no sabemos cómo hacer en framer.
 Para hoy va a estar tomando nuevas tareas.
 
 *Daniel*
 
-Estuve trabajando en dashboards y documentacion de la planning y el progreso del sprint. Además comencé con la pantalla de login.
-Para hoy voy a continuar con login y la documentacion.
+Estuve trabajando en dashboards y documentación de la planning y el progreso del sprint. Además comencé con la pantalla de login.
+Para hoy voy a continuar con login y la documentación.
 
 *Leandro*
 
 No updates
-Mañana va a trabajar en la pantalla de buscar linea de omnibus
+Mañana va a trabajar en la pantalla de buscar línea de ómnibus
 
 ### Retrospective ###
 
@@ -605,13 +613,14 @@ A pesar de todo el equipo pudo cumplir con todo lo comprometido pero a futuro se
 ![Sprint burndown](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Sprint/burndown.png)
 
 **Velocity**
+
 Si consideramos los Story Points para los últimos Sprints
+
 Sprint 1 - 36
 Sprint 2 - 32
 Sprint 3 - 34
 
-La velocidad del equipo se puede calcular como
-(36+32+34) / 3 = 34
+La velocidad del equipo se puede calcular como (36+32+34) / 3 = 34
 
 Mejor Sprint = 36
 Peor Sprint = 32
@@ -670,12 +679,12 @@ Siendo este nuestro último sprint nos costó un poco llevar el esfuerzo a un pu
 **Velocity**
 
 Si consideramos los Story Points para los últimos 3 Sprints
+
 Sprint 2 - 32
 Sprint 3 - 34
 Sprint 4 - 25
 
-La velocidad del equipo se puede calcular como
-(32+32+25) / 3 = 30
+La velocidad del equipo se puede calcular como (32+32+25) / 3 = 30
 
 Mejor Sprint = 36
 Peor Sprint = 25
@@ -731,7 +740,8 @@ En general nuestro equipo pudo mantener la misma velocidad durante las primeras 
 ## Sprint 2 <a name="prototipo2"></a>
 Link a Framer:
 https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
-Link aL prototipo publicado:
+
+Link al prototipo publicado:
 https://happen-forego-312426.framer.app/
 
 Las funcionalidades implementadas en el primer release fueron:
@@ -739,8 +749,8 @@ Las funcionalidades implementadas en el primer release fueron:
 - Login de usuario
 - Editar usuario
 - Agregar método de pago
-- Búsqueda de lineas
-- Lineas cercanas
+- Búsqueda de líneas
+- Líneas cercanas
 - Pago de boleto con celular
 
 
@@ -768,9 +778,9 @@ A continuación se deja evidencia del resultado de la encuesta
 | ![Pagina7](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%203/Evidencias/Proto1-Validacion7.png) |  |
 
 ### Análisis del feedback de usuarios
--En terminos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
+-En términos generales de la aplicación, algunos usuarios manifestaron su conformidad, mientras que otros comentaron que encontraron dificultad para encontrar los paneles de registro, inicio de sesión y edición de usuario. La opinión sobre el estilo/diseño de la aplicación no tuvo comentarios negativos, a excepción de alguna desconformidad con los colores elegidos. También se sugirió utilizar en la aplicación todo en español o todo en inglés y no ambos.
 
--Como funcionalidades que podriamos agregar fueron sugeridas: mostrar ubicación de los omnibus en tiempo real, opción de busqueda de viaje ingresando inicio y destino, agregar accesibilidad para no videntes y agregar una opción que permita buscar cuanto demora en promedio un bus en llegar de una parada a otra.
+-Como funcionalidades que podriamos agregar fueron sugeridas: mostrar ubicación de los ómnibus en tiempo real, opción de búsqueda de viaje ingresando inicio y destino, agregar accesibilidad para no videntes y agregar una opción que permita buscar cuánto demora en promedio un ómnibus en llegar de una parada a otra.
 
 -Respecto a las funcionalidades de inicio de sesión y registro, algunos usuarios sugirieron mostrar un icono en el menu principal que muestre si estás logged, aunque actualmente se encuentra implementado tal vez no esté lo suficientemente visible para el usuario. También se sugirió que en los campos de ingreso de fecha de nacimiento, se utilice un calendario que permita seleccionar la fecha.
 
@@ -784,17 +794,17 @@ A continuación se deja evidencia del resultado de la encuesta
 Se crearon los siguientes items en el backlog como consecuencia de la validación de usuarios:
 
 - Corregir dualidad de idioma en toda la aplicación.
-- Busqueda de viaje con incio/destino
-- Calculo tiempo estimado entre una parada y otra
-- Reubicar el icono de usuario logeado para hacerlo mas visible
+- Búsqueda de viaje con incio/destino
+- Cálculo de tiempo estimado entre una parada y otra
+- Reubicar el icono de usuario logueado para hacerlo más visible
 - Pantalla para ver datos de usuario (Previa a edición)
-- Ver metodos de pagos asociados
-- Seleccionar metodo de pago a usar
+- Ver métodos de pagos asociados
+- Seleccionar método de pago a usar
 - Seleccionar ubicación actual
 
 #### Planificación en incorporación de mejoras
 
-De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, en esta oportunidad los items que fueron planificados para el sprint 3 fueron los de unificar el idioma utilizado en la aplicación, pues consideramos que era sencillo de implementar, tambiem reubicamos el icono de usuario logeado, permitiendo también hacer clic en el para editar los datos del usuario. 
+De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, en esta oportunidad los items que fueron planificados para el sprint 3 fueron los de unificar el idioma utilizado en la aplicación, pues consideramos que era sencillo de implementar, también reubicamos el icono de usuario logueado, permitiendo también hacer clic en él para editar los datos del usuario. 
 
 Además generamos una pantalla para la visualización de los métodos de pagos agregados por el usuario logueado, permitiendo que se seleccione cual de ellos desea antes del pago. 
 
@@ -811,9 +821,9 @@ https://framer.com/projects/Untitled--qyTLTLUuXGXdJQfm3l02-fpOLN
 
 https://framer.com/projects/Notificaciones-Obli--9YKNZoie33LfTc9MkxCP-c1OgY?node=augiA20Il
 
-Link aL prototipo publicado:
+Link al prototipo publicado:
 
-**Aplicacion:** https://happen-forego-312426.framer.app/
+**Aplicación:** https://happen-forego-312426.framer.app/
 
 **Notificaciones:** https://frank-timing-834165.framer.app/
 
@@ -822,8 +832,8 @@ Las funcionalidades implementadas en el segundo release fueron:
 - Login de usuario
 - Editar usuario
 - Agregar método de pago
-- Búsqueda de lineas
-- Lineas cercanas
+- Búsqueda de líneas
+- Líneas cercanas
 - Historial de viajes
 - Pago de boleto con celular
 - Búsqueda inicio - destino
@@ -869,15 +879,15 @@ A continuación se deja evidencia del resultado de la encuesta
 
 - Respecto a los formularios, se sugirió indicar cuales campos son obligatorios, y en los que se trata de fecha indicar el formato esperado o agregar un calendario para seleccionarla, el cual ya tenemos agregado a nuestro backlog. También tener un feedback al usuario de si se completó correctamente el proceso.
 
-- En varias otras acciones también se sugirió se muestre confirmación al usuario. Esta devolución ya la habiamos tenido en la primera validación.
+- En varias otras acciones también se sugirió se muestre confirmación al usuario. Esta devolución ya la habíamos tenido en la primera validación.
 
-- Respecto a la funcionalidad de medios de pago, se deberia de dejar consistente a qué pantalla llegar luego de agregar cuenta de google play o de agregar tarjeta.
+- Respecto a la funcionalidad de medios de pago, se debería de dejar consistente a qué pantalla llegar luego de agregar cuenta de google play o de agregar tarjeta.
 
--  Se sugirió que en la búsqueda por linea hubiese un campo de búsqueda, y no solo toda la lista en un scroll.
+-  Se sugirió que en la búsqueda por línea hubiese un campo de búsqueda, y no sólo toda la lista en un scroll.
 
 - De acuerdo a lo sugerido podríamos agregar también una sección donde se muestre un historial con los últimos pagos de boletos, a efectos de agregar constancia al usuario.
 
-- En terminos generales se sugirió cambiar la distribución de los componentes, por ejemplo, aprovechar más la pantalla principal y no depender tanto del menú desplegable, también no tener que ir para atrás en cada acción, sino que los menu de arriba y abajo estén fijos.
+- En términos generales se sugirió cambiar la distribución de los componentes, por ejemplo, aprovechar más la pantalla principal y no depender tanto del menú desplegable, también no tener que ir para atrás en cada acción, sino que los menú de arriba y abajo estén fijos.
 
 
 #### Product Backlog
@@ -885,21 +895,21 @@ A continuación se deja evidencia del resultado de la encuesta
 Se crearon los siguientes items en el backlog como consecuencia de la validación de usuarios:
 
 - Indicar campos obligatorios en formularios
-- Agregar confirmacion al usuario luego de acciones
+- Agregar confirmación al usuario luego de acciones
 - Dejar consistente el agregar medio de pago
-- Agregar campo de busqueda en la busqueda por linea
+- Agregar campo de búsqueda en la búsqueda por línea
 - Agregar historial de pagos de boleto
-- Reacomodar distribución de menues y pantalla principal
+- Reacomodar distribución de menú y pantalla principal
 
 #### Planificación en incorporación de mejoras
 
-De los items agregados al backlog se dio prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, como la mayoria eran cambios respecto al diseño, y debido a que no contabamos con la capacidad para incluir tantos como desearamos, el único item que fue ejecutado fue el de agregar campo de búsqueda en la búsqueda por linea, para esta funcionalidad en particular se agregó además la opción de buscar con filtros.
+De los items agregados al backlog se dió prioridad a aquellos que consideramos que eran más importantes o que brindaban más valor a nuestra aplicación, como la mayoria eran cambios respecto al diseño, y debido a que no contábamos con la capacidad para incluir tantos como deseáramos, el único item que fue ejecutado fue el de agregar campo de búsqueda en la pantalla "búsqueda por línea", para esta funcionalidad en particular se agregó además la opción de buscar con filtros.
 El resto de las funcionalidades quedaron en el Product Backlog para futuras iteraciones.
 
 
 ## Sprint 4 <a name="prototipo4"></a>
 
-### Validacion y análisis
+### Validación y análisis
 
 Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo un feedback de 20 usuarios a las siguientes preguntas:
 
@@ -916,7 +926,7 @@ Se llevó a cabo una última encuesta con el prototipo del sprint 4, obteniendo 
  ![image](https://raw.githubusercontent.com/SurenSebastian/Avogadro-Cabrera-Keushkerian-Souberville/main/Iteraci%C3%B3n%204/Encuestas/Intuicion.png)
 
 
-* Qué característica esperaba y no encontró?
+* ¿Qué característica esperaba y no encontró?
 
    | Detalle                         | # |
    | ------------------------------- | - |
@@ -962,7 +972,7 @@ De los siguientes resultados se crean nuevas User Stories para el product Backlo
 
 #### Planificación en incorporación de mejoras
 
-Debido a que se tratata de la ultim iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberiamos proceder en un proyecto real.
+Debido a que se trata de la última iteración los items agregados al backlog quedan sin incluirse en ninguna otra planning, pero se realizó el ejercicio de agregarlos al product backlog simulando como deberíamos proceder en un proyecto real.
 
 ## Demo
 Para la demo decidimos utilizar un flujo enfocado en lo funcional y en el usuario, intentando demostrar la experiencia de usuario que ofrece nuestra aplicación.
